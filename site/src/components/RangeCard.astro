@@ -1,0 +1,23 @@
+---
+interface Props {
+  number: string;
+  title: string;
+  description: string;
+  icon: 'upvc' | 'cpvc' | 'swr' | 'agriculture';
+  featured?: boolean;
+}
+
+const { number, title, description, icon, featured = false } = Astro.props;
+---
+
+<article class:list={['range-card', { featured }]}>
+  <span class="number">{number}.</span>
+  <div class="symbol" aria-hidden="true">
+    {icon === 'upvc' && <svg viewBox="0 0 120 120"><path d="M25 84V43c0-12 10-22 22-22h26c12 0 22 10 22 22v41M18 86h31m22 0h31M25 43h70M38 43v40m44-40v40M49 84c0-6 5-11 11-11s11 5 11 11" /></svg>}
+    {icon === 'cpvc' && <svg viewBox="0 0 120 120"><path d="M20 34h80M20 86h80M30 34v52m60-52v52M30 60h60M42 46v28m36-28v28M22 26h76M22 94h76" /><circle cx="60" cy="60" r="11" /></svg>}
+    {icon === 'swr' && <svg viewBox="0 0 120 120"><path d="M20 31h39c13 0 23 10 23 23v35M31 20v22m18-22v22M70 78h24v20H70zM21 42h31M82 55h16M16 31h8m58 58h16M60 31c13 0 23 10 23 23" /></svg>}
+    {icon === 'agriculture' && <svg viewBox="0 0 120 120"><path d="M20 83h80M28 76V46h64v30M36 46V33h48v13M20 83v10h80V83M47 33V21h26v12M46 57h28M46 67h28M38 76v17m44-17v17" /></svg>}
+  </div>
+  <h3>{title}</h3>
+  <p>{description}</p>
+</article>

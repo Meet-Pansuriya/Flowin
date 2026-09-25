@@ -26,26 +26,26 @@ This is a navigation and content inventory, **not** a transcription of every SKU
 - **System/variant** distinguishes materially different tables, such as SWR ring fit vs self fit, uPVC schedules, and cPVC SDR/ISI-labelled groups. Do not collapse variants into one generic product when specifications differ.
 - **Product family** is the likely detail-page level: pipe, elbow, tee, coupler, valve, etc. Related variants can share a family page if its tables remain clear.
 - **Options** represent sizes, lengths, socket types, schedules/classes, and packing. Model these as structured fields only after each table is checked against the PDF image.
-- **Price** stays in the downloadable official PDF for the first site release. This avoids publishing a second price source that could drift.
+- **Rate** will also appear in detailed family tables at the user's request, after visual verification against each PDF table. Leave cells that are blank in print blank on the website and flag them for client review. The PDF remains authoritative; future price-list changes require a web-table update.
 
 This hierarchy is a proposal for chunk 4, not a locked implementation or a claim that every family needs its own page.
 
 ## Data-quality and approval flags
 
-1. Some cells are visibly blank in the supplied PDF, notably cPVC union + N.R.V. and concealed-valve rates on page 9, and some fittings/packing cells on other pages. Never interpret blanks as `0`; ask whether these products should be shown and whether current values exist.
+1. Some cells are visibly blank in the supplied PDF, notably cPVC union + N.R.V. and concealed-valve rates on page 9, and some fittings/packing cells on other pages. The user confirmed these products should remain on the website with those cells empty until client review. Never interpret blanks as `0`.
 2. PDF text extraction can confuse inch marks, degree signs, decimal/rate separators, and two-column table order. Any size/packing table put on the web needs visual verification against the page, not copy-paste from extracted text.
 3. Some printed labels appear inconsistent or misspelled (for example “OFFCET,” “SOKET,” and angle marks rendered like quotes). Use customer-friendly labels only after checking which names Flowin wants to retain.
-4. The PDF contains product cutout imagery, but not a complete set of approved high-resolution product/factory/application photos. Do not present the generated warehouse concept image as a real Flowin facility.
-5. The PDF back cover provides the company name and website/social names; it does not establish the demo's email address, current phone number, enquiry route, physical address, or approval to reuse its certification artwork as a website claim.
+4. The user approved existing imagery and permits generated images for gaps. The PDF contains product cutouts; the old site has more assets. Do not present a generated warehouse scene as a real Flowin facility.
+5. The PDF back cover provides the company name and website/social names. The user has not yet provided the email or phone for the new site's enquiry CTA; the demo email is not approved contact data.
 6. The catalogue combines “ISI” and ASTM wording in some headings. Reproduce only verified labels and avoid adding unverified compliance statements or technical advice.
 
-## Questions before homepage/product publication
+## Decisions received for implementation
 
-- What contact method and exact details should the enquiry CTA use?
-- Can Flowin supply or approve product images, factory/warehouse images, and logo files for the new website?
-- Should the site display only broad ranges at launch, or detailed family pages with verified size/packing tables?
-- Which company claims, certifications, standards, and application descriptions are approved for website copy?
-- Are the blank printed catalogue cells intentional, and should those products appear on the site without prices?
+- Email or phone may be used later; exact details are pending. Until then, the homepage should direct users to the catalogue and show an honest contact placeholder, not a broken mail link.
+- Existing assets are approved. The user permits reuse from `Old/` and generation of missing visuals.
+- Build detailed family pages with verified size/packing/rate tables, not only broad range pages.
+- Old-site claims and application descriptions are permitted as source copy. Keep claims attributable to `Old/` and do not invent stronger or more current-sounding statements; certification validity should still be checked before launch.
+- Keep products with empty printed table cells on the site; show those cells empty and collect details during client review.
 
 ## Outcome of this chunk
 

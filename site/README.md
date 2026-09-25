@@ -1,6 +1,6 @@
 # Flowin Astro site
 
-This is the isolated production-site foundation. The current page is a setup marker, not the approved design implementation.
+This is the isolated Astro production-site project. The homepage implements the approved editorial design; detailed product-family pages are the next chunk. Email and phone are intentionally pending, and the page is `noindex` until launch readiness.
 
 Requires Node.js 22.12.0 or newer (even-numbered release). From this directory:
 

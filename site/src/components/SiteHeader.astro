@@ -1,0 +1,43 @@
+---
+const catalogueUrl = '/catalogue/flowin-price-list-2026.pdf';
+---
+
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top" aria-label="Flowin home"><img src="/images/logo.png" alt="Flowin Pipes & Fittings" width="161" height="51" /></a>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-controls="primary-nav" aria-expanded="false"><span aria-hidden="true">☰</span></button>
+    <nav class="nav" id="primary-nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#applications">Applications</a>
+      <a href="#contact">Contact</a>
+      <a class="mobile-catalogue" href={catalogueUrl} target="_blank" rel="noopener">Download catalogue ↗</a>
+    </nav>
+    <a class="header-cta" href={catalogueUrl} target="_blank" rel="noopener">Download catalogue <span aria-hidden="true">↗</span></a>
+  </div>
+</header>
+<div class="range-strip">
+  <div class="wrap range-strip-inner">
+    <p>Product systems designed for the way water moves.</p>
+    <div class="range-strip-items" aria-label="Product ranges"><span>uPVC plumbing</span><span>cPVC plumbing</span><span>SWR drainage</span><span>Agriculture</span></div>
+  </div>
+</div>
+
+<script>
+  const button = document.querySelector<HTMLButtonElement>('.menu-toggle');
+  const nav = document.querySelector<HTMLElement>('#primary-nav');
+  button?.addEventListener('click', () => {
+    const open = nav?.classList.toggle('open') ?? false;
+    button.setAttribute('aria-expanded', String(open));
+    button.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    const symbol = button.querySelector('span');
+    if (symbol) symbol.textContent = open ? '×' : '☰';
+  });
+  nav?.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => {
+    nav.classList.remove('open');
+    button?.setAttribute('aria-expanded', 'false');
+    button?.setAttribute('aria-label', 'Open menu');
+    const symbol = button?.querySelector('span');
+    if (symbol) symbol.textContent = '☰';
+  }));
+</script>
