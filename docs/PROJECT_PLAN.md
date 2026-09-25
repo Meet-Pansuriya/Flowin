@@ -42,6 +42,7 @@ Only one chunk should be implemented and verified at a time. Do not mark a chunk
 | 2026-09-25 | Install dependencies, build, and request the local page. | Confirm setup actually runs before beginning catalogue work. | Install and static build passed; dev page returned HTTP 200. |
 | 2026-09-25 | Initialize Git at the project root on `main`; ignore `Old/`, local secrets, dependencies, and generated output. | Version the new site, approved demo, and reference documents without committing legacy DB credentials or machine-specific artifacts. | Initial local snapshot committed as `8e611c7`; no remote configured. |
 | 2026-09-25 | Inventory the complete 14-page 2026 PDF into `docs/CATALOGUE_INVENTORY.md`. | Define site navigation around current products and record gaps before coding product content. | Four ranges confirmed; system variants and data-quality flags mapped. No Astro content imported. |
+| 2026-09-25 | Commit the catalogue inventory locally and note the configured `origin` remote. | Keep this chunk reviewable before UI work. | Local commit `5744796`; the branch is ahead of `origin/main` and has not been pushed by this task. |
 
 ## Open decisions for later chunks
 

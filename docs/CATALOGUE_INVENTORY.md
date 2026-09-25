@@ -1,6 +1,7 @@
 # 2026 catalogue inventory
 
-Reviewed: 2026-09-25  
+Reviewed: 2026-09-25
+
 Source: [Flowin Price list 2026.pdf](../design/assets/flowin-price-list-2026.pdf) (14 pages). The workspace copy has the same SHA-256 hash as the supplied file in `E:\Downloads`. Page numbers below are PDF page numbers, including the cover.
 
 This is a navigation and content inventory, **not** a transcription of every SKU or price. The PDF remains the source for exact tables. Blank printed cells mean **unconfirmed**, not zero or unavailable.
