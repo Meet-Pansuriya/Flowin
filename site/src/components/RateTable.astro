@@ -1,0 +1,24 @@
+---
+import type { ProductVariant } from '../data/productFamilies';
+
+interface Props {
+  variant: ProductVariant;
+  number: string;
+}
+
+const { variant, number } = Astro.props;
+---
+
+<section class="variant-section" id={variant.id} aria-labelledby={`${variant.id}-title`}>
+  <div class="variant-heading"><span class="variant-index">{number} / FITTING</span><h2 id={`${variant.id}-title`}>{variant.name}</h2><p>Sizes, bag packing and rate per piece as listed in the 2026 catalogue.</p></div>
+  <p class="table-hint">Swipe to see all columns <span aria-hidden="true">→</span></p>
+  <div class="table-scroll" role="region" aria-label={`${variant.name} size and rate table`} tabindex="0">
+    <table>
+      <caption class="sr-only">{variant.name} size, rate and packing - Flowin 2026 catalogue page 2</caption>
+      <thead><tr><th scope="col">Size (inch)</th><th scope="col">Size (mm)</th><th scope="col">Rate / pc.</th><th scope="col">Packing in bag</th><th scope="col">Inner packing</th></tr></thead>
+      <tbody>
+        {variant.rows.map((row) => <tr><th scope="row">{row.inch}</th><td>{row.mm}</td><td>{row.rate}</td><td>{row.bagPacking}</td><td>{row.innerPacking}</td></tr>)}
+      </tbody>
+    </table>
+  </div>
+</section>

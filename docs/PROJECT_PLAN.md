@@ -34,6 +34,10 @@ Only one chunk should be implemented and verified at a time. Do not mark a chunk
 
 **Next chunk: 4 - product browsing.** Build the four-range navigation and detailed family pages in smaller substeps, beginning with one verified family/table pattern. Preserve printed blank cells exactly as empty. This homepage currently uses non-clickable range cards because destination pages do not exist yet.
 
+**Completed substep 4a:** [uPVC elbow family pattern](PRODUCT_PAGE_PATTERN.md). It established a reusable typed table, one real family route, and a working homepage link. The whole product-browsing chunk remains open.
+
+**Next substep 4b:** map uPVC family navigation and add the next verified family from the PDF. Keep the slice narrow; do not bulk-import unreviewed tables.
+
 ## Action and decision log
 
 | Date | Action / decision | Why | Result |
@@ -47,11 +51,13 @@ Only one chunk should be implemented and verified at a time. Do not mark a chunk
 | 2026-09-25 | Commit the catalogue inventory locally and note the configured `origin` remote. | Keep this chunk reviewable before UI work. | Local commit `5744796`; the branch is ahead of `origin/main` and has not been pushed by this task. |
 | 2026-09-25 | Record the user's content decisions before homepage coding. | Avoid re-asking settled questions or silently following the earlier PDF-only price assumption. | Email/phone pending; approved existing/generated imagery; detailed pages requested; old-site claims permitted; blank catalogue cells stay blank for client review. |
 | 2026-09-25 | Rebuild the approved demo in Astro components and serve the logo, illustrative image, and PDF locally. | Turn the visual north star into a maintainable homepage without inventing contact details or product destinations. | Build passed; desktop/mobile and menu checked in browser; homepage and assets returned HTTP 200. |
+| 2026-09-25 | Build a first uPVC elbow detail page from PDF page 2, using an existing old-site product photo. | Validate the product-page and table pattern before repeating it across many families. | Two nine-row tables verified visually; anomaly retained and documented; desktop/mobile layouts and horizontal table scrolling checked. New image generation postponed. |
 
 ## Open decisions for later chunks
 
 - Add the final email and/or phone when supplied; neither is available yet. Do not infer them from the old site or the demo.
 - Keep a distinction between real Flowin photographs/product cutouts and generated illustrative imagery.
+- Pause new image generation for now at the user's request; use approved existing assets while building product pages.
 - Agree on a review/update process for web rate tables whenever a new price list arrives.
 - Choose hosting and URL redirects after the new page structure is known.
 - Decide whether the legacy site needs a separate archival repository. It stays on disk but is excluded from the new repository because it contains database connection details.

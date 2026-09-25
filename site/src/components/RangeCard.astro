@@ -5,9 +5,10 @@ interface Props {
   description: string;
   icon: 'upvc' | 'cpvc' | 'swr' | 'agriculture';
   featured?: boolean;
+  href?: string;
 }
 
-const { number, title, description, icon, featured = false } = Astro.props;
+const { number, title, description, icon, featured = false, href } = Astro.props;
 ---
 
 <article class:list={['range-card', { featured }]}>
@@ -20,4 +21,5 @@ const { number, title, description, icon, featured = false } = Astro.props;
   </div>
   <h3>{title}</h3>
   <p>{description}</p>
+  {href && <a class="range-card-link" href={href}>Explore elbows <span aria-hidden="true">↗</span></a>}
 </article>
