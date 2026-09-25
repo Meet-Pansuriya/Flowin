@@ -11,5 +11,6 @@ Last updated: 2026-09-25
 | Company identity, contact details, claims, photos | Flowin approval / authentic supplied assets | If unconfirmed, mark as pending; do not fill gaps with plausible-sounding claims. |
 | Build and framework behavior | Astro's official documentation and actual local build/test results | Verify version-sensitive behavior against installed dependencies. |
 
-When sources conflict: pause that claim, record the conflict, and request confirmation. Do not silently pick whichever source makes the design easier. Keep a traceable link from each published product fact to the catalogue or approval. The generated `design/assets/flowin-warehouse-concept.png` is a visual placeholder, not evidence of Flowin's premises.
+The [2026 catalogue inventory](CATALOGUE_INVENTORY.md) is a finding aid and records known ambiguities; it does not replace the PDF for exact product values.
 
+When sources conflict: pause that claim, record the conflict, and request confirmation. Do not silently pick whichever source makes the design easier. Keep a traceable link from each published product fact to the catalogue or approval. The generated `design/assets/flowin-warehouse-concept.png` is a visual placeholder, not evidence of Flowin's premises.

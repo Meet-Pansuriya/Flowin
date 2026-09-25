@@ -7,6 +7,6 @@ Start here before changing the new site:
 - [Project plan and checklist](docs/PROJECT_PLAN.md) — scope, small work chunks, progress, and action log.
 - [Design guide](docs/DESIGN_GUIDE.md) — approved visual direction and page structure.
 - [Sources of truth](docs/SOURCES_OF_TRUTH.md) — where to verify product facts, brand assets, and design decisions.
+- [2026 catalogue inventory](docs/CATALOGUE_INVENTORY.md) — source-page map, proposed product hierarchy, and approval questions.
 
 `Old/` is the legacy PHP/MySQL site. `design/flowin-demo.html` is the approved visual prototype, not the production application. The new Astro project will live in `site/`, independently of both.
-

@@ -18,7 +18,7 @@ A responsive Flowin product-showcase website with a homepage, product-range and 
 
 - [x] **0. Document the foundation.** Capture scope, visual direction, source hierarchy, checklist, and decisions before setup. Why: keeps later work anchored to the user's brief and actual catalogue.
 - [x] **1. Minimal project setup.** Create only the Astro/TypeScript foundation in `site/`, confirm dev/build commands, and keep the legacy site and demo separate. Why: establish a working base before migrating UI or content.
-- [ ] **2. Catalogue inventory.** Map the four current ranges and product families from the 2026 PDF; list missing photos, specifications, contact details, and approvals. Why: page architecture should follow real data, not old database limitations.
+- [x] **2. Catalogue inventory.** Map the four current ranges and product families from the 2026 PDF; list missing photos, specifications, contact details, and approvals. Why: page architecture should follow real data, not old database limitations.
 - [ ] **3. Homepage implementation.** Rebuild the approved demo as responsive components, using reviewed copy/assets and honest image labeling. Why: establish the design system in real code.
 - [ ] **4. Product browsing.** Implement range and family pages, navigation, catalogue links, and relevant specification tables from verified data. Why: customers need to find products, not just see a landing page.
 - [ ] **5. Content and asset review.** Replace concept photography where possible; check product names, claims, enquiry details, and PDF version with Flowin. Why: a polished site must also be accurate.
@@ -30,7 +30,7 @@ Only one chunk should be implemented and verified at a time. Do not mark a chunk
 
 `site/` has a minimal Astro 7.3.5 application with strict TypeScript configuration and static output. `npm install` completed, `npm run build` produced `site/dist/index.html`, and the local dev server returned HTTP 200 with the expected setup page at `http://127.0.0.1:4321/`. This chunk does **not** include converting the demo, importing catalogue data, or publishing.
 
-**Next chunk:** catalogue inventory and content questions. Do this separately; do not build product pages from guessed entries.
+**Next chunk:** implement the homepage from the approved demo, but first resolve or explicitly mark unapproved contact details and imagery. Do not build product pages from guessed entries.
 
 ## Action and decision log
 
@@ -41,6 +41,7 @@ Only one chunk should be implemented and verified at a time. Do not mark a chunk
 | 2026-09-25 | Isolate the new app in `site/`; preserve `Old/` and `design/`. | Avoid mixing the PHP site, visual prototype, and production application. | Created minimal Astro 7.3.5 site; no legacy files changed. |
 | 2026-09-25 | Install dependencies, build, and request the local page. | Confirm setup actually runs before beginning catalogue work. | Install and static build passed; dev page returned HTTP 200. |
 | 2026-09-25 | Initialize Git at the project root on `main`; ignore `Old/`, local secrets, dependencies, and generated output. | Version the new site, approved demo, and reference documents without committing legacy DB credentials or machine-specific artifacts. | Initial local snapshot committed as `8e611c7`; no remote configured. |
+| 2026-09-25 | Inventory the complete 14-page 2026 PDF into `docs/CATALOGUE_INVENTORY.md`. | Define site navigation around current products and record gaps before coding product content. | Four ranges confirmed; system variants and data-quality flags mapped. No Astro content imported. |
 
 ## Open decisions for later chunks
 
