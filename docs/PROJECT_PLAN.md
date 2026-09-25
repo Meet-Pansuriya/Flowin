@@ -40,7 +40,7 @@ Only one chunk should be implemented and verified at a time. Do not mark a chunk
 | 2026-09-25 | Save the supplied editorial screenshot in `design/`. | A temporary attachment path is not a durable design reference. | `design/reference-editorial-site.png` is now the project-local reference. |
 | 2026-09-25 | Isolate the new app in `site/`; preserve `Old/` and `design/`. | Avoid mixing the PHP site, visual prototype, and production application. | Created minimal Astro 7.3.5 site; no legacy files changed. |
 | 2026-09-25 | Install dependencies, build, and request the local page. | Confirm setup actually runs before beginning catalogue work. | Install and static build passed; dev page returned HTTP 200. |
-| 2026-09-25 | Initialize Git at the project root on `main`; ignore `Old/`, local secrets, dependencies, and generated output. | Version the new site, approved demo, and reference documents without committing legacy DB credentials or machine-specific artifacts. | Initial local snapshot staged for commit; no remote configured. |
+| 2026-09-25 | Initialize Git at the project root on `main`; ignore `Old/`, local secrets, dependencies, and generated output. | Version the new site, approved demo, and reference documents without committing legacy DB credentials or machine-specific artifacts. | Initial local snapshot committed as `8e611c7`; no remote configured. |
 
 ## Open decisions for later chunks
 
