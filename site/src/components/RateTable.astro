@@ -4,9 +4,10 @@ import type { ProductVariant } from '../data/productFamilies';
 interface Props {
   variant: ProductVariant;
   number: string;
+  sourcePage: number;
 }
 
-const { variant, number } = Astro.props;
+const { variant, number, sourcePage } = Astro.props;
 ---
 
 <section class="variant-section" id={variant.id} aria-labelledby={`${variant.id}-title`}>
@@ -14,7 +15,7 @@ const { variant, number } = Astro.props;
   <p class="table-hint">Swipe to see all columns <span aria-hidden="true">→</span></p>
   <div class="table-scroll" role="region" aria-label={`${variant.name} size and rate table`} tabindex="0">
     <table>
-      <caption class="sr-only">{variant.name} size, rate and packing - Flowin 2026 catalogue page 2</caption>
+      <caption class="sr-only">{variant.name} size, rate and packing - Flowin 2026 catalogue page {sourcePage}</caption>
       <thead><tr><th scope="col">Size (inch)</th><th scope="col">Size (mm)</th><th scope="col">Rate / pc.</th><th scope="col">Packing in bag</th><th scope="col">Inner packing</th></tr></thead>
       <tbody>
         {variant.rows.map((row) => <tr><th scope="row">{row.inch}</th><td>{row.mm}</td><td>{row.rate}</td><td>{row.bagPacking}</td><td>{row.innerPacking}</td></tr>)}

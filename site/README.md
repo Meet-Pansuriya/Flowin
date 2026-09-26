@@ -1,6 +1,6 @@
 # Flowin Astro site
 
-This is the isolated Astro production-site project. The homepage implements the approved editorial design. The first detailed family page is `/products/upvc/elbows/`; its table pattern is documented in [the product-page pattern](../docs/PRODUCT_PAGE_PATTERN.md). Other families remain to be built. Email and phone are intentionally pending, and pages are `noindex` until launch readiness.
+This is the isolated Astro production-site project. The homepage implements the approved editorial design. The uPVC overview is at `/products/upvc/`, with detailed elbow and tee pages; the table pattern is documented in [the product-page pattern](../docs/PRODUCT_PAGE_PATTERN.md). Other families remain to be built. Email and phone are intentionally pending, and pages are `noindex` until launch readiness.
 
 Requires Node.js 22.12.0 or newer (even-numbered release). From this directory:
 

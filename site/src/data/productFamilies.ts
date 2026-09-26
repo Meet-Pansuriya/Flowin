@@ -48,3 +48,32 @@ export const upvcElbows: ProductVariant[] = [
     ],
   },
 ];
+
+// Source: Flowin Price list 2026.pdf, PDF page 2, uPVC plumbing fittings.
+// Reducing tee is printed on page 3 and is intentionally not included here.
+export const upvcTees: ProductVariant[] = [
+  {
+    id: 'tee',
+    name: 'Tee',
+    rows: [
+      { inch: '1/2″', mm: '15', rate: '12.00', bagPacking: '50 × 8', innerPacking: '400' },
+      { inch: '3/4″', mm: '20', rate: '16.80', bagPacking: '25 × 10', innerPacking: '250' },
+      { inch: '1″', mm: '25', rate: '28.00', bagPacking: '25 × 5', innerPacking: '125' },
+      { inch: '1 1/4″', mm: '32', rate: '37.00', bagPacking: '10 × 8', innerPacking: '80' },
+      { inch: '1 1/2″', mm: '40', rate: '47.00', bagPacking: '10 × 6', innerPacking: '60' },
+      { inch: '2″', mm: '50', rate: '78.00', bagPacking: '6 × 5', innerPacking: '30' },
+      { inch: '2 1/2″', mm: '65', rate: '256.00', bagPacking: '2 × 7', innerPacking: '14' },
+      { inch: '3″', mm: '80', rate: '354.00', bagPacking: '1 × 10', innerPacking: '10' },
+      { inch: '4″', mm: '100', rate: '514.00', bagPacking: '1 × 5', innerPacking: '5' },
+    ],
+  },
+  {
+    id: 'cross-tee',
+    name: 'Cross tee',
+    rows: [
+      { inch: '1/2″', mm: '15', rate: '16.00', bagPacking: '25 × 10', innerPacking: '250' },
+      { inch: '3/4″', mm: '20', rate: '20.00', bagPacking: '25 × 6', innerPacking: '150' },
+      { inch: '1″', mm: '25', rate: '38.00', bagPacking: '25 × 4', innerPacking: '100' },
+    ],
+  },
+];

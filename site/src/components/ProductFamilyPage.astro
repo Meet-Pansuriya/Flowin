@@ -1,0 +1,50 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SiteHeader from './SiteHeader.astro';
+import SiteFooter from './SiteFooter.astro';
+import RateTable from './RateTable.astro';
+import type { ProductVariant } from '../data/productFamilies';
+
+interface Props {
+  familyName: string;
+  lead: string;
+  description: string;
+  imageSrc: string;
+  imageAlt: string;
+  variants: ProductVariant[];
+  sourcePage: number;
+}
+
+const { familyName, lead, description, imageSrc, imageAlt, variants, sourcePage } = Astro.props;
+const catalogueUrl = `/catalogue/flowin-price-list-2026.pdf#page=${sourcePage}`;
+---
+
+<BaseLayout title={`uPVC ${familyName} | Flowin Pipes & Fittings`} description={description}>
+  <SiteHeader />
+  <main>
+    <div class="wrap product-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/products/upvc/">uPVC plumbing</a><span aria-hidden="true">/</span><span aria-current="page">{familyName}</span></div>
+    <section class="wrap product-hero" aria-labelledby="family-title">
+      <div class="product-hero-copy">
+        <span class="eyebrow">uPVC plumbing / fittings</span>
+        <h1 id="family-title">uPVC<br />{familyName.toLowerCase()}.</h1>
+        <p class="product-lead">{lead}</p>
+        <p class="product-standard">Catalogue section: <strong>ASTM D-2467 SCH-80</strong></p>
+        <div class="product-actions"><a class="solid-btn" href="#sizes">View sizes &amp; rates <span aria-hidden="true">↓</span></a><a class="text-link" href={catalogueUrl} target="_blank" rel="noopener">See catalogue page {sourcePage} <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <figure class="product-visual"><img src={imageSrc} alt={imageAlt} width="300" height="300" /><figcaption>Product image from Flowin's earlier website.</figcaption></figure>
+    </section>
+
+    <section class="product-data" id="sizes" aria-labelledby="sizes-title">
+      <div class="wrap">
+        <div class="product-data-intro"><span class="eyebrow">Catalogue details</span><h2 id="sizes-title">The sizes behind<br />the system.</h2><p>Rates are per piece as listed in the supplied 2026 price list. The original catalogue remains the definitive reference.</p></div>
+        <div class="variant-grid">
+          {variants.map((variant, index) => <RateTable variant={variant} number={String(index + 1).padStart(2, '0')} sourcePage={sourcePage} />)}
+        </div>
+        <div class="source-band"><p>Source: Flowin Price list 2026, PDF page {sourcePage}. No currency symbol is added because the supplied table does not specify one.</p><a href={catalogueUrl} target="_blank" rel="noopener">Open original table ↗</a></div>
+      </div>
+    </section>
+
+    <section class="wrap family-outro" aria-labelledby="family-outro-title"><div><span class="eyebrow">Next connection</span><h2 id="family-outro-title">Need another fitting?</h2></div><div><p>Browse the uPVC range for other live family pages, or use the full catalogue for products not yet on this site. Email and phone details will be added when confirmed.</p><a class="solid-btn" href="/products/upvc/">Explore uPVC range <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <SiteFooter />
+</BaseLayout>

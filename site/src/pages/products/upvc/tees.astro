@@ -1,0 +1,14 @@
+---
+import ProductFamilyPage from '../../../components/ProductFamilyPage.astro';
+import { upvcTees } from '../../../data/productFamilies';
+---
+
+<ProductFamilyPage
+  familyName="Tees"
+  lead="Tee and cross-tee fittings, with sizes, packing and rates listed in Flowin's 2026 catalogue."
+  description="Explore Flowin uPVC plumbing tee and cross-tee sizes, packing and 2026 catalogue rates."
+  imageSrc="/images/upvc-tee-legacy.jpg"
+  imageAlt="Flowin's legacy image of a white uPVC tee fitting"
+  variants={upvcTees}
+  sourcePage={2}
+/>
