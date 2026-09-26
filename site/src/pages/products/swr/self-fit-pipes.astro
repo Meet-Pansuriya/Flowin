@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import SiteHeader from '../../../components/SiteHeader.astro';
+import SiteFooter from '../../../components/SiteFooter.astro';
+import SwrSelfFitPipeRateTable from '../../../components/SwrSelfFitPipeRateTable.astro';
+import { swrSelfFitPipes } from '../../../data/swrSelfFitPipes';
+const catalogueUrl = '/catalogue/flowin-price-list-2026.pdf#page=11';
+---
+
+<BaseLayout title="SWR self-fit pipes | Flowin Pipes & Fittings" description="Flowin SWR self-fit single-socket Type A pipe sizes and rates in 3 m and 6 m lengths from the 2026 catalogue.">
+  <SiteHeader />
+  <main>
+    <div class="wrap product-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/products/swr/">SWR drainage</a><span aria-hidden="true">/</span><span aria-current="page">Self-fit pipes</span></div>
+    <section class="wrap product-hero" aria-labelledby="family-title"><div class="product-hero-copy"><span class="eyebrow">SWR drainage / self fit</span><h1 id="family-title">Self-fit<br />pipes.</h1><p class="product-lead">Single-socket Type A pipes in 3 m and 6 m lengths, with separate 75 mm and 110 mm rates.</p><p class="product-standard">Catalogue section: <strong>SWR PIPE (SELF FIT)</strong>. Ring-fit pipes have separate socket options and are shown on their own page.</p><div class="product-actions"><a class="solid-btn" href="#sizes">View sizes &amp; rates <span aria-hidden="true">↓</span></a><a class="text-link" href={catalogueUrl} target="_blank" rel="noopener">See catalogue page 11 <span aria-hidden="true">↗</span></a></div></div>
+      <figure class="product-visual swr-pipe-visual"><svg viewBox="0 0 500 500" role="img" aria-label="Simple line illustration of drainage pipes"><defs><linearGradient id="selfPipe" x2="1" y2="1"><stop stop-color="#fff" /><stop offset="1" stop-color="#c7c9c5" /></linearGradient></defs><path d="M110 92h100v325H110zM290 56h100v361H290z" fill="url(#selfPipe)" stroke="#91958f" stroke-width="2"/><ellipse cx="160" cy="92" rx="50" ry="13" fill="#b9beb9" stroke="#91958f" stroke-width="2"/><ellipse cx="160" cy="92" rx="38" ry="8" fill="#626963"/><ellipse cx="340" cy="56" rx="50" ry="13" fill="#b9beb9" stroke="#91958f" stroke-width="2"/><ellipse cx="340" cy="56" rx="38" ry="8" fill="#626963"/><path d="M115 167h90M295 145h90" stroke="#c64d18" stroke-width="4"/><path d="M110 417h100M290 417h100" stroke="#91958f" stroke-width="2"/></svg><figcaption>Illustrative pipe diagram; not a product photograph.</figcaption></figure>
+    </section>
+    <section class="product-data" id="sizes" aria-labelledby="sizes-title"><div class="wrap"><div class="product-data-intro"><span class="eyebrow">Catalogue details</span><h2 id="sizes-title">Type A sizes<br />and rates.</h2><p>These are the two single-socket Type A pipe tables printed at the top of page 11. No fitting rates or ring-fit variants are included.</p></div><div class="variant-grid">{swrSelfFitPipes.map((group, index) => <SwrSelfFitPipeRateTable group={group} number={String(index + 1).padStart(2, '0')} />)}</div><div class="source-band"><p>Source: Flowin Price list 2026, PDF page 11. Rates are per piece, with no inferred currency. The original catalogue is definitive.</p><a href={catalogueUrl} target="_blank" rel="noopener">Open original tables ↗</a></div></div></section>
+    <section class="wrap family-outro" aria-labelledby="family-outro-title"><div><span class="eyebrow">Another joint system</span><h2 id="family-outro-title">Need ring-fit<br />instead?</h2></div><div><p>Ring-fit pipes have six lengths and single- and double-socket rates. Browse those verified tables, or use the catalogue for additional SWR fittings.</p><a class="solid-btn" href="/products/swr/ring-fit-pipes/">View ring-fit pipes <span aria-hidden="true">↗</span></a></div></section>
+  </main><SiteFooter />
+</BaseLayout>

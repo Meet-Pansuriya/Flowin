@@ -32,7 +32,7 @@ Only one chunk should be implemented and verified at a time. Do not mark a chunk
 
 **Completed chunk: 3 - homepage.** The approved demo is now implemented in Astro with separate layout, header, range-card, and footer components. The logo, illustrative warehouse image, and 2026 PDF are served from `site/public/`. Contact details remain visibly pending; the demo's invented email was not carried over. The page has `noindex` until launch readiness. Production build passed; desktop and mobile browser checks, mobile-menu behavior, and local asset/PDF responses passed.
 
-**Current chunk: 4 - product browsing.** Build the four-range navigation and detailed family pages in smaller substeps. Preserve printed blank cells exactly as empty. uPVC and cPVC now have working range links; SWR and agriculture cards remain non-clickable while their pages are pending, with the full catalogue available below the cards.
+**Current chunk: 4 - product browsing.** Build the four-range navigation and detailed family pages in smaller substeps. Preserve printed blank cells exactly as empty. uPVC, cPVC and SWR now have working range links; agriculture remains non-clickable while its pages are pending, with the full catalogue available below the cards.
 
 **Completed substep 4a:** [uPVC elbow family pattern](PRODUCT_PAGE_PATTERN.md). It established a reusable typed table, one real family route, and a working homepage link. The whole product-browsing chunk remains open.
 
@@ -50,7 +50,11 @@ Only one chunk should be implemented and verified at a time. Do not mark a chunk
 
 **Completed substep 4h:** [cPVC F-441-labelled schedule pipes](CPVC_SCHEDULE_PIPES_SLICE.md). All six page-6 pipe tables are live, with four SDR and two schedule groups kept distinct. Product browsing remains open for other families and ranges.
 
-**Next substep 4i:** open SWR drainage navigation after checking the ring-fit and self-fit page structures, and implement one verified family or system page. Document the narrow scope and source before coding.
+**Substep 4i:** [SWR ring-fit start](SWR_RING_FIT_SLICE.md). SWR navigation and six page-10 ring-fit pipe tables are implemented. Source rows, build, generated links and desktop layout were checked before a power cut. Mobile browser QA remains open because browser access was blocked after restart.
+
+**Substep 4j:** [SWR self-fit pipes](SWR_SELF_FIT_PIPES_SLICE.md). The two single-socket Type A pipe tables from PDF page 11 are live. Four rows, build, links and PDF anchors were checked. Browser visual QA is pending because access was blocked after the power cut; fitting tables remain pending.
+
+**Next substep 4k:** resume desktop/mobile browser QA for both SWR pipe pages when available, then choose one SWR fitting family to transcribe from the printed catalogue. Document its exact rows before coding.
 
 ## Action and decision log
 
@@ -73,6 +77,8 @@ Only one chunk should be implemented and verified at a time. Do not mark a chunk
 | 2026-09-26 | Add the two cPVC non-ISI-labelled pipe tables from page 6. | Make the pipe card useful while keeping the different SDR, ISI and F-441 groups distinct. | Twelve rows checked; mixed rate precision preserved; build, desktop/mobile and route/asset checks passed. No image generation. |
 | 2026-09-26 | Add the two cPVC ISI-labelled SDR pipe tables from page 6. | Complete the printed SDR groups without conflating them with the F-441 schedule tables. | Twelve more rows checked; four six-row SDR tables now live; build and desktop/mobile checks passed. No image generation. |
 | 2026-09-26 | Add the two cPVC F-441-labelled schedule pipe tables from page 6. | Complete the printed cPVC pipe family while preserving distinct SDR and SCH rate headings. | Six rows checked; all six pipe tables live; shared schedule source captions checked for cPVC page 6 and uPVC page 2. No image generation. |
+| 2026-09-26 | Open SWR navigation and add six ring-fit pipe tables from page 10. | Keep ring-fit and self-fit joint systems separate while introducing the third range. | Twelve rows checked against PDF; build, generated links and desktop layout passed. Mobile browser QA remains open after a power-cut interruption. No image generation. |
+| 2026-09-26 | Add the two self-fit single-socket Type A pipe tables from page 11. | Publish a complete, small self-fit pipe slice without folding it into ring-fit or guessing packing. | Four rows checked against PDF; build, generated links and PDF anchors passed. Desktop/mobile browser QA remains open because browser access was blocked after restart. No image generation. |
 
 ## Open decisions for later chunks
 

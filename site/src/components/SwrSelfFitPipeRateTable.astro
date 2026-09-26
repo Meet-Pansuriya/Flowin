@@ -1,0 +1,16 @@
+---
+import type { SwrSelfFitPipeGroup } from '../data/swrSelfFitPipes';
+interface Props { group: SwrSelfFitPipeGroup; number: string }
+const { group, number } = Astro.props;
+---
+
+<section class="variant-section" id={group.id} aria-labelledby={`${group.id}-title`}>
+  <div class="variant-heading"><span class="variant-index">{number} / SELF-FIT PIPE</span><h2 id={`${group.id}-title`}>{group.length} <small>({group.feet})</small></h2><p>Single-socket Type A rate per piece.</p></div>
+  <p class="table-hint">Swipe to see all columns <span aria-hidden="true">→</span></p>
+  <div class="table-scroll" role="region" aria-label={`${group.length} self-fit pipe rates`} tabindex="0">
+    <table><caption class="sr-only">{group.length} SWR self-fit Type A pipe sizes and rates from Flowin 2026 catalogue page 11</caption>
+      <thead><tr><th scope="col">Size (inch)</th><th scope="col">Size (mm)</th><th scope="col">Single socket Type A / pc.</th></tr></thead>
+      <tbody>{group.rows.map((row) => <tr><th scope="row">{row.inch}</th><td>{row.mm}</td><td>{row.rate}</td></tr>)}</tbody>
+    </table>
+  </div>
+</section>

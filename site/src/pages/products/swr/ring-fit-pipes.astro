@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import SiteHeader from '../../../components/SiteHeader.astro';
+import SiteFooter from '../../../components/SiteFooter.astro';
+import SwrPipeRateTable from '../../../components/SwrPipeRateTable.astro';
+import { swrRingFitPipes } from '../../../data/swrRingFitPipes';
+const catalogueUrl = '/catalogue/flowin-price-list-2026.pdf#page=10';
+---
+
+<BaseLayout title="SWR ring-fit pipes | Flowin Pipes & Fittings" description="See Flowin SWR ring-fit pipe sizes and single- and double-socket rates across six lengths from the 2026 catalogue.">
+  <SiteHeader />
+  <main>
+    <div class="wrap product-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/products/swr/">SWR drainage</a><span aria-hidden="true">/</span><span aria-current="page">Ring-fit pipes</span></div>
+    <section class="wrap product-hero" aria-labelledby="family-title"><div class="product-hero-copy"><span class="eyebrow">SWR drainage / ring fit</span><h1 id="family-title">Ring-fit<br />pipes.</h1><p class="product-lead">Compare six printed lengths and their separate single-socket and double-socket rates for 75 mm and 110 mm SWR pipes.</p><p class="product-standard">Catalogue section: <strong>SWR PIPE (RING FIT)</strong>. Self-fit Type A pipes are a different section and are not included in these tables.</p><div class="product-actions"><a class="solid-btn" href="#sizes">View sizes &amp; rates <span aria-hidden="true">↓</span></a><a class="text-link" href={catalogueUrl} target="_blank" rel="noopener">See catalogue page 10 <span aria-hidden="true">↗</span></a></div></div>
+      <figure class="product-visual swr-pipe-visual"><svg viewBox="0 0 500 500" role="img" aria-label="Simple line illustration of two drainage pipes with socket ends"><defs><linearGradient id="pipe" x2="1" y2="1"><stop stop-color="#fff" /><stop offset="1" stop-color="#c7c9c5" /></linearGradient></defs><path d="M110 92h100v325H110zM290 56h100v361H290z" fill="url(#pipe)" stroke="#91958f" stroke-width="2"/><path d="M96 92h128v38H96zM276 56h128v38H276z" fill="#e5e7e2" stroke="#91958f" stroke-width="2"/><ellipse cx="160" cy="92" rx="64" ry="14" fill="#b9beb9" stroke="#91958f" stroke-width="2"/><ellipse cx="160" cy="92" rx="47" ry="9" fill="#626963"/><ellipse cx="340" cy="56" rx="64" ry="14" fill="#b9beb9" stroke="#91958f" stroke-width="2"/><ellipse cx="340" cy="56" rx="47" ry="9" fill="#626963"/><path d="M115 167h90M295 145h90" stroke="#c64d18" stroke-width="4"/><path d="M110 417h100M290 417h100" stroke="#91958f" stroke-width="2"/></svg><figcaption>Illustrative pipe diagram; not a product photograph.</figcaption></figure>
+    </section>
+    <section class="product-data" id="sizes" aria-labelledby="sizes-title"><div class="wrap"><div class="product-data-intro"><span class="eyebrow">Catalogue details</span><h2 id="sizes-title">Lengths, sizes<br />and sockets.</h2><p>All six ring-fit pipe tables from page 10 are shown separately. The PDF's “=” decimal marks are displayed as points; no currency or pipe packing value has been added.</p></div><div class="variant-grid">{swrRingFitPipes.map((group, index) => <SwrPipeRateTable group={group} number={String(index + 1).padStart(2, '0')} />)}</div><div class="source-band"><p>Source: Flowin Price list 2026, PDF page 10. Rates are per piece, with no inferred currency. The original catalogue is definitive.</p><a href={catalogueUrl} target="_blank" rel="noopener">Open original tables ↗</a></div></div></section>
+    <section class="wrap family-outro" aria-labelledby="family-outro-title"><div><span class="eyebrow">Another joint system</span><h2 id="family-outro-title">Need self-fit<br />instead?</h2></div><div><p>Self-fit Type A pipes and fittings appear separately on catalogue pages 11–12. Browse those original pages until their web tables are reviewed.</p><a class="solid-btn" href="/catalogue/flowin-price-list-2026.pdf#page=11" target="_blank" rel="noopener">View self-fit catalogue <span aria-hidden="true">↗</span></a></div></section>
+  </main><SiteFooter />
+</BaseLayout>
