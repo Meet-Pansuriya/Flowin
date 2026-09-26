@@ -40,7 +40,9 @@ Only one chunk should be implemented and verified at a time. Do not mark a chunk
 
 **Completed substep 4c:** [uPVC pipes](UPVC_PIPES_SLICE.md). Four PDF page-2 pipe tables retain their separate length/group headings and SCH-40/SCH-80 rate columns. The overall product-browsing chunk is still open.
 
-**Next substep 4d:** choose one further family from the 2026 catalogue, verify its printed data first, and document any new table shape or blank cells before adding its page. Do not bulk-import the remaining ranges.
+**Completed substep 4d:** [uPVC reducing tee](UPVC_REDUCING_TEE_SLICE.md). Its 20-row PDF page-3 table has a separate source link and retains four printed blank packing cells. Product browsing remains open.
+
+**Next substep 4e:** verify and add one further uPVC family from the catalogue, or begin a new range overview after reviewing which product navigation helps customers most. Document the chosen source and scope first; do not bulk-import unreviewed tables.
 
 ## Action and decision log
 
@@ -58,6 +60,7 @@ Only one chunk should be implemented and verified at a time. Do not mark a chunk
 | 2026-09-25 | Build a first uPVC elbow detail page from PDF page 2, using an existing old-site product photo. | Validate the product-page and table pattern before repeating it across many families. | Two nine-row tables verified visually; anomaly retained and documented; desktop/mobile layouts and horizontal table scrolling checked. New image generation postponed. |
 | 2026-09-26 | Add the uPVC range page and Tee/Cross tee detail page, reusing a family layout component. | Make range browsing functional while limiting data entry to a second verified PDF section. | Nine Tee and three Cross tee rows checked against PDF page 2; desktop/mobile and local route/asset checks passed. No new imagery generated. |
 | 2026-09-26 | Add uPVC pipes with four distinct printed tables and a pipe-specific data shape. | Preserve separate 3 m/6 m lengths and SCH-40/SCH-80 rate columns without forcing them into the fittings schema. | Eighteen rows checked on PDF page 2; build, desktop/narrow layout and local route/asset checks passed. No image generation. |
+| 2026-09-26 | Add a separate reducing-tee page from PDF page 3. | Preserve its longer paired-size table and make unprinted packing values visible for client review. | All 20 rows checked; four blank cells retained; build, desktop/mobile and local link/asset checks passed. No image generation. |
 
 ## Open decisions for later chunks
 

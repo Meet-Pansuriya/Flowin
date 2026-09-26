@@ -77,3 +77,34 @@ export const upvcTees: ProductVariant[] = [
     ],
   },
 ];
+
+// Source: Flowin Price list 2026.pdf, PDF page 3, uPVC reducing tee.
+// Two 2 1/2-inch rows have blank bag and inner packing cells in print.
+export const upvcReducingTees: ProductVariant[] = [
+  {
+    id: 'reducing-tee',
+    name: 'Reducing tee',
+    rows: [
+      { inch: '1″ × 3/4″', mm: '25 × 20', rate: '26.80', bagPacking: '25 × 6', innerPacking: '150' },
+      { inch: '1″ × 1/2″', mm: '25 × 15', rate: '28.00', bagPacking: '25 × 6', innerPacking: '150' },
+      { inch: '3/4″ × 1/2″', mm: '20 × 15', rate: '15.30', bagPacking: '25 × 10', innerPacking: '250' },
+      { inch: '1 1/4″ × 3/4″', mm: '32 × 20', rate: '36.00', bagPacking: '10 × 6', innerPacking: '60' },
+      { inch: '1 1/4″ × 1″', mm: '32 × 25', rate: '37.00', bagPacking: '10 × 8', innerPacking: '80' },
+      { inch: '1 1/2″ × 1/2″', mm: '40 × 15', rate: '40.00', bagPacking: '10 × 7', innerPacking: '70' },
+      { inch: '1 1/2″ × 3/4″', mm: '40 × 20', rate: '42.00', bagPacking: '10 × 7', innerPacking: '70' },
+      { inch: '1 1/2″ × 1″', mm: '40 × 25', rate: '43.00', bagPacking: '10 × 6', innerPacking: '60' },
+      { inch: '1 1/2″ × 1 1/4″', mm: '40 × 32', rate: '44.00', bagPacking: '10 × 6', innerPacking: '60' },
+      { inch: '2″ × 1/2″', mm: '50 × 15', rate: '87.00', bagPacking: '6 × 5', innerPacking: '30' },
+      { inch: '2″ × 3/4″', mm: '50 × 20', rate: '87.80', bagPacking: '6 × 5', innerPacking: '30' },
+      { inch: '2″ × 1″', mm: '50 × 25', rate: '91.50', bagPacking: '6 × 5', innerPacking: '30' },
+      { inch: '2″ × 1 1/4″', mm: '50 × 32', rate: '93.80', bagPacking: '6 × 5', innerPacking: '30' },
+      { inch: '2″ × 1 1/2″', mm: '50 × 40', rate: '95.60', bagPacking: '6 × 5', innerPacking: '30' },
+      { inch: '2 1/2″ × 1″', mm: '65 × 25', rate: '216.00', bagPacking: '', innerPacking: '' },
+      { inch: '2 1/2″ × 1 1/2″', mm: '65 × 40', rate: '229.00', bagPacking: '', innerPacking: '' },
+      { inch: '2 1/2″ × 2″', mm: '65 × 50', rate: '237.00', bagPacking: '4 × 5', innerPacking: '20' },
+      { inch: '3″ × 2″', mm: '80 × 50', rate: '327.00', bagPacking: '2 × 5', innerPacking: '10' },
+      { inch: '4″ × 2″', mm: '100 × 50', rate: '481.00', bagPacking: '1 × 5', innerPacking: '5' },
+      { inch: '4″ × 3″', mm: '100 × 80', rate: '500.00', bagPacking: '1 × 5', innerPacking: '5' },
+    ],
+  },
+];
