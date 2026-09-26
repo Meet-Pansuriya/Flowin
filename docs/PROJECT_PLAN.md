@@ -38,7 +38,9 @@ Only one chunk should be implemented and verified at a time. Do not mark a chunk
 
 **Completed substep 4b:** [uPVC range and tees](UPVC_RANGE_SLICE.md). The uPVC overview links only to live family routes; Tee/Cross tee use verified PDF page-2 tables and the shared family-page layout. Product browsing remains open.
 
-**Next substep 4c:** plan and implement one uPVC pipe family with its distinct table columns and catalogue source checked first. Keep this separate from more fittings and other ranges.
+**Completed substep 4c:** [uPVC pipes](UPVC_PIPES_SLICE.md). Four PDF page-2 pipe tables retain their separate length/group headings and SCH-40/SCH-80 rate columns. The overall product-browsing chunk is still open.
+
+**Next substep 4d:** choose one further family from the 2026 catalogue, verify its printed data first, and document any new table shape or blank cells before adding its page. Do not bulk-import the remaining ranges.
 
 ## Action and decision log
 
@@ -55,6 +57,7 @@ Only one chunk should be implemented and verified at a time. Do not mark a chunk
 | 2026-09-25 | Rebuild the approved demo in Astro components and serve the logo, illustrative image, and PDF locally. | Turn the visual north star into a maintainable homepage without inventing contact details or product destinations. | Build passed; desktop/mobile and menu checked in browser; homepage and assets returned HTTP 200. |
 | 2026-09-25 | Build a first uPVC elbow detail page from PDF page 2, using an existing old-site product photo. | Validate the product-page and table pattern before repeating it across many families. | Two nine-row tables verified visually; anomaly retained and documented; desktop/mobile layouts and horizontal table scrolling checked. New image generation postponed. |
 | 2026-09-26 | Add the uPVC range page and Tee/Cross tee detail page, reusing a family layout component. | Make range browsing functional while limiting data entry to a second verified PDF section. | Nine Tee and three Cross tee rows checked against PDF page 2; desktop/mobile and local route/asset checks passed. No new imagery generated. |
+| 2026-09-26 | Add uPVC pipes with four distinct printed tables and a pipe-specific data shape. | Preserve separate 3 m/6 m lengths and SCH-40/SCH-80 rate columns without forcing them into the fittings schema. | Eighteen rows checked on PDF page 2; build, desktop/narrow layout and local route/asset checks passed. No image generation. |
 
 ## Open decisions for later chunks
 

@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import SiteHeader from '../../../components/SiteHeader.astro';
+import SiteFooter from '../../../components/SiteFooter.astro';
+import PipeRateTable from '../../../components/PipeRateTable.astro';
+import { upvcPipeGroups } from '../../../data/upvcPipes';
+
+const catalogueUrl = '/catalogue/flowin-price-list-2026.pdf#page=2';
+---
+
+<BaseLayout title="uPVC Pipes | Flowin Pipes & Fittings" description="Explore Flowin uPVC plumbing pipe sizes, 3 m and 6 m lengths, bag packing and SCH-40/SCH-80 rates from the 2026 catalogue.">
+  <SiteHeader />
+  <main>
+    <div class="wrap product-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/products/upvc/">uPVC plumbing</a><span aria-hidden="true">/</span><span aria-current="page">Pipes</span></div>
+    <section class="wrap product-hero" aria-labelledby="family-title">
+      <div class="product-hero-copy">
+        <span class="eyebrow">uPVC plumbing / pipes</span>
+        <h1 id="family-title">uPVC<br />pipes.</h1>
+        <p class="product-lead">Explore 3 m and 6 m pipe lengths, with size, bag packing and separate SCH-40 and SCH-80 rates as printed in Flowin's 2026 catalogue.</p>
+        <p class="product-standard">Catalogue groups: <strong>SCH-40-titled and ASTM F-441-labelled</strong>. See each table's source heading below.</p>
+        <div class="product-actions"><a class="solid-btn" href="#sizes">View sizes &amp; rates <span aria-hidden="true">↓</span></a><a class="text-link" href={catalogueUrl} target="_blank" rel="noopener">See catalogue page 2 <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <figure class="product-visual"><img src="/images/upvc-pipes-legacy.jpg" alt="Flowin's earlier uPVC pipe product image" width="300" height="300" /><figcaption>Product image from Flowin's earlier website.</figcaption></figure>
+    </section>
+
+    <section class="product-data" id="sizes" aria-labelledby="sizes-title">
+      <div class="wrap">
+        <div class="product-data-intro"><span class="eyebrow">Catalogue details</span><h2 id="sizes-title">Lengths, sizes<br />and schedules.</h2><p>The printed SCH-40-titled tables also have SCH-80 rate columns. These labels are retained as published, without interpreting them as an independent compliance claim.</p></div>
+        <div class="variant-grid">
+          {upvcPipeGroups.map((group, index) => <PipeRateTable group={group} number={String(index + 1).padStart(2, '0')} />)}
+        </div>
+        <div class="source-band"><p>Source: Flowin Price list 2026, PDF page 2. Rates are per piece as printed; no currency symbol has been inferred. The original catalogue is definitive.</p><a href={catalogueUrl} target="_blank" rel="noopener">Open original tables ↗</a></div>
+      </div>
+    </section>
+
+    <section class="wrap family-outro" aria-labelledby="family-outro-title"><div><span class="eyebrow">Next connection</span><h2 id="family-outro-title">Explore the fittings.</h2></div><div><p>See verified elbow and tee tables on the uPVC range page, or use the full catalogue for other families. Email and phone details will be added when confirmed.</p><a class="solid-btn" href="/products/upvc/">Explore uPVC range <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <SiteFooter />
+</BaseLayout>
