@@ -108,3 +108,35 @@ export const upvcReducingTees: ProductVariant[] = [
     ],
   },
 ];
+
+// Source: Flowin Price list 2026.pdf, PDF page 6, cPVC fittings.
+// The printed section reads ASTM D-2846 SDR-11. The printed rate separator "="
+// is normalized to "."; no currency or certification assertion is inferred.
+export const cpvcElbows: ProductVariant[] = [
+  {
+    id: 'elbow',
+    name: 'Elbow',
+    rows: [
+      { inch: '3/4″', mm: '20', rate: '9.60', bagPacking: '40 × 9', innerPacking: '360' },
+      { inch: '1″', mm: '25', rate: '19.50', bagPacking: '24 × 8', innerPacking: '192' },
+      { inch: '1 1/4″', mm: '32', rate: '29.00', bagPacking: '15 × 8', innerPacking: '120' },
+      { inch: '1 1/2″', mm: '40', rate: '42.00', bagPacking: '8 × 9', innerPacking: '72' },
+      { inch: '2″', mm: '50', rate: '90.00', bagPacking: '5 × 8', innerPacking: '40' },
+      { inch: '2 1/2″', mm: '65', rate: '207.00', bagPacking: '2 × 7', innerPacking: '14' },
+      { inch: '3″', mm: '80', rate: '447.00', bagPacking: '1 × 9', innerPacking: '9' },
+      { inch: '4″', mm: '100', rate: '645.00', bagPacking: '1 × 6', innerPacking: '6' },
+    ],
+  },
+  {
+    id: '45-degree-elbow',
+    name: '45° elbow',
+    rows: [
+      { inch: '3/4″', mm: '20', rate: '8.00', bagPacking: '40 × 9', innerPacking: '360' },
+      { inch: '1″', mm: '25', rate: '14.00', bagPacking: '20 × 8', innerPacking: '160' },
+      { inch: '1 1/4″', mm: '32', rate: '20.00', bagPacking: '16 × 10', innerPacking: '160' },
+      { inch: '2 1/2″', mm: '65', rate: '265.00', bagPacking: '3 × 6', innerPacking: '18' },
+      { inch: '3″', mm: '80', rate: '356.00', bagPacking: '2 × 6', innerPacking: '12' },
+      { inch: '4″', mm: '100', rate: '560.00', bagPacking: '1 × 6', innerPacking: '6' },
+    ],
+  },
+];

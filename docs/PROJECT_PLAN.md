@@ -32,7 +32,7 @@ Only one chunk should be implemented and verified at a time. Do not mark a chunk
 
 **Completed chunk: 3 - homepage.** The approved demo is now implemented in Astro with separate layout, header, range-card, and footer components. The logo, illustrative warehouse image, and 2026 PDF are served from `site/public/`. Contact details remain visibly pending; the demo's invented email was not carried over. The page has `noindex` until launch readiness. Production build passed; desktop and mobile browser checks, mobile-menu behavior, and local asset/PDF responses passed.
 
-**Next chunk: 4 - product browsing.** Build the four-range navigation and detailed family pages in smaller substeps, beginning with one verified family/table pattern. Preserve printed blank cells exactly as empty. This homepage currently uses non-clickable range cards because destination pages do not exist yet.
+**Current chunk: 4 - product browsing.** Build the four-range navigation and detailed family pages in smaller substeps. Preserve printed blank cells exactly as empty. uPVC and cPVC now have working range links; SWR and agriculture cards remain non-clickable while their pages are pending, with the full catalogue available below the cards.
 
 **Completed substep 4a:** [uPVC elbow family pattern](PRODUCT_PAGE_PATTERN.md). It established a reusable typed table, one real family route, and a working homepage link. The whole product-browsing chunk remains open.
 
@@ -42,7 +42,9 @@ Only one chunk should be implemented and verified at a time. Do not mark a chunk
 
 **Completed substep 4d:** [uPVC reducing tee](UPVC_REDUCING_TEE_SLICE.md). Its 20-row PDF page-3 table has a separate source link and retains four printed blank packing cells. Product browsing remains open.
 
-**Next substep 4e:** verify and add one further uPVC family from the catalogue, or begin a new range overview after reviewing which product navigation helps customers most. Document the chosen source and scope first; do not bulk-import unreviewed tables.
+**Completed substep 4e:** [cPVC overview and elbows](CPVC_START_SLICE.md). The second range has one live 14-row family page and an honest catalogue link for its pending pipe tables. Product browsing remains open.
+
+**Next substep 4f:** review cPVC pipe table variants on PDF page 6 and choose one bounded pipe group for the next page, or open SWR navigation if breadth is more valuable. Document the source and scope before coding.
 
 ## Action and decision log
 
@@ -61,6 +63,7 @@ Only one chunk should be implemented and verified at a time. Do not mark a chunk
 | 2026-09-26 | Add the uPVC range page and Tee/Cross tee detail page, reusing a family layout component. | Make range browsing functional while limiting data entry to a second verified PDF section. | Nine Tee and three Cross tee rows checked against PDF page 2; desktop/mobile and local route/asset checks passed. No new imagery generated. |
 | 2026-09-26 | Add uPVC pipes with four distinct printed tables and a pipe-specific data shape. | Preserve separate 3 m/6 m lengths and SCH-40/SCH-80 rate columns without forcing them into the fittings schema. | Eighteen rows checked on PDF page 2; build, desktop/narrow layout and local route/asset checks passed. No image generation. |
 | 2026-09-26 | Add a separate reducing-tee page from PDF page 3. | Preserve its longer paired-size table and make unprinted packing values visible for client review. | All 20 rows checked; four blank cells retained; build, desktop/mobile and local link/asset checks passed. No image generation. |
+| 2026-09-26 | Open the cPVC range with a verified elbow family and parameterize the shared fittings layout. | Make a second homepage range navigable without publishing unchecked pipe and fitting tables. | Fourteen page-6 rows checked; production build, desktop/mobile and local page/asset checks passed. No image generation. |
 
 ## Open decisions for later chunks
 

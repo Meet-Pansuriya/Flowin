@@ -1,0 +1,17 @@
+---
+import ProductFamilyPage from '../../../components/ProductFamilyPage.astro';
+import { cpvcElbows } from '../../../data/productFamilies';
+---
+
+<ProductFamilyPage
+  rangeName="cPVC"
+  rangeSlug="cpvc"
+  catalogueSection="ASTM D-2846 SDR-11"
+  familyName="Elbows"
+  lead="Elbow and 45° elbow fittings, with sizes, packing and rates listed in Flowin's 2026 catalogue."
+  description="Explore Flowin cPVC plumbing elbow sizes, packing and 2026 catalogue rates."
+  imageSrc="/images/cpvc-elbow-legacy.jpg"
+  imageAlt="Flowin's legacy image of a tan cPVC elbow fitting"
+  variants={cpvcElbows}
+  sourcePage={6}
+/>
