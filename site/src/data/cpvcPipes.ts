@@ -1,3 +1,5 @@
+import type { SchedulePipeGroup } from './schedulePipes';
+
 export interface CpvcPipeRow {
   inch: string;
   mm: string;
@@ -76,6 +78,33 @@ export const cpvcIsiPipes: CpvcPipeGroup[] = [
       { inch: '1 1/4″', mm: '32', bagPacking: '15', sdr11Rate: '651.00', sdr135Rate: '555.60' },
       { inch: '1 1/2″', mm: '40', bagPacking: '10', sdr11Rate: '948.00', sdr135Rate: '767.00' },
       { inch: '2″', mm: '50', bagPacking: '8', sdr11Rate: '1688.00', sdr135Rate: '1406.00' },
+    ],
+  },
+];
+
+// Source: Flowin Price list 2026.pdf, PDF page 6, two ASTM F-441-labelled tables.
+// These larger-size SCH-40/SCH-80 rates are separate from the SDR groups above.
+export const cpvcSchedulePipes: SchedulePipeGroup[] = [
+  {
+    id: 'f441-three-metre',
+    title: 'ASTM F-441-labelled / 3 m',
+    length: '3 m',
+    note: 'Printed heading: CPVC PIPE AS PER ASTM F-441 / 3 MTR.',
+    rows: [
+      { inch: '2 1/2″', mm: '65', bagPacking: '5', sch40Rate: '1875', sch80Rate: '2400' },
+      { inch: '3″', mm: '80', bagPacking: '3', sch40Rate: '2437.5', sch80Rate: '3188' },
+      { inch: '4″', mm: '100', bagPacking: '2', sch40Rate: '3375', sch80Rate: '4688' },
+    ],
+  },
+  {
+    id: 'f441-five-metre',
+    title: 'ASTM F-441-labelled / 5 m',
+    length: '5 m',
+    note: 'Printed heading: CPVC PIPE AS PER ASTM F-441 / 5 MTR.',
+    rows: [
+      { inch: '2 1/2″', mm: '65', bagPacking: '5', sch40Rate: '3125', sch80Rate: '4000' },
+      { inch: '3″', mm: '80', bagPacking: '3', sch40Rate: '4063', sch80Rate: '5314' },
+      { inch: '4″', mm: '100', bagPacking: '2', sch40Rate: '5625', sch80Rate: '7814' },
     ],
   },
 ];

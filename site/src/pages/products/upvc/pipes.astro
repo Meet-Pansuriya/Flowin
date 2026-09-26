@@ -27,7 +27,7 @@ const catalogueUrl = '/catalogue/flowin-price-list-2026.pdf#page=2';
       <div class="wrap">
         <div class="product-data-intro"><span class="eyebrow">Catalogue details</span><h2 id="sizes-title">Lengths, sizes<br />and schedules.</h2><p>The printed SCH-40-titled tables also have SCH-80 rate columns. These labels are retained as published, without interpreting them as an independent compliance claim.</p></div>
         <div class="variant-grid">
-          {upvcPipeGroups.map((group, index) => <PipeRateTable group={group} number={String(index + 1).padStart(2, '0')} />)}
+          {upvcPipeGroups.map((group, index) => <PipeRateTable group={group} number={String(index + 1).padStart(2, '0')} sourcePage={2} />)}
         </div>
         <div class="source-band"><p>Source: Flowin Price list 2026, PDF page 2. Rates are per piece as printed; no currency symbol has been inferred. The original catalogue is definitive.</p><a href={catalogueUrl} target="_blank" rel="noopener">Open original tables ↗</a></div>
       </div>

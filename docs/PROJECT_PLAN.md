@@ -48,7 +48,9 @@ Only one chunk should be implemented and verified at a time. Do not mark a chunk
 
 **Completed substep 4g:** [cPVC ISI-labelled SDR pipes](CPVC_ISI_PIPES_SLICE.md). All four page-6 SDR tables are now shown, with the ISI and NON ISI printed groups kept separate. The larger F-441 schedule tables remain in the PDF; product browsing stays open.
 
-**Next substep 4h:** verify the two cPVC ASTM F-441-labelled schedule tables on page 6 and decide whether to complete that pipe page or open the SWR range. Document the selected narrow scope before coding.
+**Completed substep 4h:** [cPVC F-441-labelled schedule pipes](CPVC_SCHEDULE_PIPES_SLICE.md). All six page-6 pipe tables are live, with four SDR and two schedule groups kept distinct. Product browsing remains open for other families and ranges.
+
+**Next substep 4i:** open SWR drainage navigation after checking the ring-fit and self-fit page structures, and implement one verified family or system page. Document the narrow scope and source before coding.
 
 ## Action and decision log
 
@@ -70,6 +72,7 @@ Only one chunk should be implemented and verified at a time. Do not mark a chunk
 | 2026-09-26 | Open the cPVC range with a verified elbow family and parameterize the shared fittings layout. | Make a second homepage range navigable without publishing unchecked pipe and fitting tables. | Fourteen page-6 rows checked; production build, desktop/mobile and local page/asset checks passed. No image generation. |
 | 2026-09-26 | Add the two cPVC non-ISI-labelled pipe tables from page 6. | Make the pipe card useful while keeping the different SDR, ISI and F-441 groups distinct. | Twelve rows checked; mixed rate precision preserved; build, desktop/mobile and route/asset checks passed. No image generation. |
 | 2026-09-26 | Add the two cPVC ISI-labelled SDR pipe tables from page 6. | Complete the printed SDR groups without conflating them with the F-441 schedule tables. | Twelve more rows checked; four six-row SDR tables now live; build and desktop/mobile checks passed. No image generation. |
+| 2026-09-26 | Add the two cPVC F-441-labelled schedule pipe tables from page 6. | Complete the printed cPVC pipe family while preserving distinct SDR and SCH rate headings. | Six rows checked; all six pipe tables live; shared schedule source captions checked for cPVC page 6 and uPVC page 2. No image generation. |
 
 ## Open decisions for later chunks
 

@@ -1,12 +1,13 @@
 ---
-import type { PipeGroup } from '../data/upvcPipes';
+import type { SchedulePipeGroup } from '../data/schedulePipes';
 
 interface Props {
-  group: PipeGroup;
+  group: SchedulePipeGroup;
   number: string;
+  sourcePage: number;
 }
 
-const { group, number } = Astro.props;
+const { group, number, sourcePage } = Astro.props;
 ---
 
 <section class="variant-section" id={group.id} aria-labelledby={`${group.id}-title`}>
@@ -14,7 +15,7 @@ const { group, number } = Astro.props;
   <p class="table-hint">Swipe to see all columns <span aria-hidden="true">→</span></p>
   <div class="table-scroll" role="region" aria-label={`${group.title} size and rate table`} tabindex="0">
     <table>
-      <caption class="sr-only">{group.title}: size, bag packing and SCH-40/SCH-80 rates per piece - Flowin 2026 catalogue page 2</caption>
+      <caption class="sr-only">{group.title}: size, bag packing and SCH-40/SCH-80 rates per piece - Flowin 2026 catalogue page {sourcePage}</caption>
       <thead><tr><th scope="col">Size (inch)</th><th scope="col">Size (mm)</th><th scope="col">Pkg. bag</th><th scope="col">SCH-40 rate / pc.</th><th scope="col">SCH-80 rate / pc.</th></tr></thead>
       <tbody>
         {group.rows.map((row) => <tr><th scope="row">{row.inch}</th><td>{row.mm}</td><td>{row.bagPacking}</td><td>{row.sch40Rate}</td><td>{row.sch80Rate}</td></tr>)}

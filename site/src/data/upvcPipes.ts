@@ -1,23 +1,9 @@
-export interface PipeRow {
-  inch: string;
-  mm: string;
-  bagPacking: string;
-  sch40Rate: string;
-  sch80Rate: string;
-}
-
-export interface PipeGroup {
-  id: string;
-  title: string;
-  length: string;
-  note: string;
-  rows: PipeRow[];
-}
+import type { SchedulePipeGroup } from './schedulePipes';
 
 // Source: Flowin Price list 2026.pdf, PDF page 2, uPVC plumbing pipes.
 // The first two printed headings say SCH-40, but both tables have SCH-40 and SCH-80 rates.
 // Rates are copied as strings, without an inferred currency. Empty source cells stay empty.
-export const upvcPipeGroups: PipeGroup[] = [
+export const upvcPipeGroups: SchedulePipeGroup[] = [
   {
     id: 'three-metre',
     title: 'uPVC pipe SCH-40 / 3 m',
