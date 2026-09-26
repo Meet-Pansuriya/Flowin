@@ -44,7 +44,9 @@ Only one chunk should be implemented and verified at a time. Do not mark a chunk
 
 **Completed substep 4e:** [cPVC overview and elbows](CPVC_START_SLICE.md). The second range has one live 14-row family page and an honest catalogue link for its pending pipe tables. Product browsing remains open.
 
-**Next substep 4f:** review cPVC pipe table variants on PDF page 6 and choose one bounded pipe group for the next page, or open SWR navigation if breadth is more valuable. Document the source and scope before coding.
+**Completed substep 4f:** [cPVC non-ISI pipes](CPVC_PIPES_SLICE.md). The two PDF page-6 SDR tables are live with their printed rate precision. The ISI and ASTM F-441 pipe groups remain in the PDF; product browsing stays open.
+
+**Next substep 4g:** choose either the next cPVC pipe variant group or a SWR range entry point after reviewing the catalogue structure. Document one bounded slice before coding; avoid implying the partial cPVC pipe page covers all variants.
 
 ## Action and decision log
 
@@ -64,6 +66,7 @@ Only one chunk should be implemented and verified at a time. Do not mark a chunk
 | 2026-09-26 | Add uPVC pipes with four distinct printed tables and a pipe-specific data shape. | Preserve separate 3 m/6 m lengths and SCH-40/SCH-80 rate columns without forcing them into the fittings schema. | Eighteen rows checked on PDF page 2; build, desktop/narrow layout and local route/asset checks passed. No image generation. |
 | 2026-09-26 | Add a separate reducing-tee page from PDF page 3. | Preserve its longer paired-size table and make unprinted packing values visible for client review. | All 20 rows checked; four blank cells retained; build, desktop/mobile and local link/asset checks passed. No image generation. |
 | 2026-09-26 | Open the cPVC range with a verified elbow family and parameterize the shared fittings layout. | Make a second homepage range navigable without publishing unchecked pipe and fitting tables. | Fourteen page-6 rows checked; production build, desktop/mobile and local page/asset checks passed. No image generation. |
+| 2026-09-26 | Add the two cPVC non-ISI-labelled pipe tables from page 6. | Make the pipe card useful while keeping the different SDR, ISI and F-441 groups distinct. | Twelve rows checked; mixed rate precision preserved; build, desktop/mobile and route/asset checks passed. No image generation. |
 
 ## Open decisions for later chunks
 

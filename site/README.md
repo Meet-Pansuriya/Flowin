@@ -1,6 +1,6 @@
 # Flowin Astro site
 
-This is the isolated Astro production-site project. The homepage implements the approved editorial design. The uPVC overview is at `/products/upvc/`, with detailed pipe, elbow, tee and reducing-tee pages. The cPVC overview is at `/products/cpvc/`, with an elbow page and catalogue links for pending families. The fittings table pattern is documented in [the product-page pattern](../docs/PRODUCT_PAGE_PATTERN.md), and the separate uPVC pipe tables in [the pipe slice](../docs/UPVC_PIPES_SLICE.md). Other families remain to be built. Email and phone are intentionally pending, and pages are `noindex` until launch readiness.
+This is the isolated Astro production-site project. The homepage implements the approved editorial design. The uPVC overview is at `/products/upvc/`, with detailed pipe, elbow, tee and reducing-tee pages. The cPVC overview is at `/products/cpvc/`, with elbow and non-ISI pipe pages; other cPVC pipe groups are still in the catalogue. The fittings table pattern is documented in [the product-page pattern](../docs/PRODUCT_PAGE_PATTERN.md), and the separate pipe tables in [the uPVC pipe slice](../docs/UPVC_PIPES_SLICE.md) and [cPVC pipe slice](../docs/CPVC_PIPES_SLICE.md). Other families remain to be built. Email and phone are intentionally pending, and pages are `noindex` until launch readiness.
 
 Requires Node.js 22.12.0 or newer (even-numbered release). From this directory:
 

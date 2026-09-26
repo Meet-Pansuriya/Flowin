@@ -1,0 +1,24 @@
+---
+import type { CpvcPipeGroup } from '../data/cpvcPipes';
+
+interface Props {
+  group: CpvcPipeGroup;
+  number: string;
+}
+
+const { group, number } = Astro.props;
+---
+
+<section class="variant-section" id={group.id} aria-labelledby={`${group.id}-title`}>
+  <div class="variant-heading"><span class="variant-index">{number} / PIPE · {group.length}</span><h2 id={`${group.id}-title`}>{group.title}</h2><p>{group.note}</p></div>
+  <p class="table-hint">Swipe to see all columns <span aria-hidden="true">→</span></p>
+  <div class="table-scroll" role="region" aria-label={`${group.title} size and rate table`} tabindex="0">
+    <table>
+      <caption class="sr-only">{group.title}: size, bag packing and SDR-11/SDR-13.5 rates per piece - Flowin 2026 catalogue page 6</caption>
+      <thead><tr><th scope="col">Size (inch)</th><th scope="col">Size (mm)</th><th scope="col">Pkg. bag</th><th scope="col">SDR-11 rate / pc.</th><th scope="col">SDR-13.5 rate / pc.</th></tr></thead>
+      <tbody>
+        {group.rows.map((row) => <tr><th scope="row">{row.inch}</th><td>{row.mm}</td><td>{row.bagPacking}</td><td>{row.sdr11Rate}</td><td>{row.sdr135Rate}</td></tr>)}
+      </tbody>
+    </table>
+  </div>
+</section>
