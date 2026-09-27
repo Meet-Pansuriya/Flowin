@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+---
+
+<BaseLayout title="Applications | Flowin Pipes & Fittings" description="Explore Flowin piping ranges by application: plumbing, drainage and agriculture. Find the relevant product systems and 2026 catalogue sections.">
+  <SiteHeader />
+  <main>
+    <div class="wrap product-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><span aria-current="page">Applications</span></div>
+    <section class="wrap applications-hero" aria-labelledby="applications-title">
+      <span class="eyebrow">Applications</span>
+      <h1 id="applications-title">Start with the job.<br />Find the range.</h1>
+      <p>Flowin's catalogue covers residential, commercial, agricultural and industrial applications. Use the application paths below to explore the relevant product systems; confirm the final material, size and joint specification for your project.</p>
+    </section>
+
+    <section class="wrap application-paths" aria-label="Explore by application">
+      <article class="application-path">
+        <div class="application-path-index"><span>01 / WATER SUPPLY</span><span class="application-path-mark" aria-hidden="true">↗</span></div>
+        <div class="application-path-main"><h2>Plumbing</h2><p>Explore pipes and fittings for plumbing runs and connections. The catalogue separates uPVC and cPVC into distinct ranges and variants.</p></div>
+        <div class="application-path-links"><a href="/products/upvc/">Explore uPVC plumbing <span aria-hidden="true">↗</span></a><a href="/products/cpvc/">Explore cPVC plumbing <span aria-hidden="true">↗</span></a></div>
+      </article>
+      <article class="application-path">
+        <div class="application-path-index"><span>02 / WASTE &amp; DRAINAGE</span><span class="application-path-mark" aria-hidden="true">↗</span></div>
+        <div class="application-path-main"><h2>Drainage</h2><p>Explore the SWR range for drainage layouts. Ring-fit and self-fit are separate systems in the catalogue, each with its own pipes and fittings.</p></div>
+        <div class="application-path-links"><a href="/products/swr/">Explore SWR drainage <span aria-hidden="true">↗</span></a><a href="/products/swr/ring-fit-pipes/">Ring-fit pipes <span aria-hidden="true">↗</span></a><a href="/products/swr/self-fit-pipes/">Self-fit pipes <span aria-hidden="true">↗</span></a></div>
+      </article>
+      <article class="application-path">
+        <div class="application-path-index"><span>03 / AGRICULTURE</span><span class="application-path-mark" aria-hidden="true">↗</span></div>
+        <div class="application-path-main"><h2>Agricultural use</h2><p>Browse Flowin's agriculture pipe and fitting range, including the lengths and labelled pressure or class groups printed in the price list.</p></div>
+        <div class="application-path-links"><a href="/products/agriculture/">Explore agriculture range <span aria-hidden="true">↗</span></a><a href="/products/agriculture/pipes/">Compare pipe groups <span aria-hidden="true">↗</span></a></div>
+      </article>
+    </section>
+
+    <section class="application-guidance" aria-labelledby="guidance-title"><div class="wrap application-guidance-inner"><div><span class="eyebrow">Choosing a system</span><h2 id="guidance-title">Application first.<br />Specification next.</h2></div><div><p>These paths are a starting point for browsing, not an engineering specification. Check the relevant catalogue tables for printed sizes, variants and rates, and confirm suitability for your installation requirements before selection.</p><a class="solid-btn" href="/catalogue/flowin-price-list-2026.pdf" target="_blank" rel="noopener">View the 2026 catalogue <span aria-hidden="true">↗</span></a></div></div></section>
+  </main>
+  <SiteFooter />
+</BaseLayout>
