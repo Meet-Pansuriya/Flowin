@@ -1,0 +1,25 @@
+---
+interface Props { kind: 'upvc' | 'cpvc' | 'swr' | 'agriculture'; }
+const { kind } = Astro.props;
+---
+{kind === 'upvc' && <svg viewBox="0 0 120 120" focusable="false" aria-hidden="true">
+  <path d="M45 17h30v31h29v25H75v30H45V73H16V48h29z" />
+  <path d="M45 22c8 5 22 5 30 0M45 98c8-5 22-5 30 0M20 48c5 7 5 18 0 25M100 48c-5 7-5 18 0 25" />
+  <path d="M48 31h24M48 88h24M29 51v19M91 51v19" />
+</svg>}
+{kind === 'cpvc' && <svg viewBox="0 0 120 120" focusable="false" aria-hidden="true">
+  <path d="M29 19h29v31c0 9 7 16 16 16h27v29H74c-25 0-45-20-45-45z" />
+  <path d="M25 19h37v13H25zM88 62h13v37H88z" />
+  <path d="M30 37h27M36 19v13M51 19v13M74 67v28M88 72h13" />
+</svg>}
+{kind === 'swr' && <svg viewBox="0 0 120 120" focusable="false" aria-hidden="true">
+  <path d="M27 15h32v35c0 12 9 21 21 21h27v32H80c-30 0-53-23-53-53z" />
+  <path d="M22 15h42v17H22zM89 67h18v40H89z" />
+  <path d="M27 27h32M89 72v30M35 35h16" />
+  <circle cx="43" cy="23" r="4" />
+</svg>}
+{kind === 'agriculture' && <svg viewBox="0 0 120 120" focusable="false" aria-hidden="true">
+  <path d="M16 32h76v20H16zM16 68h76v20H16z" />
+  <path d="M92 27h13v30H92zM92 63h13v30H92zM105 36h7v12h-7zM105 72h7v12h-7z" />
+  <path d="M25 32v20M25 68v20M83 32v20M83 68v20M33 42h42M33 78h42" />
+</svg>}

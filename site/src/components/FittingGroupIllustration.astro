@@ -1,0 +1,19 @@
+---
+interface Props { range: 'upvc' | 'cpvc'; }
+const { range } = Astro.props;
+---
+{range === 'upvc' ? <svg viewBox="0 0 500 500" role="img" aria-label="Illustrative reducer coupler, end cap and reducer bush">
+  <defs><linearGradient id="upvc-items" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#cbd0ca"/></linearGradient></defs>
+  <path d="M55 95h135v200H55zM75 295h95v65H75z" fill="url(#upvc-items)" stroke="#838b83" stroke-width="4"/>
+  <ellipse cx="122" cy="95" rx="67" ry="20" fill="#e3e7e1" stroke="#838b83" stroke-width="4"/><ellipse cx="122" cy="95" rx="47" ry="12" fill="#666d66"/>
+  <path d="M275 135h140v180H275z" fill="url(#upvc-items)" stroke="#838b83" stroke-width="4"/><ellipse cx="345" cy="135" rx="70" ry="20" fill="#e3e7e1" stroke="#838b83" stroke-width="4"/>
+  <path d="M268 380h143v43H268zM286 423h107v34H286z" fill="url(#upvc-items)" stroke="#838b83" stroke-width="4"/><ellipse cx="340" cy="380" rx="72" ry="19" fill="#e3e7e1" stroke="#838b83" stroke-width="4"/><ellipse cx="340" cy="380" rx="49" ry="11" fill="#666d66"/>
+  <path d="M62 145h120M282 184h126M278 395h126" stroke="#c64d18" stroke-width="5"/>
+</svg> : <svg viewBox="0 0 500 500" role="img" aria-label="Illustrative cPVC tee, coupler and reducing elbow">
+  <defs><linearGradient id="cpvc-items" x2="1" y2="1"><stop stop-color="#f7ecce"/><stop offset="1" stop-color="#d5c29e"/></linearGradient></defs>
+  <path d="M90 65h95v105h65v88h-65v118H90V258H30v-88h60z" fill="url(#cpvc-items)" stroke="#9c8c72" stroke-width="4"/>
+  <ellipse cx="137" cy="65" rx="47" ry="15" fill="#ead7b0" stroke="#9c8c72" stroke-width="4"/><ellipse cx="137" cy="65" rx="33" ry="9" fill="#8e7752"/>
+  <path d="M306 75h105v158H306z" fill="url(#cpvc-items)" stroke="#9c8c72" stroke-width="4"/><ellipse cx="358" cy="75" rx="52" ry="16" fill="#ead7b0" stroke="#9c8c72" stroke-width="4"/><ellipse cx="358" cy="75" rx="37" ry="10" fill="#8e7752"/>
+  <path d="M305 303h94v55c0 30 25 55 55 55h18v53h-18c-59 0-107-48-107-107v-7h-42z" fill="url(#cpvc-items)" stroke="#9c8c72" stroke-width="4"/>
+  <path d="M97 82h81M314 91h88M312 321h79" stroke="#c64d18" stroke-width="5"/>
+</svg>}

@@ -3,6 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import SiteHeader from './SiteHeader.astro';
 import SiteFooter from './SiteFooter.astro';
 import RateTable from './RateTable.astro';
+import FittingGroupIllustration from './FittingGroupIllustration.astro';
 import type { ProductVariant } from '../data/productFamilies';
 
 interface Props {
@@ -36,7 +37,7 @@ const additionalCatalogueUrl = additionalSourcePage ? `/catalogue/flowin-price-l
         <p class="product-standard">Catalogue section: <strong>{catalogueSection}</strong></p>
         <div class="product-actions"><a class="solid-btn" href="#sizes">View sizes &amp; rates <span aria-hidden="true">↓</span></a><a class="text-link" href={catalogueUrl} target="_blank" rel="noopener">See catalogue page {sourcePage} <span aria-hidden="true">↗</span></a></div>
       </div>
-      <figure class="product-visual">{imageSrc ? <img src={imageSrc} alt={imageAlt ?? ''} width="300" height="300" /> : <svg viewBox="0 0 500 500" role="img" aria-label="Illustrative line diagram of plumbing fittings"><path d="M80 90h100v100h75v105h-75v115H80V295H20V190h60zM320 80h95v110h45v105h-45v115h-95V295h-45V190h45z" fill="#d9ddd7" stroke="#818982" stroke-width="4"/><ellipse cx="130" cy="90" rx="50" ry="15" fill="#c9d0c8" stroke="#818982" stroke-width="3"/><ellipse cx="367" cy="80" rx="48" ry="14" fill="#c9d0c8" stroke="#818982" stroke-width="3"/><path d="M20 245h60M180 245h75M275 245h45M415 245h45" stroke="#c64d18" stroke-width="5"/></svg>}<figcaption>{imageSrc ? "Product image from Flowin's earlier website." : 'Illustrative fitting diagram; not product photography.'}</figcaption></figure>
+      <figure class="product-visual">{imageSrc ? <img src={imageSrc} alt={imageAlt ?? ''} width="300" height="300" /> : <FittingGroupIllustration range={rangeSlug === 'cpvc' ? 'cpvc' : 'upvc'} />}<figcaption>{imageSrc ? "Product image from Flowin's earlier website." : 'Illustrative fitting diagram; not product photography.'}</figcaption></figure>
     </section>
 
     <nav class="wrap table-jump" aria-label={`${familyName} tables`}>
