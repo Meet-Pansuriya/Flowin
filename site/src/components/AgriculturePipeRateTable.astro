@@ -1,0 +1,14 @@
+---
+import type { AgriculturePipeGroup } from '../data/agriculture';
+interface Props { group: AgriculturePipeGroup; number: string; }
+const { group, number } = Astro.props;
+---
+<section class="variant-section" id={group.id} aria-labelledby={`${group.id}-title`}>
+  <div class="variant-heading"><span class="variant-index">{number} / AGRICULTURE PIPES</span><h2 id={`${group.id}-title`}>{group.name}</h2><p>Rates per piece in the two printed pressure or class columns.</p></div>
+  <p class="table-hint">Swipe to see all columns <span aria-hidden="true">→</span></p>
+  <div class="table-scroll" role="region" aria-label={`${group.name} size and rate table`} tabindex="0"><table>
+    <caption class="sr-only">{group.name} size and rate — Flowin 2026 catalogue page 14</caption>
+    <thead><tr><th scope="col">Size (inch)</th><th scope="col">Size (mm)</th><th scope="col">{group.firstLabel}</th><th scope="col">{group.secondLabel}</th></tr></thead>
+    <tbody>{group.rows.map((row) => <tr><th scope="row">{row.inch}</th><td>{row.mm}</td><td>{row.firstRate}</td><td>{row.secondRate}</td></tr>)}</tbody>
+  </table></div>
+</section>

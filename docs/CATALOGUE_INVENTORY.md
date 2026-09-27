@@ -51,7 +51,7 @@ This hierarchy is a proposal for chunk 4, not a locked implementation or a claim
 
 ## Revised-edition reconciliation
 
-The 2026-09-27 edition changes some existing web-table values: uPVC elbow and tee rates/packing, the larger uPVC ASTM F-441 pipe rates, most cPVC SDR pipe rates, the cPVC 3-inch F-441 SCH-40 rate, the first two cPVC elbow rates, SWR ring-fit 75 mm coupler packing, and all three SWR self-fit Nahani trap rates. Page 13 also changes PVC solvent size, packing and rates; agriculture page 14 changes multiple printed values. Those page-13 and agriculture products do not yet have web tables. The website PDF download and web-table source links now use this edition; the earlier PDF is retained only in `design/assets/`.
+The 2026-09-27 edition changes some existing web-table values: uPVC elbow and tee rates/packing, the larger uPVC ASTM F-441 pipe rates, most cPVC SDR pipe rates, the cPVC 3-inch F-441 SCH-40 rate, the first two cPVC elbow rates, SWR ring-fit 75 mm coupler packing, and all three SWR self-fit Nahani trap rates. Page 13 also changes PVC solvent size, packing and rates; agriculture page 14 changes multiple printed values. The page-13 and page-14 web tables now follow this revised edition, retaining unprinted cells as blanks. The website PDF download and web-table source links use this edition; the earlier PDF is retained only in `design/assets/`.
 
 ## Outcome of the initial inventory
 

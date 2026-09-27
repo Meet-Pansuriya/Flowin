@@ -32,7 +32,7 @@ Only one chunk should be implemented and verified at a time. Do not mark a chunk
 
 **Completed chunk: 3 - homepage.** The approved demo is now implemented in Astro with separate layout, header, range-card, and footer components. The logo, illustrative warehouse image, and 2026 PDF are served from `site/public/`. Contact details remain visibly pending; the demo's invented email was not carried over. The page has `noindex` until launch readiness. Production build passed; desktop and mobile browser checks, mobile-menu behavior, and local asset/PDF responses passed.
 
-**Current chunk: 4 - product browsing.** Build the four-range navigation and detailed family pages in smaller substeps. Preserve printed blank cells exactly as empty. uPVC, cPVC and SWR now have working range links; agriculture remains non-clickable while its pages are pending, with the full catalogue available below the cards.
+**Current chunk: 4 - product browsing.** All four ranges now have working links and verified family pages. Preserve printed blank cells exactly as empty. Further uPVC and cPVC families remain catalogue-only until transcribed and checked.
 
 **Completed substep 4a:** [uPVC elbow family pattern](PRODUCT_PAGE_PATTERN.md). It established a reusable typed table, one real family route, and a working homepage link. The whole product-browsing chunk remains open.
 
@@ -67,6 +67,8 @@ Only one chunk should be implemented and verified at a time. Do not mark a chunk
 **Completed substep 4p:** [SWR self-fit core fittings](SWR_SELF_FIT_CORE_FITTINGS_SLICE.md). All ten page-11 fitting tables are live as one clearly separated, nineteen-row batch; page-12 accessories and solvent remain.
 
 **Completed reconciliation 4q:** [Revised FPPL catalogue](FPPL_2026_RECONCILIATION.md). The 16-page edition supplied on 2026-09-27 is now the website download and current source. Existing web tables with changed rates or packing have been updated, and live catalogue links point to the new PDF pages. The earlier 14-page edition is retained for audit. Page-13 self-fit accessories and agriculture web pages are still pending.
+
+**Completed grouped substep 4r:** [SWR self-fit accessories and agriculture](SWR_SELF_FIT_ACCESSORIES_AND_AGRICULTURE_SLICE.md). Page-13 fittings and solvent plus page-14 pipes and fittings are now source-checked web tables. The homepage's fourth range card is linked. The product-browsing chunk remains open for other catalogue families.
 
 ## Action and decision log
 
