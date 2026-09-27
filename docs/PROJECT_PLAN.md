@@ -70,6 +70,8 @@ Only one chunk should be implemented and verified at a time. Do not mark a chunk
 
 **Completed grouped substep 4r:** [SWR self-fit accessories and agriculture](SWR_SELF_FIT_ACCESSORIES_AND_AGRICULTURE_SLICE.md). Page-13 fittings and solvent plus page-14 pipes and fittings are now source-checked web tables. The homepage's fourth range card is linked. The product-browsing chunk remains open for other catalogue families.
 
+**Completed grouped substep 4s:** [More uPVC and cPVC fittings](MORE_PLUMBING_FITTINGS_SLICE.md). Two grouped family pages add six printed tables and 54 size rows from PDF pages 4 and 7. Remaining fitting families are still catalogue-only; product browsing remains open.
+
 ## Action and decision log
 
 | Date | Action / decision | Why | Result |
