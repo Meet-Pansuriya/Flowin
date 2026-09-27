@@ -39,6 +39,11 @@ const additionalCatalogueUrl = additionalSourcePage ? `/catalogue/flowin-price-l
       <figure class="product-visual">{imageSrc ? <img src={imageSrc} alt={imageAlt ?? ''} width="300" height="300" /> : <svg viewBox="0 0 500 500" role="img" aria-label="Illustrative line diagram of plumbing fittings"><path d="M80 90h100v100h75v105h-75v115H80V295H20V190h60zM320 80h95v110h45v105h-45v115h-95V295h-45V190h45z" fill="#d9ddd7" stroke="#818982" stroke-width="4"/><ellipse cx="130" cy="90" rx="50" ry="15" fill="#c9d0c8" stroke="#818982" stroke-width="3"/><ellipse cx="367" cy="80" rx="48" ry="14" fill="#c9d0c8" stroke="#818982" stroke-width="3"/><path d="M20 245h60M180 245h75M275 245h45M415 245h45" stroke="#c64d18" stroke-width="5"/></svg>}<figcaption>{imageSrc ? "Product image from Flowin's earlier website." : 'Illustrative fitting diagram; not product photography.'}</figcaption></figure>
     </section>
 
+    <nav class="wrap table-jump" aria-label={`${familyName} tables`}>
+      <span class="table-jump-label">Jump to a table</span>
+      {variants.map((variant) => <a href={`#${variant.id}`}>{variant.name}<span aria-hidden="true"> ↘</span></a>)}
+    </nav>
+
     <section class="product-data" id="sizes" aria-labelledby="sizes-title">
       <div class="wrap">
         <div class="product-data-intro"><span class="eyebrow">Catalogue details</span><h2 id="sizes-title">The sizes behind<br />the system.</h2><p>Rates are per piece as listed in the supplied 2026 price list. The original catalogue remains the definitive reference.</p></div>
