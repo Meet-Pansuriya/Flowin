@@ -127,6 +127,7 @@ h1{font-size:clamp(53px,6.3vw,102px);font-weight:500;line-height:1.08;max-width:
 .source-band{display:flex;align-items:center;justify-content:space-between;gap:30px;border-top:1px solid #cccac3;margin-top:33px;padding-top:20px;font-size:11px;color:#73756f}
 .source-band p{margin:0}
 .source-band a{color:var(--ink);font-weight:700;border-bottom:1px solid currentColor;padding-bottom:4px;white-space:nowrap}
+.source-band div{display:flex;flex-wrap:wrap;gap:12px 20px}
 .family-outro{padding-block:120px;display:grid;grid-template-columns:1fr .7fr;gap:60px;align-items:end}
 .family-outro h2{font-size:clamp(44px,4.4vw,70px);font-weight:500;line-height:1.15;margin:21px 0 0}
 .family-outro p{font-size:13px;line-height:1.7;color:#62645f;max-width:430px;margin-bottom:25px}

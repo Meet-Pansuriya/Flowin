@@ -8,7 +8,7 @@ const { group, number } = Astro.props;
   <div class="variant-heading"><span class="variant-index">{number} / RING-FIT PIPE</span><h2 id={`${group.id}-title`}>{group.length} <small>({group.feet})</small></h2><p>Single-socket and double-socket rates per piece.</p></div>
   <p class="table-hint">Swipe to see all columns <span aria-hidden="true">→</span></p>
   <div class="table-scroll" role="region" aria-label={`${group.length} ring-fit pipe rates`} tabindex="0">
-    <table><caption class="sr-only">{group.length} SWR ring-fit pipe sizes and rates from Flowin 2026 catalogue page 10</caption>
+    <table><caption class="sr-only">{group.length} SWR ring-fit pipe sizes and rates from Flowin 2026 catalogue page 11</caption>
       <thead><tr><th scope="col">Size (inch)</th><th scope="col">Size (mm)</th><th scope="col">Single socket / pc.</th><th scope="col">Double socket / pc.</th></tr></thead>
       <tbody>{group.rows.map((row) => <tr><th scope="row">{row.inch}</th><td>{row.mm}</td><td>{row.singleSocketRate}</td><td>{row.doubleSocketRate}</td></tr>)}</tbody>
     </table>

@@ -16,10 +16,12 @@ interface Props {
   imageAlt: string;
   variants: ProductVariant[];
   sourcePage: number;
+  additionalSourcePage?: number;
 }
 
-const { rangeName, rangeSlug, catalogueSection, familyName, lead, description, imageSrc, imageAlt, variants, sourcePage } = Astro.props;
+const { rangeName, rangeSlug, catalogueSection, familyName, lead, description, imageSrc, imageAlt, variants, sourcePage, additionalSourcePage } = Astro.props;
 const catalogueUrl = `/catalogue/flowin-price-list-2026.pdf#page=${sourcePage}`;
+const additionalCatalogueUrl = additionalSourcePage ? `/catalogue/flowin-price-list-2026.pdf#page=${additionalSourcePage}` : undefined;
 ---
 
 <BaseLayout title={`${rangeName} ${familyName} | Flowin Pipes & Fittings`} description={description}>
@@ -43,7 +45,7 @@ const catalogueUrl = `/catalogue/flowin-price-list-2026.pdf#page=${sourcePage}`;
         <div class="variant-grid">
           {variants.map((variant, index) => <RateTable variant={variant} number={String(index + 1).padStart(2, '0')} sourcePage={sourcePage} />)}
         </div>
-        <div class="source-band"><p>Source: Flowin Price list 2026, PDF page {sourcePage}. No currency symbol is added because the supplied table does not specify one.</p><a href={catalogueUrl} target="_blank" rel="noopener">Open original table ↗</a></div>
+        <div class="source-band"><p>Source: Flowin Price list 2026, PDF page {sourcePage}{additionalSourcePage && ` and ${additionalSourcePage}`}. No currency symbol is added because the supplied table does not specify one.</p><div><a href={catalogueUrl} target="_blank" rel="noopener">Open page {sourcePage} ↗</a>{additionalCatalogueUrl && <a href={additionalCatalogueUrl} target="_blank" rel="noopener">Open page {additionalSourcePage} ↗</a>}</div></div>
       </div>
     </section>
 

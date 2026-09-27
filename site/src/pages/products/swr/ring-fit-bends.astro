@@ -1,0 +1,21 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import SiteHeader from '../../../components/SiteHeader.astro';
+import SiteFooter from '../../../components/SiteFooter.astro';
+import SwrFittingRateTable from '../../../components/SwrFittingRateTable.astro';
+import { swrRingFitBends } from '../../../data/swrRingFitBends';
+
+const catalogueUrl = '/catalogue/flowin-price-list-2026.pdf#page=11';
+---
+
+<BaseLayout title="SWR ring-fit bends | Flowin Pipes & Fittings" description="Flowin SWR ring-fit 87.5-degree bend and door-bend sizes, box packing and rates from the 2026 catalogue.">
+  <SiteHeader />
+  <main>
+    <div class="wrap product-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/products/swr/">SWR drainage</a><span aria-hidden="true">/</span><span aria-current="page">Ring-fit bends</span></div>
+    <section class="wrap product-hero" aria-labelledby="family-title"><div class="product-hero-copy"><span class="eyebrow">SWR drainage / ring fit</span><h1 id="family-title">Ring-fit<br />bends.</h1><p class="product-lead">Compare Flowin’s 87.5-degree bend and door-bend fittings in 75 mm and 110 mm sizes, including catalogue box packing and per-piece rates.</p><p class="product-standard">Catalogue section: <strong>SWR FITTING (RING FIT)</strong>. These tables cover only the two 87.5-degree bend variants shown here.</p><div class="product-actions"><a class="solid-btn" href="#sizes">View sizes &amp; rates <span aria-hidden="true">↓</span></a><a class="text-link" href={catalogueUrl} target="_blank" rel="noopener">See catalogue page 11 <span aria-hidden="true">↗</span></a></div></div>
+      <figure class="product-visual swr-bend-visual"><svg viewBox="0 0 500 500" role="img" aria-label="Simple line illustration of two ring-fit drainage bends"><defs><linearGradient id="bend-body" x2="1" y2="1"><stop stop-color="#fff" /><stop offset="1" stop-color="#c7c9c5" /></linearGradient></defs><path d="M92 125h110v91c0 79 64 143 143 143h60v-92h-60c-28 0-51-23-51-51v-91z" fill="url(#bend-body)" stroke="#91958f" stroke-width="3"/><ellipse cx="147" cy="125" rx="55" ry="17" fill="#d8dbd6" stroke="#91958f" stroke-width="3"/><ellipse cx="147" cy="125" rx="41" ry="11" fill="#636963"/><path d="M105 132c17 12 67 12 84 0" stroke="#c64d18" stroke-width="5"/><path d="M260 80h99v93c0 54 44 98 98 98h0v92h0c-105 0-190-85-190-190V80z" fill="url(#bend-body)" stroke="#91958f" stroke-width="3"/><ellipse cx="310" cy="80" rx="49" ry="16" fill="#d8dbd6" stroke="#91958f" stroke-width="3"/><ellipse cx="310" cy="80" rx="36" ry="10" fill="#636963"/><path d="M270 87c15 11 56 11 76 0" stroke="#c64d18" stroke-width="5"/></svg><figcaption>Illustrative bend diagram; not a product photograph.</figcaption></figure>
+    </section>
+    <section class="product-data" id="sizes" aria-labelledby="sizes-title"><div class="wrap"><div class="product-data-intro"><span class="eyebrow">Catalogue details</span><h2 id="sizes-title">Sizes, box packing<br />and rates.</h2><p>Both 87.5-degree ring-fit bend tables on page 11 are shown separately. The PDF’s “=” decimal marks are displayed as points; no currency is inferred.</p></div><div class="variant-grid">{swrRingFitBends.map((variant, index) => <SwrFittingRateTable variant={variant} number={String(index + 1).padStart(2, '0')} />)}</div><div class="source-band"><p>Source: Flowin Price list 2026, PDF page 11. Rates are per piece and packing is per box. The original catalogue is definitive.</p><a href={catalogueUrl} target="_blank" rel="noopener">Open original tables ↗</a></div></div></section>
+    <section class="wrap family-outro" aria-labelledby="family-outro-title"><div><span class="eyebrow">More ring-fit products</span><h2 id="family-outro-title">Need pipes or<br />other fittings?</h2></div><div><p>Ring-fit pipes have separate size and socket-rate tables. Shoe bends, tees, reducers and accessories remain available in the original catalogue while their web tables are reviewed.</p><a class="solid-btn" href="/products/swr/ring-fit-pipes/">View ring-fit pipes <span aria-hidden="true">↗</span></a></div></section>
+  </main><SiteFooter />
+</BaseLayout>

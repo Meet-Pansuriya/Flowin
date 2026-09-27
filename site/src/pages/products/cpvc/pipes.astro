@@ -6,7 +6,7 @@ import CpvcPipeRateTable from '../../../components/CpvcPipeRateTable.astro';
 import PipeRateTable from '../../../components/PipeRateTable.astro';
 import { cpvcNonIsiPipes, cpvcIsiPipes, cpvcSchedulePipes } from '../../../data/cpvcPipes';
 
-const catalogueUrl = '/catalogue/flowin-price-list-2026.pdf#page=6';
+const catalogueUrl = '/catalogue/flowin-price-list-2026.pdf#page=7';
 const cpvcSdrPipes = [...cpvcNonIsiPipes, ...cpvcIsiPipes];
 ---
 
@@ -20,27 +20,27 @@ const cpvcSdrPipes = [...cpvcNonIsiPipes, ...cpvcIsiPipes];
         <h1 id="family-title">cPVC<br />pipes.</h1>
         <p class="product-lead">Explore the printed 3 m and 5 m pipe groups, with size, bag packing and separate rates for their SDR or schedule variants.</p>
         <p class="product-standard">Catalogue groups: <strong>NON ISI and ISI ASTM 2846-labelled SDR pipes, plus ASTM F-441-labelled schedule pipes.</strong></p>
-        <div class="product-actions"><a class="solid-btn" href="#sizes">View sizes &amp; rates <span aria-hidden="true">↓</span></a><a class="text-link" href={catalogueUrl} target="_blank" rel="noopener">See catalogue page 6 <span aria-hidden="true">↗</span></a></div>
+        <div class="product-actions"><a class="solid-btn" href="#sizes">View sizes &amp; rates <span aria-hidden="true">↓</span></a><a class="text-link" href={catalogueUrl} target="_blank" rel="noopener">See catalogue page 7 <span aria-hidden="true">↗</span></a></div>
       </div>
       <figure class="product-visual"><img src="/images/cpvc-pipes-legacy.jpg" alt="Flowin's earlier cPVC pipe product image" width="300" height="300" /><figcaption>Product image from Flowin's earlier website.</figcaption></figure>
     </section>
 
     <section class="product-data" id="sizes" aria-labelledby="sizes-title">
       <div class="wrap">
-        <div class="product-data-intro"><span class="eyebrow">Catalogue details</span><h2 id="sizes-title">Lengths, sizes<br />and rates.</h2><p>Six page-6 tables are shown: four SDR groups and two larger-size schedule groups. Printed standard and ISI labels are catalogue identifiers, not independently verified certification claims.</p></div>
+        <div class="product-data-intro"><span class="eyebrow">Catalogue details</span><h2 id="sizes-title">Lengths, sizes<br />and rates.</h2><p>Six page-7 tables are shown: four SDR groups and two larger-size schedule groups. Printed standard and ISI labels are catalogue identifiers, not independently verified certification claims.</p></div>
         <div class="pipe-group-intro"><span class="eyebrow">01 / SDR pipe groups</span><p>NON ISI-labelled and ISI-labelled, each in 3 m and 5 m lengths.</p></div>
         <div class="variant-grid">
           {cpvcSdrPipes.map((group, index) => <CpvcPipeRateTable group={group} number={String(index + 1).padStart(2, '0')} />)}
         </div>
         <div class="pipe-group-intro pipe-group-intro-spaced"><span class="eyebrow">02 / Schedule pipe groups</span><p>ASTM F-441-labelled larger sizes, with SCH-40 and SCH-80 rate columns.</p></div>
         <div class="variant-grid">
-          {cpvcSchedulePipes.map((group, index) => <PipeRateTable group={group} number={String(index + 5).padStart(2, '0')} sourcePage={6} />)}
+          {cpvcSchedulePipes.map((group, index) => <PipeRateTable group={group} number={String(index + 5).padStart(2, '0')} sourcePage={7} />)}
         </div>
-        <div class="source-band"><p>Source: Flowin Price list 2026, PDF page 6. Rates are per piece with printed precision retained; no currency symbol has been inferred. The PDF is definitive.</p><a href={catalogueUrl} target="_blank" rel="noopener">Open original tables ↗</a></div>
+        <div class="source-band"><p>Source: Flowin Price list 2026, PDF page 7. Rates are per piece with printed precision retained; no currency symbol has been inferred. The PDF is definitive.</p><a href={catalogueUrl} target="_blank" rel="noopener">Open original tables ↗</a></div>
       </div>
     </section>
 
-    <section class="wrap family-outro" aria-labelledby="family-outro-title"><div><span class="eyebrow">Next connection</span><h2 id="family-outro-title">Explore the fittings.</h2></div><div><p>All six cPVC pipe tables on PDF page 6 are now shown here. Browse the cPVC range for verified fitting pages, or use the full catalogue for products not yet on this site.</p><a class="solid-btn" href="/products/cpvc/">Explore cPVC range <span aria-hidden="true">↗</span></a></div></section>
+    <section class="wrap family-outro" aria-labelledby="family-outro-title"><div><span class="eyebrow">Next connection</span><h2 id="family-outro-title">Explore the fittings.</h2></div><div><p>All six cPVC pipe tables on PDF page 7 are now shown here. Browse the cPVC range for verified fitting pages, or use the full catalogue for products not yet on this site.</p><a class="solid-btn" href="/products/cpvc/">Explore cPVC range <span aria-hidden="true">↗</span></a></div></section>
   </main>
   <SiteFooter />
 </BaseLayout>

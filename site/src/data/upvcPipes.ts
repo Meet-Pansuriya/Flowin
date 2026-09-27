@@ -1,6 +1,6 @@
 import type { SchedulePipeGroup } from './schedulePipes';
 
-// Source: Flowin Price list 2026.pdf, PDF page 2, uPVC plumbing pipes.
+// Source: revised Flowin FPPL Price List 2026, PDF page 3, uPVC plumbing pipes.
 // The first two printed headings say SCH-40, but both tables have SCH-40 and SCH-80 rates.
 // Rates are copied as strings, without an inferred currency. Empty source cells stay empty.
 export const upvcPipeGroups: SchedulePipeGroup[] = [
@@ -38,9 +38,9 @@ export const upvcPipeGroups: SchedulePipeGroup[] = [
     length: '3 m',
     note: 'Printed catalogue heading: UPVC PIPE AS PER ASTM F-441 / 3 MTR.',
     rows: [
-      { inch: '2 1/2″', mm: '65', bagPacking: '5', sch40Rate: '1094', sch80Rate: '1400' },
-      { inch: '3″', mm: '80', bagPacking: '3', sch40Rate: '1423', sch80Rate: '1858' },
-      { inch: '4″', mm: '100', bagPacking: '2', sch40Rate: '1968', sch80Rate: '2734' },
+      { inch: '2 1/2″', mm: '65', bagPacking: '5', sch40Rate: '1100', sch80Rate: '1408' },
+      { inch: '3″', mm: '80', bagPacking: '3', sch40Rate: '1430', sch80Rate: '1870' },
+      { inch: '4″', mm: '100', bagPacking: '2', sch40Rate: '1980', sch80Rate: '2750' },
     ],
   },
   {
@@ -49,9 +49,9 @@ export const upvcPipeGroups: SchedulePipeGroup[] = [
     length: '6 m',
     note: 'Printed catalogue heading: UPVC PIPE AS PER ASTM F-441 / 6 MTR.',
     rows: [
-      { inch: '2 1/2″', mm: '65', bagPacking: '5', sch40Rate: '2188', sch80Rate: '2800' },
-      { inch: '3″', mm: '80', bagPacking: '3', sch40Rate: '2846', sch80Rate: '3716' },
-      { inch: '4″', mm: '100', bagPacking: '2', sch40Rate: '3936', sch80Rate: '5468' },
+      { inch: '2 1/2″', mm: '65', bagPacking: '5', sch40Rate: '2200', sch80Rate: '2816' },
+      { inch: '3″', mm: '80', bagPacking: '3', sch40Rate: '2860', sch80Rate: '3740' },
+      { inch: '4″', mm: '100', bagPacking: '2', sch40Rate: '3960', sch80Rate: '5500' },
     ],
   },
 ];

@@ -1,4 +1,4 @@
-// Source: Flowin Price list 2026.pdf, PDF page 10, SWR PIPE (RING FIT).
+// Source: revised Flowin FPPL Price List 2026, PDF page 11, SWR PIPE (RING FIT).
 // The PDF prints some decimal separators as '='; values below preserve the
 // printed digits while presenting that mark as a decimal point for readability.
 // No currency or packing quantity is inferred from these pipe tables.

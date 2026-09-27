@@ -1,4 +1,4 @@
-// Source: Flowin Price list 2026.pdf, PDF page 11, SWR PIPE (SELF FIT).
+// Source: revised Flowin FPPL Price List 2026, PDF page 12, SWR PIPE (SELF FIT).
 // Only the printed SINGLE SOCKET TYPE - A pipe tables are represented.
 // Rates are per piece as printed; no currency or packing has been inferred.
 export interface SwrSelfFitPipeGroup {

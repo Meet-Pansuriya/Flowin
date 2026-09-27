@@ -9,10 +9,11 @@ export interface ProductRow {
 export interface ProductVariant {
   id: string;
   name: string;
+  sourcePage?: number;
   rows: ProductRow[];
 }
 
-// Source: Flowin Price list 2026.pdf, PDF page 2, uPVC plumbing fittings.
+// Source: revised Flowin FPPL Price List 2026, PDF pages 3-4, uPVC plumbing fittings.
 // The PDF prints rates with "=" as a decimal separator; these verified strings use ".".
 // Keep printed blank cells as empty strings. Do not derive packing or rate values.
 export const upvcElbows: ProductVariant[] = [
@@ -20,13 +21,12 @@ export const upvcElbows: ProductVariant[] = [
     id: 'elbow',
     name: 'Elbow',
     rows: [
-      { inch: '1/2″', mm: '15', rate: '7.50', bagPacking: '100 × 6', innerPacking: '600' },
-      { inch: '3/4″', mm: '20', rate: '13.20', bagPacking: '50 × 7', innerPacking: '350' },
-      { inch: '1″', mm: '25', rate: '17.80', bagPacking: '40 × 5', innerPacking: '200' },
-      // The source prints 20 × 6 and 220; preserve both pending client review.
-      { inch: '1 1/4″', mm: '32', rate: '29.00', bagPacking: '20 × 6', innerPacking: '220' },
-      { inch: '1 1/2″', mm: '40', rate: '45.00', bagPacking: '20 × 4', innerPacking: '80' },
-      { inch: '2″', mm: '50', rate: '68.00', bagPacking: '10 × 5', innerPacking: '50' },
+      { inch: '1/2″', mm: '15', rate: '7.00', bagPacking: '100 × 6', innerPacking: '600' },
+      { inch: '3/4″', mm: '20', rate: '13.00', bagPacking: '50 × 7', innerPacking: '350' },
+      { inch: '1″', mm: '25', rate: '17.00', bagPacking: '40 × 5', innerPacking: '200' },
+      { inch: '1 1/4″', mm: '32', rate: '29.00', bagPacking: '20 × 6', innerPacking: '120' },
+      { inch: '1 1/2″', mm: '40', rate: '48.00', bagPacking: '20 × 4', innerPacking: '80' },
+      { inch: '2″', mm: '50', rate: '74.00', bagPacking: '10 × 5', innerPacking: '50' },
       { inch: '2 1/2″', mm: '65', rate: '137.50', bagPacking: '3 × 8', innerPacking: '24' },
       { inch: '3″', mm: '80', rate: '260.00', bagPacking: '2 × 5', innerPacking: '10' },
       { inch: '4″', mm: '100', rate: '358.00', bagPacking: '2 × 5', innerPacking: '10' },
@@ -49,16 +49,16 @@ export const upvcElbows: ProductVariant[] = [
   },
 ];
 
-// Source: Flowin Price list 2026.pdf, PDF page 2, uPVC plumbing fittings.
-// Reducing tee is printed on page 3 and is intentionally not included here.
+// Source: revised Flowin FPPL Price List 2026, PDF pages 3-4, uPVC plumbing fittings.
+// Reducing tee is printed on page 4 and is intentionally not included here.
 export const upvcTees: ProductVariant[] = [
   {
     id: 'tee',
     name: 'Tee',
     rows: [
-      { inch: '1/2″', mm: '15', rate: '12.00', bagPacking: '50 × 8', innerPacking: '400' },
-      { inch: '3/4″', mm: '20', rate: '16.80', bagPacking: '25 × 10', innerPacking: '250' },
-      { inch: '1″', mm: '25', rate: '28.00', bagPacking: '25 × 5', innerPacking: '125' },
+      { inch: '1/2″', mm: '15', rate: '11.50', bagPacking: '50 × 8', innerPacking: '400' },
+      { inch: '3/4″', mm: '20', rate: '16.80', bagPacking: '25 × 9', innerPacking: '225' },
+      { inch: '1″', mm: '25', rate: '27.00', bagPacking: '25 × 5', innerPacking: '125' },
       { inch: '1 1/4″', mm: '32', rate: '37.00', bagPacking: '10 × 8', innerPacking: '80' },
       { inch: '1 1/2″', mm: '40', rate: '47.00', bagPacking: '10 × 6', innerPacking: '60' },
       { inch: '2″', mm: '50', rate: '78.00', bagPacking: '6 × 5', innerPacking: '30' },
@@ -70,6 +70,7 @@ export const upvcTees: ProductVariant[] = [
   {
     id: 'cross-tee',
     name: 'Cross tee',
+    sourcePage: 4,
     rows: [
       { inch: '1/2″', mm: '15', rate: '16.00', bagPacking: '25 × 10', innerPacking: '250' },
       { inch: '3/4″', mm: '20', rate: '20.00', bagPacking: '25 × 6', innerPacking: '150' },
@@ -78,7 +79,7 @@ export const upvcTees: ProductVariant[] = [
   },
 ];
 
-// Source: Flowin Price list 2026.pdf, PDF page 3, uPVC reducing tee.
+// Source: revised Flowin FPPL Price List 2026, PDF page 4, uPVC reducing tee.
 // Two 2 1/2-inch rows have blank bag and inner packing cells in print.
 export const upvcReducingTees: ProductVariant[] = [
   {
@@ -109,7 +110,7 @@ export const upvcReducingTees: ProductVariant[] = [
   },
 ];
 
-// Source: Flowin Price list 2026.pdf, PDF page 6, cPVC fittings.
+// Source: revised Flowin FPPL Price List 2026, PDF page 7, cPVC fittings.
 // The printed section reads ASTM D-2846 SDR-11. The printed rate separator "="
 // is normalized to "."; no currency or certification assertion is inferred.
 export const cpvcElbows: ProductVariant[] = [
@@ -117,8 +118,8 @@ export const cpvcElbows: ProductVariant[] = [
     id: 'elbow',
     name: 'Elbow',
     rows: [
-      { inch: '3/4″', mm: '20', rate: '9.60', bagPacking: '40 × 9', innerPacking: '360' },
-      { inch: '1″', mm: '25', rate: '19.50', bagPacking: '24 × 8', innerPacking: '192' },
+      { inch: '3/4″', mm: '20', rate: '8.30', bagPacking: '40 × 9', innerPacking: '360' },
+      { inch: '1″', mm: '25', rate: '18.00', bagPacking: '24 × 8', innerPacking: '192' },
       { inch: '1 1/4″', mm: '32', rate: '29.00', bagPacking: '15 × 8', innerPacking: '120' },
       { inch: '1 1/2″', mm: '40', rate: '42.00', bagPacking: '8 × 9', innerPacking: '72' },
       { inch: '2″', mm: '50', rate: '90.00', bagPacking: '5 × 8', innerPacking: '40' },

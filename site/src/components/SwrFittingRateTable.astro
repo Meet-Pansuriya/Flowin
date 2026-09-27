@@ -1,0 +1,24 @@
+---
+import type { SwrRingFitBendVariant } from '../data/swrRingFitBends';
+
+interface Props {
+  variant: SwrRingFitBendVariant;
+  number: string;
+  system?: string;
+  sourcePage?: number;
+}
+
+const { variant, number, system = 'ring-fit', sourcePage = 11 } = Astro.props;
+---
+
+<section class="variant-section" id={variant.id} aria-labelledby={`${variant.id}-title`}>
+  <div class="variant-heading"><span class="variant-index">{number} / {system.toUpperCase()} FITTING</span><h2 id={`${variant.id}-title`}>{variant.name}</h2><p>Sizes, box packing and rate per piece as listed in the 2026 catalogue.</p></div>
+  <p class="table-hint">Swipe to see all columns <span aria-hidden="true">→</span></p>
+  <div class="table-scroll" role="region" aria-label={`${variant.name} size and rate table`} tabindex="0">
+    <table>
+      <caption class="sr-only">{variant.name} size, box packing and rate - Flowin 2026 catalogue page {sourcePage}</caption>
+      <thead><tr><th scope="col">Size (inch)</th><th scope="col">Size (mm)</th><th scope="col">Packing in box</th><th scope="col">Rate / pc.</th></tr></thead>
+      <tbody>{variant.rows.map((row) => <tr><th scope="row">{row.inch}</th><td>{row.mm}</td><td>{row.boxPacking}</td><td>{row.rate}</td></tr>)}</tbody>
+    </table>
+  </div>
+</section>

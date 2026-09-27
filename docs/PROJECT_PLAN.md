@@ -1,6 +1,6 @@
 # Project plan and checklist
 
-Last updated: 2026-09-26
+Last updated: 2026-09-27
 
 ## What we are building
 
@@ -50,11 +50,23 @@ Only one chunk should be implemented and verified at a time. Do not mark a chunk
 
 **Completed substep 4h:** [cPVC F-441-labelled schedule pipes](CPVC_SCHEDULE_PIPES_SLICE.md). All six page-6 pipe tables are live, with four SDR and two schedule groups kept distinct. Product browsing remains open for other families and ranges.
 
-**Substep 4i:** [SWR ring-fit start](SWR_RING_FIT_SLICE.md). SWR navigation and six page-10 ring-fit pipe tables are implemented. Source rows, build, generated links and desktop layout were checked before a power cut. Mobile browser QA remains open because browser access was blocked after restart.
+**Completed substep 4i:** [SWR ring-fit start](SWR_RING_FIT_SLICE.md). SWR navigation and six page-10 ring-fit pipe tables are implemented, with source rows, build, generated links, desktop, and mobile browser layout checked.
 
-**Substep 4j:** [SWR self-fit pipes](SWR_SELF_FIT_PIPES_SLICE.md). The two single-socket Type A pipe tables from PDF page 11 are live. Four rows, build, links and PDF anchors were checked. Browser visual QA is pending because access was blocked after the power cut; fitting tables remain pending.
+**Completed substep 4j:** [SWR self-fit pipes](SWR_SELF_FIT_PIPES_SLICE.md). The two single-socket Type A pipe tables from PDF page 11 are live. Four rows, build, links, PDF anchors, desktop, and mobile layout were checked; fitting tables remain pending.
 
-**Next substep 4k:** resume desktop/mobile browser QA for both SWR pipe pages when available, then choose one SWR fitting family to transcribe from the printed catalogue. Document its exact rows before coding.
+**Completed substep 4k:** [SWR ring-fit bends](SWR_RING_FIT_BENDS_SLICE.md). The two 87.5-degree bend tables from PDF page 10 are live with box packing, verified source values, and desktop/mobile browser checks.
+
+**Completed substep 4l:** [SWR ring-fit tees](SWR_RING_FIT_TEES_SLICE.md). The Single Tee and Door Tee tables from PDF page 10 are live with box packing, verified values, and desktop/mobile browser checks.
+
+**Completed substep 4m:** [SWR ring-fit couplers](SWR_RING_FIT_COUPLERS_SLICE.md). The two-row coupler table from PDF page 10 is live with box packing, verified values, and desktop/mobile browser checks.
+
+**Completed substep 4n:** [SWR ring-fit shoe bend](SWR_RING_FIT_SHOE_BENDS_SLICE.md). The two-row 45-degree shoe-bend table from PDF page 10 is live with box packing, verified values, and desktop/mobile browser checks.
+
+**Completed substep 4o:** [SWR ring-fit remaining fittings](SWR_RING_FIT_REMAINING_FITTINGS_SLICE.md). Six remaining fitting tables from PDF page 10 are live as one clearly separated, nine-row batch; ring-fit fitting coverage is complete.
+
+**Completed substep 4p:** [SWR self-fit core fittings](SWR_SELF_FIT_CORE_FITTINGS_SLICE.md). All ten page-11 fitting tables are live as one clearly separated, nineteen-row batch; page-12 accessories and solvent remain.
+
+**Completed reconciliation 4q:** [Revised FPPL catalogue](FPPL_2026_RECONCILIATION.md). The 16-page edition supplied on 2026-09-27 is now the website download and current source. Existing web tables with changed rates or packing have been updated, and live catalogue links point to the new PDF pages. The earlier 14-page edition is retained for audit. Page-13 self-fit accessories and agriculture web pages are still pending.
 
 ## Action and decision log
 
@@ -79,6 +91,13 @@ Only one chunk should be implemented and verified at a time. Do not mark a chunk
 | 2026-09-26 | Add the two cPVC F-441-labelled schedule pipe tables from page 6. | Complete the printed cPVC pipe family while preserving distinct SDR and SCH rate headings. | Six rows checked; all six pipe tables live; shared schedule source captions checked for cPVC page 6 and uPVC page 2. No image generation. |
 | 2026-09-26 | Open SWR navigation and add six ring-fit pipe tables from page 10. | Keep ring-fit and self-fit joint systems separate while introducing the third range. | Twelve rows checked against PDF; build, generated links and desktop layout passed. Mobile browser QA remains open after a power-cut interruption. No image generation. |
 | 2026-09-26 | Add the two self-fit single-socket Type A pipe tables from page 11. | Publish a complete, small self-fit pipe slice without folding it into ring-fit or guessing packing. | Four rows checked against PDF; build, generated links and PDF anchors passed. Desktop/mobile browser QA remains open because browser access was blocked after restart. No image generation. |
+| 2026-09-26 | Add the SWR ring-fit 87.5-degree bend and door-bend tables from page 10. | Publish one bounded fitting family without applying plumbing bag-packing terminology to SWR box packing. | Four rows checked against PDF; build, generated links, and desktop/390 px mobile layout passed. Other SWR fittings remain catalogue-only. No image generation. |
+| 2026-09-26 | Add the SWR ring-fit Single Tee and Door Tee tables from page 10 and close the prior SWR mobile QA follow-ups. | Continue one fitting family at a time while completing the verification gap left by the power cut. | Four tee rows checked against PDF; ring-fit and self-fit pipe pages plus the new tee page passed desktop/390 px mobile browser checks. No image generation. |
+| 2026-09-26 | Add the SWR ring-fit Coupler table from page 10. | Complete another bounded fitting family while keeping its box packing and rates traceable to the catalogue. | Two coupler rows checked against PDF; build, generated links, desktop, and mobile layout passed. No image generation. |
+| 2026-09-26 | Add the SWR ring-fit 45-degree Shoe Bend table from page 10. | Make another complete fitting family available without mixing its box packing with plumbing bag-packing conventions. | Two shoe-bend rows checked against PDF; build, generated links, desktop, and mobile layout passed. No image generation. |
+| 2026-09-26 | Complete the remaining SWR ring-fit fitting tables from page 10 as one consolidated page. | Increase delivery size while retaining a distinct table for every printed product family. | Nine rows across Double Tee, three reducer variants, Cleansing Pipe and Rubber Ring checked against PDF; build, generated links, desktop and mobile layout passed. Ring-fit fitting coverage is complete. |
+| 2026-09-26 | Complete the core SWR self-fit fitting tables from page 11 as one consolidated page. | Deliver a useful range outcome in one pass while retaining each printed table separately. | Nineteen rows across ten fitting tables checked against PDF; build, generated links, desktop and mobile layout passed. Page-12 accessories and solvent remain. |
+| 2026-09-27 | Reconcile the website with the revised 16-page FPPL 2026 price list. | The new edition changes rates, packing and PDF page numbers. | Replaced the site download, retained the prior edition for audit, updated changed web tables and PDF anchors, and checked the production build. See the reconciliation note for the exact scope. |
 
 ## Open decisions for later chunks
 
@@ -86,5 +105,5 @@ Only one chunk should be implemented and verified at a time. Do not mark a chunk
 - Keep a distinction between real Flowin photographs/product cutouts and generated illustrative imagery.
 - Pause new image generation for now at the user's request; use approved existing assets while building product pages.
 - Agree on a review/update process for web rate tables whenever a new price list arrives.
-- Choose hosting and URL redirects after the new page structure is known.
+- GitHub Pages deployment is configured; verify its live workflow and decide on URL redirects after the new page structure is complete.
 - Decide whether the legacy site needs a separate archival repository. It stays on disk but is excluded from the new repository because it contains database connection details.
