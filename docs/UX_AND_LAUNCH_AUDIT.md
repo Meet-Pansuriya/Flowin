@@ -13,7 +13,7 @@ Reviewed 2026-09-27 against the live GitHub Pages site at desktop and 390 px mob
 
 - GitHub Pages-mode build generates 24 pages. The repeatable `site/scripts/check-site.mjs` scan validates local links and fragments, assets, one H1 per page, titles/descriptions, unique IDs and image alt attributes. Current result: 24 pages and 596 local URLs pass.
 - Source PDF links and Pages base paths are valid in generated output. These are structural checks, not a full screen-reader or real-user test.
-- Desktop and 390 px mobile screenshots were visually inspected on the live site before changes. The post-change build and markup passed; final visual checks should be repeated on the published revision.
+- Desktop and 390 px mobile screenshots were visually inspected before changes. After GitHub Pages deployed revision `a7524da`, the published 390 px homepage showed all four range links, and the grouped uPVC page exposed working table jumps and a horizontally scrollable table. These are representative checks, not exhaustive device coverage.
 - The site deliberately retains `noindex` in `BaseLayout.astro`. Search indexing, canonical URLs and a sitemap are launch decisions, not complete. Do not remove `noindex` while enquiry and content approval remain open.
 - The illustrative warehouse PNG is about 2.5 MB and appears twice on the homepage. Optimize or replace it after approved imagery is available; do not represent it as Flowin's actual facility.
 

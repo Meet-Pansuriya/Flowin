@@ -72,7 +72,7 @@ Only one chunk should be implemented and verified at a time. Do not mark a chunk
 
 **Completed grouped substep 4s:** [More uPVC and cPVC fittings](MORE_PLUMBING_FITTINGS_SLICE.md). Two grouped family pages add six printed tables and 54 size rows from PDF pages 4 and 7. Remaining fitting families are still catalogue-only; product browsing remains open.
 
-**Launch-readiness pass started:** [Visitor experience and launch audit](UX_AND_LAUNCH_AUDIT.md). Range links and table jumps were improved after desktop/mobile review; a repeatable 24-page link/structure check was added. Chunk 6 remains open until post-deployment visual QA, enquiry details, content approvals and indexing decisions are resolved.
+**Launch-readiness pass started:** [Visitor experience and launch audit](UX_AND_LAUNCH_AUDIT.md). Range links and table jumps were improved after desktop/mobile review; a repeatable 24-page link/structure check was added, and representative post-deployment mobile views passed. Chunk 6 remains open until broader accessibility/performance QA, enquiry details, content approvals and indexing decisions are resolved.
 
 ## Action and decision log
 
