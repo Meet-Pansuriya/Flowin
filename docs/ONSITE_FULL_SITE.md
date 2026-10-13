@@ -2,7 +2,7 @@
 
 2026-10-13 · branch `redesign/onsite-full-site` · baseline `7b1d630`
 
-The customer approved the On site direction. The primary homepage now uses that direction without a theme selector. Existing exploration URLs remain as reference pages, outside the primary navigation.
+The customer approved the On site direction. The primary homepage now uses that direction without a theme selector. The alternate theme routes, selector and unused theme components have been removed.
 
 ## Delivered
 - Shared navy/coral design, photo-led compositions, rounded controls and accessible navigation across every existing page.
@@ -22,4 +22,4 @@ The customer approved the On site direction. The primary homepage now uses that 
 ## Remaining source input
 Confirmed phone/email/WhatsApp details are needed to add direct contact actions or enquiry submission. Missing SWR/agriculture product photography uses labelled application imagery. No stock feed, dealer pricing, distribution claims or testimonials were invented.
 
-This branch is a local review version. The deployed site remains at the earlier three-theme release until this redesign is published.
+Publication approved on 2026-10-13. Final build: 29 pages and 854 checked local URLs; all 70 catalogue tables unchanged. The full redesign replaces the earlier three-theme release on main.
