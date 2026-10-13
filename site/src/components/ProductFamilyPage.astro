@@ -34,7 +34,7 @@ const additionalCatalogueUrl = additionalSourcePage ? `/catalogue/flowin-price-l
         <h1 id="family-title">{rangeName}<br />{familyName.toLowerCase()}.</h1>
         <p class="product-lead">{lead}</p>
         <p class="product-standard">Catalogue section: <strong>{catalogueSection}</strong></p>
-        <div class="product-actions"><a class="request-link" href={`/enquiry/?range=${rangeSlug}&family=${encodeURIComponent(familyName)}`}>Prepare a requirement</a><a class="solid-btn" href="#sizes">View sizes &amp; rates <span aria-hidden="true">↓</span></a><a class="text-link" href={catalogueUrl} target="_blank" rel="noopener">See catalogue page {sourcePage} <span aria-hidden="true">↗</span></a></div>
+        <div class="product-actions"><a class="request-link" href={`/enquiry/?range=${rangeSlug}&family=${encodeURIComponent(familyName)}`}>Prepare a requirement</a><a class="solid-btn" href="#sizes">View sizes &amp; rates <span aria-hidden="true">↓</span></a><a class="text-link" href={catalogueUrl} target="_blank" rel="noopener">View catalogue <span aria-hidden="true">↗</span></a></div>
       </div>
       <figure class="product-visual">{imageSrc ? <img src={imageSrc} alt={imageAlt ?? ''} width="300" height="300" /> : <img src="/images/flowin-product-group-legacy.jpg" alt="Flowin legacy assortment photo" width="500" height="500" />}<figcaption>{imageSrc ? "Product image from Flowin's earlier website." : 'Flowin legacy assortment. See the tables for individual variants.'}</figcaption></figure>
     </section>
@@ -46,11 +46,11 @@ const additionalCatalogueUrl = additionalSourcePage ? `/catalogue/flowin-price-l
 
     <section class="product-data" id="sizes" aria-labelledby="sizes-title">
       <div class="wrap">
-        <div class="product-data-intro"><span class="eyebrow">Catalogue details</span><h2 id="sizes-title">The sizes behind<br />the system.</h2><p>Rates are per piece as listed in the supplied 2026 price list. The original catalogue remains the definitive reference.</p></div>
+        <div class="product-data-intro"><span class="eyebrow">Catalogue details</span><h2 id="sizes-title">The sizes behind<br />the system.</h2><p>Compare sizes, packing and rates for each fitting.</p></div>
         <div class="variant-grid">
           {variants.map((variant, index) => <RateTable variant={variant} number={String(index + 1).padStart(2, '0')} sourcePage={sourcePage} />)}
         </div>
-        <div class="source-band"><p>Source: Flowin Price list 2026, PDF page {sourcePage}{additionalSourcePage && ` and ${additionalSourcePage}`}. No currency symbol is added because the supplied table does not specify one.</p><div><a href={catalogueUrl} target="_blank" rel="noopener">Open page {sourcePage} ↗</a>{additionalCatalogueUrl && <a href={additionalCatalogueUrl} target="_blank" rel="noopener">Open page {additionalSourcePage} ↗</a>}</div></div>
+        <div class="source-band"><div><a href={catalogueUrl} target="_blank" rel="noopener">View catalogue ↗</a>{additionalCatalogueUrl && <a href={additionalCatalogueUrl} target="_blank" rel="noopener">More catalogue details ↗</a>}</div></div>
       </div>
     </section>
 
