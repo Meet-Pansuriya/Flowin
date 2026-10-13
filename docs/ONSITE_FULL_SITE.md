@@ -23,3 +23,6 @@ The customer approved the On site direction. The primary homepage now uses that 
 Confirmed phone/email/WhatsApp details are needed to add direct contact actions or enquiry submission. Missing SWR/agriculture product photography uses labelled application imagery. No stock feed, dealer pricing, distribution claims or testimonials were invented.
 
 Publication approved on 2026-10-13. Final build: 29 pages and 854 checked local URLs; all 70 catalogue tables unchanged. The full redesign replaces the earlier three-theme release on main.
+
+## Hero imagery update
+The homepage uses flowin-showroom-hero.png: a generated model in a white Flowin polo with branded product props and a clean light-blue showroom background, requested by the user. It is labelled as generated imagery; it is not documentary product or premises photography.
