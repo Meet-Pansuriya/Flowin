@@ -1,5 +1,6 @@
 ---
 const catalogueUrl = '/catalogue/flowin-price-list-2026.pdf';
+const { home = '/' } = Astro.props;
 ---
 
 <header class="site-header" id="top">
@@ -8,9 +9,9 @@ const catalogueUrl = '/catalogue/flowin-price-list-2026.pdf';
     <button class="menu-toggle" type="button" aria-label="Open menu" aria-controls="primary-nav" aria-expanded="false"><span aria-hidden="true">☰</span></button>
     <nav class="nav" id="primary-nav" aria-label="Main navigation">
       <a href="/about/">About</a>
-      <a href="/#products">Products</a>
+      <a href={`${home}#products`}>Products</a>
       <a href="/applications/">Applications</a>
-      <a href="/#contact">Contact</a>
+      <a href={`${home}#contact`}>Catalogue &amp; enquiries</a>
       <a class="mobile-catalogue" href={catalogueUrl} target="_blank" rel="noopener">Download catalogue ↗</a>
     </nav>
     <a class="header-cta" href={catalogueUrl} target="_blank" rel="noopener">Download catalogue <span aria-hidden="true">↗</span></a>

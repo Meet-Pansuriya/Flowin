@@ -1,0 +1,47 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import ThemeSelector from '../../components/ThemeSelector.astro';
+import '../../styles/photo-themes.css';
+export function getStaticPaths() { return ['trade','site'].map(theme => ({params:{theme}})); }
+const trade = Astro.params.theme === 'trade';
+const catalogue = '/catalogue/flowin-price-list-2026.pdf';
+const ranges = [
+  {name:'uPVC plumbing',note:'Schedules, sizes and fittings',href:'/products/upvc/',photo:'/images/upvc-elbow-legacy.jpg',caption:'Flowin product photo',body:'Compare pipe schedules and find elbows, tees, couplers and other fitting families.'},
+  {name:'cPVC plumbing',note:'SDR and schedule variants',href:'/products/cpvc/',photo:'/images/cpvc-elbow-legacy.jpg',caption:'Flowin product photo',body:'Check the pipe group and size, then browse the matching fitting families.'},
+  {name:'SWR drainage',note:'Ring-fit and self-fit ranges',href:'/products/swr/',photo:'/images/plumbing-sergei-starostin.jpg',caption:'Generic plumbing application',body:'Browse ring-fit and self-fit separately. Check the family, size and packing shown in the catalogue.'},
+  {name:'Agriculture',note:'Pipes and fitting families',href:'/products/agriculture/',photo:'/images/irrigation-daniel-kawed.jpg',caption:'Generic agricultural application',body:'Explore agricultural pipe groups and fittings with their available catalogue details.'},
+];
+---
+<BaseLayout title={`Flowin | ${trade ? 'Trade counter' : 'On site'} homepage direction`} description="Find Flowin pipes and fittings by range, family and size. Compare catalogue packing and printed rates for your next requirement.">
+  <div class:list={['photo-theme',trade ? 'trade-theme' : 'site-theme']}>
+    <ThemeSelector active={trade ? 'trade' : 'site'} />
+    <SiteHeader home={`/themes/${Astro.params.theme}/`} />
+    <main>
+      {trade ? <section class="trade-hero theme-wrap" aria-labelledby="page-title">
+        <div class="trade-hero-copy"><p class="audience-line">Flowin pipes &amp; fittings for dealers and plumbers</p><h1 id="page-title">Know the range.<br />Answer the next enquiry.</h1><p>From a customer's size query to a complete product list, start with the Flowin range. Check families, packing and printed rates in the 2026 catalogue.</p><div class="hero-actions"><a class="theme-button" href="#products">Find your range</a><a class="quiet-link" href={catalogue} target="_blank" rel="noopener">Open the price list</a></div></div>
+        <figure class="trade-assortment"><img src="/images/flowin-product-group-legacy.jpg" alt="Flowin's legacy product assortment photograph with plastic pipes, fittings and valves" width="500" height="500" fetchpriority="high" /><figcaption>Flowin product assortment · legacy photograph</figcaption></figure>
+      </section> : <section class="site-hero" aria-labelledby="page-title">
+        <img class="site-hero-image" src="/images/plumber-installation-generated.png" alt="AI-generated generic scene of a plumber measuring a plastic pipe" width="1536" height="1024" fetchpriority="high" />
+        <div class="site-hero-content theme-wrap"><p class="audience-line">For the people who keep the work moving</p><h1 id="page-title">Start the next job with the right product reference.</h1><p>Find Flowin pipes and fittings for your requirement. Choose a range, check the size and keep the catalogue close.</p><div class="hero-actions"><a class="theme-button" href="#products">Browse product ranges</a><a class="theme-button secondary" href={catalogue} target="_blank" rel="noopener">Open the catalogue</a></div></div>
+        <small class="generated-credit">AI-generated application scene</small>
+      </section>}
+
+      {!trade && <nav class="application-pills theme-wrap" aria-label="Browse by application"><a href="/products/upvc/">uPVC plumbing</a><a href="/products/cpvc/">cPVC plumbing</a><a href="/products/swr/">SWR drainage</a><a href="/products/agriculture/">Agriculture</a></nav>}
+
+      <section class="theme-ranges theme-wrap" id="products" aria-labelledby="ranges-title">
+        <div class="theme-section-head"><div><p class="section-note">The Flowin range</p><h2 id="ranges-title">{trade ? 'A clear answer starts here.' : 'Find the system for your requirement.'}</h2></div><p>{trade ? 'Choose the range your customer asks for. Browse the family pages for size, packing and printed rates where available.' : 'Four ranges, with product families and catalogue details to help you prepare your list.'}</p></div>
+        <div class="photo-range-grid">{ranges.map(range => <a class="photo-range" href={range.href}><figure><img src={range.photo} alt={range.caption === 'Flowin product photo' ? `${range.name} fitting from the approved legacy photographs` : range.caption} width="600" height="400" loading="lazy" /><figcaption>{range.caption}</figcaption></figure><div class="photo-range-copy"><h3>{range.name}</h3><p class="range-summary">{trade ? range.note : range.body}</p><span class="range-action">Explore range <span aria-hidden="true">↗</span></span></div></a>)}</div>
+      </section>
+
+      {trade ? <section class="trade-catalogue theme-wrap" aria-labelledby="catalogue-title"><div><p class="section-note">At the counter</p><h2 id="catalogue-title">The details behind the quote.</h2><p>Use the official catalogue to check the product reference before discussing your requirement.</p><a class="theme-button" href={catalogue} target="_blank" rel="noopener">Open the 2026 catalogue</a><small>Printed catalogue rates. Confirm current commercial terms separately.</small></div><div class="requirement-list"><h3>Keep these details together</h3><dl><div><dt>Range &amp; family</dt><dd>uPVC, cPVC, SWR or agriculture; then the pipe or fitting.</dd></div><div><dt>Size &amp; variant</dt><dd>The exact size and catalogue group requested.</dd></div><div><dt>Packing &amp; quantity</dt><dd>Check printed packing where provided. Record how much is needed.</dd></div></dl></div></section> : <section class="selection-section" aria-labelledby="selection-title"><div class="theme-wrap selection-inner"><figure><img src="/images/plumbing-sergei-starostin.jpg" alt="A plumber working on a pipe connection" width="1400" height="933" loading="lazy" /><figcaption>Application photo · Sergei Starostin / Pexels</figcaption></figure><div><p class="section-note">Before you prepare the list</p><h2 id="selection-title">From the job to a clear requirement.</h2><ol><li><strong>Choose the range</strong><p>Start with the catalogue system you need for your work.</p></li><li><strong>Check the family and size</strong><p>Compare the listed variants. Use the PDF for the complete range.</p></li><li><strong>Record the reference</strong><p>Keep the size, packing and required quantity together for your enquiry.</p></li></ol><a class="quiet-link" href="/applications/">Browse by application</a></div></div></section>}
+
+      <section class="theme-about theme-wrap" aria-labelledby="about-title"><div><p class="section-note">About Flowin</p><h2 id="about-title">Pipes and fittings.<br />Since 2013.</h2></div><div><p>Flowin Pipe Pvt. Ltd. manufactures pipes and fittings for plumbing, drainage and agricultural applications. The 2026 catalogue brings the four product systems together.</p><a class="quiet-link" href="/about/">Read about Flowin</a></div></section>
+
+      <section class="theme-final" id="contact" aria-labelledby="final-title"><div class="theme-wrap"><div><h2 id="final-title">{trade ? 'Keep the range within reach.' : 'Your next product list starts here.'}</h2><p>Browse the family pages, then check the official catalogue for the complete product and price list.</p></div><a class="theme-button" href={catalogue} target="_blank" rel="noopener">Open the 2026 catalogue</a></div></section>
+      <div class="image-credits theme-wrap">Application photographs: <a href="https://www.pexels.com/photo/professional-plumber-installing-a-radiator-pipe-29226620/" target="_blank" rel="noopener">Sergei Starostin / Pexels</a> and <a href="https://unsplash.com/photos/men-fixing-irrigation-pipe-in-a-banana-plantation-9f_eJeULtSY" target="_blank" rel="noopener">daniel kawed / Unsplash</a>. Generic scenes; product photographs are from Flowin's legacy assets.</div>
+    </main>
+    <SiteFooter home={`/themes/${Astro.params.theme}/`} />
+  </div>
+</BaseLayout>

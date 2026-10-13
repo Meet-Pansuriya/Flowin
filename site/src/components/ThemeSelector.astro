@@ -1,0 +1,14 @@
+---
+interface Props { active: 'original' | 'trade' | 'site'; }
+const { active } = Astro.props;
+const themes = [{id:'original',label:'Original',href:'/'},{id:'trade',label:'Trade counter',href:'/themes/trade/'},{id:'site',label:'On site',href:'/themes/site/'}];
+---
+<nav class="theme-selector" aria-label="Homepage theme">
+  <span>Explore a direction</span>
+  <div>{themes.map(theme => <a href={theme.href} aria-current={active === theme.id ? 'page' : undefined}>{theme.label}</a>)}</div>
+</nav>
+<style>
+  .theme-selector{display:flex;justify-content:center;align-items:center;gap:24px;padding:10px 20px;background:#eaf0f4;color:#17243d;border-bottom:1px solid #ccd6e0;font-size:12px}
+  .theme-selector>span{font-weight:500}.theme-selector>div{display:flex;gap:4px}.theme-selector a{padding:8px 13px;border-radius:5px;font-weight:700}.theme-selector a[aria-current]{background:#17243d;color:white}.theme-selector a:hover{outline:1px solid #65758d}
+  @media(max-width:520px){.theme-selector{gap:6px;flex-direction:column}.theme-selector a{padding:7px 12px}}
+</style>

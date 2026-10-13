@@ -19,7 +19,7 @@ const homeHtml = readFileSync(join(dist, 'index.html'), 'utf8');
 const rangeCards = [...homeHtml.matchAll(/<a\b[^>]*class="[^"]*\brange-card\b[^"]*"[^>]*>[\s\S]*?<\/a>/g)];
 if (rangeCards.length !== 4) problems.push(`index.html: expected four fully linked range cards, found ${rangeCards.length}`);
 for (const [index, card] of rangeCards.entries()) {
-  if (!card[0].includes('<svg')) problems.push(`index.html: range card ${index + 1} missing its illustration`);
+  if (!card[0].includes('<img')) problems.push(`index.html: range card ${index + 1} missing its photograph`);
   if (!card[0].includes('Explore range')) problems.push(`index.html: range card ${index + 1} missing call to action`);
   if (!/href="\/Flowin\/products\//.test(card[0])) problems.push(`index.html: range card ${index + 1} missing product destination`);
 }
