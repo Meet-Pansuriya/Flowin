@@ -1,0 +1,18 @@
+---
+import { siteRanges } from '../data/siteRanges';
+interface Props { range?: string; }
+const { range } = Astro.props;
+const families = siteRanges.filter(r => !range || r.slug === range).flatMap(r => [...r.families]);
+---
+<section class="directory" aria-label="Product families">
+ <div class="directory-tools"><label class="search-field">Find a product family<input type="search" placeholder="Try pipes, elbows or ring-fit" data-family-search /></label>{!range && <label class="range-filter">Product range<select data-range-filter><option value="">All ranges</option>{siteRanges.map(r => <option value={r.slug}>{r.name}</option>)}</select></label>}<p class="directory-status" aria-live="polite" data-directory-status>{families.length} families</p></div>
+ <div class="directory-grid">{families.map(f => <a class="directory-card" href={f.href} data-family-card data-range={f.range} data-search={`${f.title} ${f.description} ${f.range}`.toLowerCase()}><figure><img src={f.image} alt={f.caption === 'Flowin product photo' ? `Flowin ${f.title.toLowerCase()} legacy product image` : f.caption} width="400" height="300" loading="lazy" /><figcaption>{f.caption}</figcaption></figure><div><span class="directory-range">{siteRanges.find(r => r.slug === f.range)?.name}</span><h3>{f.title}</h3><p>{f.description}</p><span class="directory-link">View sizes &amp; rates <span aria-hidden="true">↗</span></span></div></a>)}</div>
+ <p class="directory-empty" data-directory-empty hidden>No matching families. Try a shorter name or another range. The full catalogue includes additional products.</p>
+</section>
+<script>
+ document.querySelectorAll<HTMLElement>('.directory').forEach(root => {
+  const input = root.querySelector<HTMLInputElement>('[data-family-search]'); const select = root.querySelector<HTMLSelectElement>('[data-range-filter]'); const cards = [...root.querySelectorAll<HTMLElement>('[data-family-card]')];
+  const update = () => { const terms = (input?.value.toLowerCase().trim() ?? '').split(/\s+/).filter(Boolean); let count = 0; cards.forEach(card => {const show = (!select?.value || card.dataset.range === select.value) && terms.every(t => card.dataset.search?.includes(t)); card.hidden = !show; if(show) count++;}); const status=root.querySelector('[data-directory-status]'); if(status) status.textContent=`${count} ${count===1?'family':'families'}`; const empty=root.querySelector<HTMLElement>('[data-directory-empty]'); if(empty) empty.hidden=count>0; };
+  input?.addEventListener('input',update); select?.addEventListener('change',update);
+ });
+</script>

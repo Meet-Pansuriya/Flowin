@@ -18,7 +18,7 @@ const ranges = [
   <div class:list={['photo-theme',trade ? 'trade-theme' : 'site-theme']}>
     <ThemeSelector active={trade ? 'trade' : 'site'} />
     <SiteHeader home={`/themes/${Astro.params.theme}/`} />
-    <main>
+    <main id="main-content" tabindex="-1">
       {trade ? <section class="trade-hero theme-wrap" aria-labelledby="page-title">
         <div class="trade-hero-copy"><p class="audience-line">Flowin pipes &amp; fittings for dealers and plumbers</p><h1 id="page-title">Know the range.<br />Answer the next enquiry.</h1><p>From a customer's size query to a complete product list, start with the Flowin range. Check families, packing and printed rates in the 2026 catalogue.</p><div class="hero-actions"><a class="theme-button" href="#products">Find your range</a><a class="quiet-link" href={catalogue} target="_blank" rel="noopener">Open the price list</a></div></div>
         <figure class="trade-assortment"><img src="/images/flowin-product-group-legacy.jpg" alt="Flowin's legacy product assortment photograph with plastic pipes, fittings and valves" width="500" height="500" fetchpriority="high" /><figcaption>Flowin product assortment · legacy photograph</figcaption></figure>

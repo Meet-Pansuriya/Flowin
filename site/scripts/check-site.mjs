@@ -16,7 +16,7 @@ visit(dist);
 const problems = [];
 let linksChecked = 0;
 const homeHtml = readFileSync(join(dist, 'index.html'), 'utf8');
-const rangeCards = [...homeHtml.matchAll(/<a\b[^>]*class="[^"]*\brange-card\b[^"]*"[^>]*>[\s\S]*?<\/a>/g)];
+const rangeCards = [...homeHtml.matchAll(/<a\b[^>]*class="[^"]*\bphoto-range\b[^"]*"[^>]*>[\s\S]*?<\/a>/g)];
 if (rangeCards.length !== 4) problems.push(`index.html: expected four fully linked range cards, found ${rangeCards.length}`);
 for (const [index, card] of rangeCards.entries()) {
   if (!card[0].includes('<img')) problems.push(`index.html: range card ${index + 1} missing its photograph`);
@@ -35,7 +35,8 @@ for (const page of pages) {
   for (const match of html.matchAll(/<(?:a|link|script|img)\b[^>]*?\b(?:href|src)="([^"]+)"/g)) {
     const url = match[1];
     if (!url.startsWith('/') && !url.startsWith('#')) continue;
-    const [pathPart, fragment] = url.split('#');
+    const [pathWithQuery, fragment] = url.split('#');
+    const pathPart = pathWithQuery.split('?')[0];
     if (!pathPart && fragment) {
       if (!idSet.has(fragment)) problems.push(`${name}: missing #${fragment}`);
       continue;

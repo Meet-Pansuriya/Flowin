@@ -1,44 +1,10 @@
 ---
-const catalogueUrl = '/catalogue/flowin-price-list-2026.pdf';
-const { home = '/' } = Astro.props;
+const pathname = Astro.url.pathname.replace(/^\/Flowin/, '');
 ---
-
-<header class="site-header" id="top">
-  <div class="wrap header-inner">
-    <a class="brand" href="/" aria-label="Flowin home"><img src="/images/logo.png" alt="Flowin Pipes & Fittings" width="161" height="51" /></a>
-    <button class="menu-toggle" type="button" aria-label="Open menu" aria-controls="primary-nav" aria-expanded="false"><span aria-hidden="true">☰</span></button>
-    <nav class="nav" id="primary-nav" aria-label="Main navigation">
-      <a href="/about/">About</a>
-      <a href={`${home}#products`}>Products</a>
-      <a href="/applications/">Applications</a>
-      <a href={`${home}#contact`}>Catalogue &amp; enquiries</a>
-      <a class="mobile-catalogue" href={catalogueUrl} target="_blank" rel="noopener">Download catalogue ↗</a>
-    </nav>
-    <a class="header-cta" href={catalogueUrl} target="_blank" rel="noopener">Download catalogue <span aria-hidden="true">↗</span></a>
-  </div>
-</header>
-<div class="range-strip">
-  <div class="wrap range-strip-inner">
-    <p>Product systems designed for the way water moves.</p>
-    <nav class="range-strip-items" aria-label="Product ranges"><a href="/products/upvc/">uPVC plumbing</a><a href="/products/cpvc/">cPVC plumbing</a><a href="/products/swr/">SWR drainage</a><a href="/products/agriculture/">Agriculture</a></nav>
-  </div>
-</div>
-
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header" id="top"><div class="wrap header-inner"><a class="brand" href="/" aria-label="Flowin home"><img src="/images/logo.png" alt="Flowin Pipes & Fittings" width="161" height="51" /></a><button class="menu-toggle" type="button" aria-label="Open menu" aria-controls="primary-nav" aria-expanded="false"><span aria-hidden="true">☰</span></button><nav class="nav" id="primary-nav" aria-label="Main navigation"><a href="/products/" aria-current={pathname.startsWith('/products/') ? 'page' : undefined}>Products</a><a href="/applications/" aria-current={pathname === '/applications/' ? 'page' : undefined}>Applications</a><a href="/about/" aria-current={pathname === '/about/' ? 'page' : undefined}>About Flowin</a><a href="/enquiry/" aria-current={pathname === '/enquiry/' ? 'page' : undefined}>Prepare an enquiry</a><a class="mobile-catalogue" href="/catalogue/">2026 catalogue</a></nav><a class="header-cta" href="/catalogue/">2026 catalogue <span aria-hidden="true">↗</span></a></div></header>
 <script>
-  const button = document.querySelector<HTMLButtonElement>('.menu-toggle');
-  const nav = document.querySelector<HTMLElement>('#primary-nav');
-  button?.addEventListener('click', () => {
-    const open = nav?.classList.toggle('open') ?? false;
-    button.setAttribute('aria-expanded', String(open));
-    button.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
-    const symbol = button.querySelector('span');
-    if (symbol) symbol.textContent = open ? '×' : '☰';
-  });
-  nav?.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => {
-    nav.classList.remove('open');
-    button?.setAttribute('aria-expanded', 'false');
-    button?.setAttribute('aria-label', 'Open menu');
-    const symbol = button?.querySelector('span');
-    if (symbol) symbol.textContent = '☰';
-  }));
+const button=document.querySelector<HTMLButtonElement>('.menu-toggle');const nav=document.querySelector<HTMLElement>('#primary-nav');
+function setMenu(open:boolean){nav?.classList.toggle('open',open);button?.setAttribute('aria-expanded',String(open));button?.setAttribute('aria-label',open?'Close menu':'Open menu');const symbol=button?.querySelector('span');if(symbol)symbol.textContent=open?'×':'☰';}
+button?.addEventListener('click',()=>setMenu(button.getAttribute('aria-expanded')!=='true'));nav?.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>setMenu(false)));document.addEventListener('keydown',event=>{if(event.key==='Escape'&&button?.getAttribute('aria-expanded')==='true'){setMenu(false);button.focus();}});matchMedia('(min-width:901px)').addEventListener('change',event=>{if(event.matches)setMenu(false);});
 </script>

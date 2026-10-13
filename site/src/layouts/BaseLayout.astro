@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import '../styles/onsite.css';
 
 interface Props {
   title: string;
@@ -21,5 +22,5 @@ const { title, description } = Astro.props;
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <title>{title}</title>
   </head>
-  <body><slot /></body>
+  <body class="onsite-shell"><slot /></body>
 </html>

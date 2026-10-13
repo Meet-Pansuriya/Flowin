@@ -1,6 +1,6 @@
 # Flowin product marketing context
 
-**Document version:** v1
+**Document version:** v2
 **Last updated:** 2026-10-13
 
 ## Product and audience
@@ -11,6 +11,10 @@ The user confirmed that the primary audience is plumbers and dealers. This is a 
 Help a dealer answer a customer's product query: identify the range, check the family, compare sizes, packing and printed rates. Help plumbers prepare a product reference for their next job. These are design hypotheses, not interview findings.
 Primary action: browse a range. Secondary action: open the official 2026 catalogue. There is no confirmed enquiry contact, stock feed or checkout.
 
+## Approved website direction
+The customer selected the On site design. Extend its navy/coral photographic identity across the homepage, range and family pages, About, Applications and Catalogue. The primary website no longer offers the exploration theme selector.
+The product directory supports family search and range filtering. Requirement preparation lets visitors record products, sizes and quantities, then copy or download the list for an existing contact. It does not submit an enquiry or promise stock, pricing or delivery.
+
 ## Voice and vocabulary
 Use plain, practical trade language: range, pipes, fittings, size, packing, printed rate, catalogue, requirement, product reference. Avoid service-booking language, promises of availability, delivery, margins, discounts or engineering suitability.
 
@@ -19,4 +23,5 @@ Only published company history and the supplied catalogue support claims. No cus
 Product photos come from approved legacy assets. Stock photos show generic applications; generated photographs are illustrative, never evidence of Flowin products or premises.
 
 ## Changelog
+- v2 (2026-10-13) — Recorded customer-approved On site direction and the full catalogue browsing and requirement-preparation journey.
 - v1 (2026-10-13) — Recreated audience and source context for fresh photographic homepage themes based on the live-site baseline.
