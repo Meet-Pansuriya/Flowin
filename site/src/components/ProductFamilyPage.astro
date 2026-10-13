@@ -36,7 +36,7 @@ const additionalCatalogueUrl = additionalSourcePage ? `/catalogue/flowin-price-l
         <p class="product-standard">Catalogue section: <strong>{catalogueSection}</strong></p>
         <div class="product-actions"><a class="request-link" href={`/enquiry/?range=${rangeSlug}&family=${encodeURIComponent(familyName)}`}>Prepare a requirement</a><a class="solid-btn" href="#sizes">View sizes &amp; rates <span aria-hidden="true">↓</span></a><a class="text-link" href={catalogueUrl} target="_blank" rel="noopener">View catalogue <span aria-hidden="true">↗</span></a></div>
       </div>
-      <figure class="product-visual">{imageSrc ? <img src={imageSrc} alt={imageAlt ?? ''} width="300" height="300" /> : <img src="/images/flowin-product-group-legacy.jpg" alt="Flowin legacy assortment photo" width="500" height="500" />}<figcaption>{imageSrc ? "Product image from Flowin's earlier website." : 'Flowin legacy assortment. See the tables for individual variants.'}</figcaption></figure>
+      <figure class="product-visual">{imageSrc ? <img src={imageSrc} alt={imageAlt ?? ''} width="300" height="300" /> : <img src="/images/flowin-product-group-legacy.jpg" alt="Flowin legacy assortment photo" width="500" height="500" />}</figure>
     </section>
 
     <nav class="wrap table-jump" aria-label={`${familyName} tables`}>
