@@ -3,6 +3,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import SiteHeader from '../components/SiteHeader.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import '../styles/photo-themes.css';
+import { Image } from 'astro:assets';
+import hero from '../../public/images/flowin-showroom-hero.png';
 
 
 const catalogue = '/catalogue/flowin-price-list-2026.pdf';
@@ -13,13 +15,13 @@ const ranges = [
   {name:'Agriculture',note:'Pipes and fitting families',href:'/products/agriculture/',photo:'/images/irrigation-daniel-kawed.jpg',caption:'Generic agricultural application',body:'Explore agricultural pipe groups and fittings with their available catalogue details.'},
 ];
 ---
-<BaseLayout title={`Flowin pipes & fittings | For dealers and plumbers`} description="Find Flowin pipes and fittings by range, family and size. Compare catalogue packing and printed rates for your next requirement.">
+<BaseLayout title="Flowin Pipes & Fittings | uPVC, cPVC, SWR & Agriculture" description="Explore Flowin uPVC, cPVC, SWR and agricultural pipes and fittings. Compare sizes, packing and catalogue rates, and prepare product requirements for dealers and plumbers in India.">
   <div class="photo-theme site-theme">
 
     <SiteHeader />
     <main id="main-content" tabindex="-1">
       <section class="site-hero" aria-labelledby="page-title">
-        <img class="site-hero-image" src="/images/flowin-showroom-hero.png" alt="AI-generated model in a white Flowin polo with branded pipes and fittings in a light-blue showroom" width="1774" height="887" fetchpriority="high" />
+        <Image class="site-hero-image" src={hero} alt="Model in a white Flowin polo with pipes and fittings in a light-blue showroom" widths={[640, 960, 1440, 1774]} sizes="100vw" format="webp" width={1774} height={887} fetchpriority="high" loading="eager" />
         <div class="site-hero-content theme-wrap"><p class="audience-line">For the people who keep the work moving</p><h1 id="page-title">Start the next job with the right product reference.</h1><p>Find Flowin pipes and fittings for your requirement. Choose a range, check the size and keep the catalogue close.</p><div class="hero-actions"><a class="theme-button" href="#products">Browse product ranges</a><a class="theme-button secondary" href={catalogue} target="_blank" rel="noopener">Open the catalogue</a></div></div>
       </section>
 

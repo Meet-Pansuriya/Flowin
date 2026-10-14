@@ -6,6 +6,7 @@ import { fileURLToPath } from 'node:url';
 const isCloudflareBuild = process.env.CF_PAGES === '1' || process.env.DEPLOY_TARGET === 'cloudflare';
 const isGitHubPagesBuild = process.env.GITHUB_ACTIONS === 'true' && !isCloudflareBuild;
 const githubPagesBase = '/Flowin';
+const publicOrigin = 'https://flowinpipeandfitting.com';
 
 async function rewriteRootLinks(directory) {
   const entries = await readdir(directory, { withFileTypes: true });
@@ -35,6 +36,23 @@ const githubPagesLinkRewrite = {
   hooks: {
     'astro:build:done': async ({ dir }) => {
       if (isGitHubPagesBuild) await rewriteRootLinks(fileURLToPath(dir));
+      const output = fileURLToPath(dir);
+      const urls = [];
+      async function collect(directory) {
+        for (const entry of await readdir(directory, { withFileTypes: true })) {
+          const entryPath = join(directory, entry.name);
+          if (entry.isDirectory()) await collect(entryPath);
+          else if (entry.name === 'index.html') {
+            const source = await readFile(entryPath, 'utf8');
+            const canonical = source.match(/<link rel="canonical" href="([^"]+)"/);
+            if (canonical && !source.includes('content="noindex, follow"')) urls.push(canonical[1]);
+          }
+        }
+      }
+      await collect(output);
+      const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls.sort().map(url => `<url><loc>${url}</loc></url>`).join('')}</urlset>\n`;
+      await writeFile(join(output, 'sitemap.xml'), xml);
+      await writeFile(join(output, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${publicOrigin}/sitemap.xml\n`);
     },
   },
 };
@@ -42,7 +60,7 @@ const githubPagesLinkRewrite = {
 export default defineConfig({
   output: 'static',
   site: isCloudflareBuild
-    ? process.env.SITE_URL || process.env.CF_PAGES_URL || 'https://flowin-pipes.pages.dev'
+    ? publicOrigin
     : 'https://meet-pansuriya.github.io',
   base: isGitHubPagesBuild ? githubPagesBase : '/',
   integrations: [githubPagesLinkRewrite],

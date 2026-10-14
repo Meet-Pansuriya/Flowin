@@ -23,9 +23,8 @@ GitHub integration automatically deploys pushes to `main`. A standalone `404.htm
 - Build command: `npm run build:cloudflare`
 - Output directory: `dist`
 - Node version: `24` (set `NODE_VERSION=24`)
-- Optional `SITE_URL`: final public origin, including `https://`.
 
-Cloudflare's `CF_PAGES_URL` supplies the origin when `SITE_URL` is unset. The build checks all generated pages and local links before deployment.
+The primary public origin is fixed to `https://flowinpipeandfitting.com` for canonical URLs and the sitemap. Cloudflare branch previews stay noindex. The build checks generated pages, local links and search metadata before deployment.
 
 ## Direct upload
 

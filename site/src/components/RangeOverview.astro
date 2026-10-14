@@ -7,7 +7,7 @@ import { siteRanges } from '../data/siteRanges';
 const { slug } = Astro.props;
 const range = siteRanges.find(r => r.slug === slug)!;
 ---
-<BaseLayout title={`${range.name} | Flowin pipes & fittings`} description={range.lead}>
+<BaseLayout title={`${range.name} Pipes & Fittings | Sizes & Catalogue | Flowin`} description={`Explore Flowin ${range.name.toLowerCase()} pipes and fittings. ${range.lead} Browse sizes, packing and 2026 catalogue rates.`}>
  <SiteHeader /><main id="main-content" tabindex="-1"><nav class="wrap product-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/products/">Products</a><span>/</span><span aria-current="page">{range.name}</span></nav>
  <section class="wrap inside-hero"><div><p class="kicker">Flowin product range</p><h1>{range.name}</h1><p class="inside-lead">{range.lead}</p><div class="product-actions"><a class="solid-btn" href="#families">Find a family</a><a class="text-link" href={`/catalogue/flowin-price-list-2026.pdf#page=${range.sourcePage}`} target="_blank" rel="noopener">Open catalogue section</a></div></div><figure><img src={range.image} alt={range.caption} width="900" height="600" fetchpriority="high" /></figure></section>
  <section class="wrap directory-section" id="families"><div class="section-heading"><div><p class="kicker">Browse {range.name}</p><h2>Find your product family.</h2></div><p>Open a family to check sizes, packing and printed rates. Additional products are listed in the complete catalogue.</p></div><FamilyDirectory range={slug} /></section>

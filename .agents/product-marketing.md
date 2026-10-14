@@ -2,6 +2,7 @@
 
 **Document version:** v2
 **Last updated:** 2026-10-13
+SEO update (14 October 2026): target plumbers and dealers across India. The catalogue contains no phone/email/WhatsApp number; its back cover lists Instagram `flowinpipeandfittings` and the Facebook display name `Flowin Pipe Fittings`. Direct sales contact remains pending.
 
 ## Product and audience
 Flowin Pipe Pvt. Ltd. manufactures pipes and fittings. Its 2026 catalogue covers uPVC, cPVC, SWR and agriculture. Established in 2013, per approved legacy content.
