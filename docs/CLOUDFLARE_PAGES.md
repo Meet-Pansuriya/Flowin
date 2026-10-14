@@ -2,6 +2,9 @@
 
 Flowin is a static Astro site. Cloudflare serves it at `/`; GitHub Pages keeps its `/Flowin/` prefix. The Cloudflare build takes precedence over `GITHUB_ACTIONS`, including when built in GitHub CI.
 
+Production project: `flowin-pipes` at https://flowin-pipes.pages.dev/.
+GitHub integration automatically deploys pushes to `main`. A standalone `404.html` ensures unknown and discontinued theme routes return 404 instead of falling back to the homepage.
+
 ## Git integration
 
 - Repository: `Meet-Pansuriya/Flowin`
@@ -21,10 +24,10 @@ From `site/`:
 ```sh
 npm ci
 npm run build:cloudflare
-npx wrangler pages deploy dist --project-name flowin --branch main
+npx wrangler pages deploy dist --project-name flowin-pipes --branch main
 ```
 
-Authenticate Wrangler with the intended Cloudflare account first. Choose the actual Pages project name if it differs from `flowin`. Upload only `site/dist`, never the repository, historical PHP site, dependencies or local files.
+Authenticate Wrangler with the intended Cloudflare account first. Upload only `site/dist`, never the repository, historical PHP site, dependencies or local files.
 
 ## Verification
 

@@ -42,7 +42,7 @@ const githubPagesLinkRewrite = {
 export default defineConfig({
   output: 'static',
   site: isCloudflareBuild
-    ? process.env.SITE_URL || process.env.CF_PAGES_URL || 'https://flowin.pages.dev'
+    ? process.env.SITE_URL || process.env.CF_PAGES_URL || 'https://flowin-pipes.pages.dev'
     : 'https://meet-pansuriya.github.io',
   base: isGitHubPagesBuild ? githubPagesBase : '/',
   integrations: [githubPagesLinkRewrite],
