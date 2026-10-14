@@ -16,20 +16,20 @@ const catalogueUrl = '/catalogue/flowin-price-list-2026.pdf#page=3';
       <div class="product-hero-copy">
         <span class="eyebrow">uPVC plumbing / pipes</span>
         <h1 id="family-title">uPVC<br />pipes.</h1>
-        <p class="product-lead">Explore 3 m and 6 m pipe lengths, with size, bag packing and separate SCH-40 and SCH-80 rates as printed in Flowin's 2026 catalogue.</p>
-        <p class="product-standard">Catalogue groups: <strong>SCH-40-titled and ASTM F-441-labelled</strong>. Compare the pipe groups below.</p>
-        <div class="product-actions"><a class="request-link" href="/enquiry/?range=upvc&amp;family=uPVC%20pipes">Prepare a requirement</a><a class="solid-btn" href="#sizes">View sizes &amp; rates <span aria-hidden="true">↓</span></a><a class="text-link" href={catalogueUrl} target="_blank" rel="noopener">View catalogue <span aria-hidden="true">↗</span></a></div>
+        <p class="product-lead">Put together your uPVC pipe order by schedule, length and size. Compare Flowin SCH-40 and SCH-80 options, then add the quantities your project needs.</p>
+        <p class="product-standard">Pipe options: <strong>SCH-40-titled and ASTM F-441-labelled</strong>. Compare the pipe groups below.</p>
+        <div class="product-actions"><a class="request-link" href="/enquiry/?range=upvc&amp;family=uPVC%20pipes">Build your order list</a><a class="solid-btn" href="#sizes">View sizes &amp; rates <span aria-hidden="true">↓</span></a><a class="text-link" href={catalogueUrl} target="_blank" rel="noopener">Open catalogue <span aria-hidden="true">↗</span></a></div>
       </div>
       <figure class="product-visual"><img src="/images/upvc-pipes-legacy.jpg" alt="Flowin's earlier uPVC pipe product image" width="300" height="300" /></figure>
     </section>
 
     <section class="product-data" id="sizes" aria-labelledby="sizes-title">
       <div class="wrap">
-        <div class="product-data-intro"><span class="eyebrow">Catalogue details</span><h2 id="sizes-title">Lengths, sizes<br />and schedules.</h2><p>Compare sizes and rates for each pipe variant.</p></div>
+        <div class="product-data-intro"><span class="eyebrow">Catalogue details</span><h2 id="sizes-title">Lengths, sizes<br />and schedules.</h2><p>Find the length and size specified for your project, then plan your quantity.</p></div>
         <div class="variant-grid">
           {upvcPipeGroups.map((group, index) => <PipeRateTable group={group} number={String(index + 1).padStart(2, '0')} sourcePage={3} />)}
         </div>
-        <div class="source-band"><a href={catalogueUrl} target="_blank" rel="noopener">View catalogue ↗</a></div>
+        <div class="source-band"><a href={catalogueUrl} target="_blank" rel="noopener">Open catalogue ↗</a></div>
       </div>
     </section>
 

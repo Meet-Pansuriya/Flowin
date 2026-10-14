@@ -1,7 +1,7 @@
 # Flowin product marketing context
 
-**Document version:** v2
-**Last updated:** 2026-10-13
+**Document version:** v3
+**Last updated:** 2026-10-14
 SEO update (14 October 2026): target plumbers and dealers across India. The catalogue contains no phone/email/WhatsApp number; its back cover lists Instagram `flowinpipeandfittings` and the Facebook display name `Flowin Pipe Fittings`. Direct sales contact remains pending.
 
 ## Product and audience
@@ -17,6 +17,7 @@ The customer selected the On site design. Extend its navy/coral photographic ide
 The product directory supports family search and range filtering. Requirement preparation lets visitors record products, sizes and quantities, then copy or download the list for an existing contact. It does not submit an enquiry or promise stock, pricing or delivery.
 
 ## Voice and vocabulary
+Lead with the value of one Flowin manufacturer across four piping systems, experience since 2013 and the catalogue's stated manufacturing/quality-control commitment. Product pages should speak to selecting and preparing an order, not to the website or transcription process. Use “Build your order list” for the requirement-preparation tool, and make clear that visitors send it themselves.
 Use plain, practical trade language: range, pipes, fittings, size, packing, printed rate, catalogue, requirement, product reference. Avoid service-booking language, promises of availability, delivery, margins, discounts or engineering suitability.
 
 ## Proof and open questions

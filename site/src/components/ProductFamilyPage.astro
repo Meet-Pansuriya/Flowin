@@ -33,10 +33,10 @@ const additionalCatalogueUrl = additionalSourcePage ? `/catalogue/flowin-price-l
         <span class="eyebrow">{rangeName} plumbing / fittings</span>
         <h1 id="family-title">{rangeName}<br />{familyName.toLowerCase()}.</h1>
         <p class="product-lead">{lead}</p>
-        <p class="product-standard">Catalogue section: <strong>{catalogueSection}</strong></p>
-        <div class="product-actions"><a class="request-link" href={`/enquiry/?range=${rangeSlug}&family=${encodeURIComponent(familyName)}`}>Prepare a requirement</a><a class="solid-btn" href="#sizes">View sizes &amp; rates <span aria-hidden="true">↓</span></a><a class="text-link" href={catalogueUrl} target="_blank" rel="noopener">View catalogue <span aria-hidden="true">↗</span></a></div>
+        <p class="product-standard">Product specification: <strong>{catalogueSection}</strong></p>
+        <div class="product-actions"><a class="request-link" href={`/enquiry/?range=${rangeSlug}&family=${encodeURIComponent(familyName)}`}>Build your order list</a><a class="solid-btn" href="#sizes">View sizes &amp; rates <span aria-hidden="true">↓</span></a><a class="text-link" href={catalogueUrl} target="_blank" rel="noopener">View catalogue <span aria-hidden="true">↗</span></a></div>
       </div>
-      <figure class="product-visual">{imageSrc ? <img src={imageSrc} alt={imageAlt ?? ''} width="300" height="300" /> : <img src="/images/flowin-product-group-legacy.jpg" alt="Flowin legacy assortment photo" width="500" height="500" />}</figure>
+      <figure class="product-visual">{imageSrc ? <img src={imageSrc} alt={imageAlt ?? ''} width="300" height="300" /> : <img src="/images/flowin-product-group-legacy.jpg" alt="Flowin pipes and fittings assortment" width="500" height="500" />}</figure>
     </section>
 
     <nav class="wrap table-jump" aria-label={`${familyName} tables`}>
@@ -46,7 +46,7 @@ const additionalCatalogueUrl = additionalSourcePage ? `/catalogue/flowin-price-l
 
     <section class="product-data" id="sizes" aria-labelledby="sizes-title">
       <div class="wrap">
-        <div class="product-data-intro"><span class="eyebrow">Catalogue details</span><h2 id="sizes-title">The sizes behind<br />the system.</h2><p>Compare sizes, packing and rates for each fitting.</p></div>
+        <div class="product-data-intro"><span class="eyebrow">Catalogue details</span><h2 id="sizes-title">Choose your size.<br />Plan your order.</h2><p>Find the fitting size you need, check packing and plan your order quantity.</p></div>
         <div class="variant-grid">
           {variants.map((variant, index) => <RateTable variant={variant} number={String(index + 1).padStart(2, '0')} sourcePage={sourcePage} />)}
         </div>
@@ -54,7 +54,7 @@ const additionalCatalogueUrl = additionalSourcePage ? `/catalogue/flowin-price-l
       </div>
     </section>
 
-    <section class="wrap family-outro" aria-labelledby="family-outro-title"><div><span class="eyebrow">Next connection</span><h2 id="family-outro-title">Need another fitting?</h2></div><div><p>Browse the {rangeName} range for another product family, or open the catalogue for the complete list.</p><a class="solid-btn" href={`/products/${rangeSlug}/`}>Explore {rangeName} range <span aria-hidden="true">↗</span></a></div></section>
+    <section class="wrap family-outro" aria-labelledby="family-outro-title"><div><span class="eyebrow">Complete your product list</span><h2 id="family-outro-title">Need another fitting?</h2></div><div><p>Bring the rest of your {rangeName} pipes and fittings into one Flowin order. Explore the range and add the products your list needs.</p><a class="solid-btn" href={`/products/${rangeSlug}/`}>Explore {rangeName} range <span aria-hidden="true">↗</span></a></div></section>
   </main>
   <SiteFooter />
 </BaseLayout>

@@ -2,7 +2,7 @@ export const siteRanges = [
   {
     "slug": "upvc",
     "name": "uPVC plumbing",
-    "lead": "Choose the size and fitting for your plumbing requirement. Compare schedules, packing and printed rates.",
+    "lead": "Bring Flowin uPVC pipes and fittings into your next plumbing order. Explore pipe schedules, elbows, tees and couplers, then choose the sizes your project specifies.",
     "image": "/images/upvc-pipes-legacy.jpg",
     "caption": "Flowin product photo",
     "sourcePage": 3,
@@ -17,7 +17,7 @@ export const siteRanges = [
       },
       {
         "title": "Elbows",
-        "description": "Elbow and 45° elbow size tables.",
+        "description": "Elbow and 45° elbow sizes.",
         "href": "/products/upvc/elbows/",
         "image": "/images/upvc-elbow-legacy.jpg",
         "caption": "Flowin product photo",
@@ -25,7 +25,7 @@ export const siteRanges = [
       },
       {
         "title": "Tees",
-        "description": "Tee and cross-tee size tables.",
+        "description": "Tee and cross-tee sizes.",
         "href": "/products/upvc/tees/",
         "image": "/images/upvc-tee-legacy.jpg",
         "caption": "Flowin product photo",
@@ -33,7 +33,7 @@ export const siteRanges = [
       },
       {
         "title": "Reducing tees",
-        "description": "Paired sizes and page-4 catalogue details.",
+        "description": "Paired sizes.",
         "href": "/products/upvc/reducing-tees/",
         "image": "/images/upvc-reducing-tee-legacy.jpg",
         "caption": "Flowin product photo",
@@ -41,7 +41,7 @@ export const siteRanges = [
       },
       {
         "title": "More fittings",
-        "description": "Reducer couplers, end caps and reducer bushes from page 4.",
+        "description": "Reducer couplers, end caps and reducer bushes to complete your fitting list.",
         "href": "/products/upvc/more-fittings/",
         "image": "/images/upvc-coupler-legacy.jpg",
         "caption": "Flowin product photo",
@@ -52,7 +52,7 @@ export const siteRanges = [
   {
     "slug": "cpvc",
     "name": "cPVC plumbing",
-    "lead": "Check the pipe group, length and size, then find the fitting family for your list.",
+    "lead": "Build your cPVC product list with Flowin pipes and fittings. Find SDR and schedule pipe options alongside elbows, tees and couplers for your next order.",
     "image": "/images/cpvc-pipes-legacy.jpg",
     "caption": "Flowin product photo",
     "sourcePage": 7,
@@ -67,7 +67,7 @@ export const siteRanges = [
       },
       {
         "title": "Pipes",
-        "description": "All six printed 3 m and 5 m SDR and schedule tables.",
+        "description": "All six 3 m and 5 m SDR and schedule options.",
         "href": "/products/cpvc/pipes/",
         "image": "/images/cpvc-pipes-legacy.jpg",
         "caption": "Flowin product photo",
@@ -75,7 +75,7 @@ export const siteRanges = [
       },
       {
         "title": "Tees and couplers",
-        "description": "Tee, coupler and reducing-elbow tables from page 7.",
+        "description": "Tees, couplers and reducing elbows for your cPVC fitting order.",
         "href": "/products/cpvc/tees-and-couplers/",
         "image": "/images/cpvc-tee-legacy.jpg",
         "caption": "Flowin product photo",
@@ -86,7 +86,7 @@ export const siteRanges = [
   {
     "slug": "swr",
     "name": "SWR drainage",
-    "lead": "Browse ring-fit and self-fit as separate systems. Find pipes, bends, tees and accessories by family.",
+    "lead": "Bring your drainage product needs together with Flowin SWR. Explore separate ring-fit and self-fit systems, with pipes, bends, tees and accessories for your list.",
     "image": "/images/plumbing-sergei-starostin.jpg",
     "caption": "Generic plumbing application",
     "sourcePage": 11,
@@ -149,7 +149,7 @@ export const siteRanges = [
       },
       {
         "title": "Self-fit fittings",
-        "description": "Bends, tees, couplers, traps and reducers from page 12.",
+        "description": "Bends, tees, couplers, traps and reducers for your self-fit SWR list.",
         "href": "/products/swr/self-fit-fittings/",
         "image": "/images/plumbing-sergei-starostin.jpg",
         "caption": "Generic plumbing application",
@@ -157,7 +157,7 @@ export const siteRanges = [
       },
       {
         "title": "Self-fit accessories",
-        "description": "Cleansing pipes, caps, traps and PVC solvent from page 13.",
+        "description": "Cleansing pipes, caps, traps and PVC solvent for your self-fit SWR requirement.",
         "href": "/products/swr/self-fit-accessories/",
         "image": "/images/plumbing-sergei-starostin.jpg",
         "caption": "Generic plumbing application",
@@ -168,7 +168,7 @@ export const siteRanges = [
   {
     "slug": "agriculture",
     "name": "Agriculture",
-    "lead": "Compare pipe lengths and the printed pressure or class groups. Browse fittings for your product requirement.",
+    "lead": "Put your agricultural piping order together with Flowin. Explore pipe lengths, pressure and class groups, then find the fitting families your requirement needs.",
     "image": "/images/irrigation-daniel-kawed.jpg",
     "caption": "Generic agriculture application",
     "sourcePage": 14,

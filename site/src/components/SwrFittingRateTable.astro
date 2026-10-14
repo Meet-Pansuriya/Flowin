@@ -12,7 +12,7 @@ const { variant, number, system = 'ring-fit', sourcePage = 11 } = Astro.props;
 ---
 
 <section class="variant-section" id={variant.id} aria-labelledby={`${variant.id}-title`}>
-  <div class="variant-heading"><span class="variant-index">{number} / {system.toUpperCase()} FITTING</span><h2 id={`${variant.id}-title`}>{variant.name}</h2><p>Sizes, box packing and rate per piece as listed in the 2026 catalogue.</p></div>
+  <div class="variant-heading"><span class="variant-index">{number} / {system.toUpperCase()} FITTING</span><h2 id={`${variant.id}-title`}>{variant.name}</h2><p>Sizes, box packing and rate per piece to help plan your order.</p></div>
   <p class="table-hint">Swipe to see all columns <span aria-hidden="true">→</span></p>
   <div class="table-scroll" role="region" aria-label={`${variant.name} size and rate table`} tabindex="0">
     <table>
