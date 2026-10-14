@@ -3,7 +3,17 @@
 Flowin is a static Astro site. Cloudflare serves it at `/`; GitHub Pages keeps its `/Flowin/` prefix. The Cloudflare build takes precedence over `GITHUB_ACTIONS`, including when built in GitHub CI.
 
 Production project: `flowin-pipes` at https://flowin-pipes.pages.dev/.
+Public domain: https://flowinpipeandfitting.com/ (also https://www.flowinpipeandfitting.com/), connected on 14 October 2026.
 GitHub integration automatically deploys pushes to `main`. A standalone `404.html` ensures unknown and discontinued theme routes return 404 instead of falling back to the homepage.
+
+## Domain DNS
+
+- Registrar: GoDaddy; DNS management: Cloudflare Free.
+- Nameservers: `holly.ns.cloudflare.com` and `kayden.ns.cloudflare.com`.
+- Proxied CNAME records for `@` and `www`: `flowin-pipes.pages.dev`.
+- Original `_domainconnect`, `_dmarc` and `_github-pages-challenge-meet-pansuriya` records preserved as DNS-only records.
+- GoDaddy parking A records replaced by the Pages apex CNAME.
+- HTTPS homepage verified for both domains; product page, enquiry, catalogue PDF and hero asset verified on the primary domain.
 
 ## Git integration
 
