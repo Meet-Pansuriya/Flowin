@@ -12,6 +12,8 @@ The hero is served as responsive WebP (640, 960, 1440 and 1774 px). Largest gene
 
 `npm run build:cloudflare` checks page structure, local links, indexing directives, canonical uniqueness, JSON-LD and sitemap coverage. GitHub Pages compatibility and preview noindex behavior were also checked.
 
+Google Search Console domain ownership was verified using a DNS TXT record. The HTTPS sitemap was successfully processed and Google discovered 29 pages. Google's live homepage test reported that the page can be indexed; the homepage indexing request was accepted into the priority crawl queue. These signals do not mean all pages are already indexed. Historical HTTP sitemap entries remain in the property; the current submitted sitemap is `https://flowinpipeandfitting.com/sitemap.xml`.
+
 ## Contact evidence
 
 The 16-page 2026 catalogue contains no phone, email or WhatsApp number. Its back cover supplies the website, Instagram `flowinpipeandfittings`, and Facebook display name `Flowin Pipe Fittings`. The Instagram profile link is exposed in the footer. Direct call/WhatsApp and local-business address markup await real business contact details. The catalogue's blank dealer panel is not a contact address.
