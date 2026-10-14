@@ -3,7 +3,8 @@ import { readdir, readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const isGitHubPagesBuild = process.env.GITHUB_ACTIONS === 'true';
+const isCloudflareBuild = process.env.CF_PAGES === '1' || process.env.DEPLOY_TARGET === 'cloudflare';
+const isGitHubPagesBuild = process.env.GITHUB_ACTIONS === 'true' && !isCloudflareBuild;
 const githubPagesBase = '/Flowin';
 
 async function rewriteRootLinks(directory) {
@@ -40,7 +41,9 @@ const githubPagesLinkRewrite = {
 
 export default defineConfig({
   output: 'static',
-  site: 'https://meet-pansuriya.github.io',
+  site: isCloudflareBuild
+    ? process.env.SITE_URL || process.env.CF_PAGES_URL || 'https://flowin.pages.dev'
+    : 'https://meet-pansuriya.github.io',
   base: isGitHubPagesBuild ? githubPagesBase : '/',
   integrations: [githubPagesLinkRewrite],
 });

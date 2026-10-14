@@ -2,7 +2,8 @@ import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join, relative, resolve } from 'node:path';
 
 const dist = resolve('dist');
-const base = '/Flowin';
+const isCloudflareBuild = process.env.CF_PAGES === '1' || process.env.DEPLOY_TARGET === 'cloudflare';
+const base = process.env.GITHUB_ACTIONS === 'true' && !isCloudflareBuild ? '/Flowin' : '';
 const pages = [];
 function visit(dir) {
   for (const entry of readdirSync(dir, { withFileTypes: true })) {
@@ -21,7 +22,7 @@ if (rangeCards.length !== 4) problems.push(`index.html: expected four fully link
 for (const [index, card] of rangeCards.entries()) {
   if (!card[0].includes('<img')) problems.push(`index.html: range card ${index + 1} missing its photograph`);
   if (!card[0].includes('Explore range')) problems.push(`index.html: range card ${index + 1} missing call to action`);
-  if (!/href="\/Flowin\/products\//.test(card[0])) problems.push(`index.html: range card ${index + 1} missing product destination`);
+  if (!card[0].includes(`href="${base}/products/`)) problems.push(`index.html: range card ${index + 1} missing product destination`);
 }
 for (const page of pages) {
   const html = readFileSync(page, 'utf8');
