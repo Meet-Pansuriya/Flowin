@@ -12,3 +12,8 @@
 .env.*
 !.env.example
 *.log
+
+# Local conversion tools and Python caches.
+/tmp/
+__pycache__/
+*.py[cod]
