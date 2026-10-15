@@ -1,0 +1,9 @@
+---
+import { officeContact } from '../data/contact';
+const { compact = false } = Astro.props;
+---
+<section class:list={['office-contact', { 'office-contact-compact': compact }]} aria-label="Contact Flowin office">
+  <h3>Contact Flowin</h3>
+  {!compact && <p>Have a product or dealer enquiry? Contact our office with the range, sizes and quantities you need.</p>}
+  <div class="office-contact-links"><a href={`tel:${officeContact.telephone}`}>{officeContact.phone}</a><a href={`mailto:${officeContact.email}`}>{officeContact.email}</a><a href={officeContact.map} target="_blank" rel="noopener">Find us on Google Maps <span aria-hidden="true">↗</span></a></div>
+</section>

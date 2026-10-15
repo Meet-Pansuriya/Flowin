@@ -1,0 +1,6358 @@
+[
+  {
+    "id": "upvc/upvc-pipe-sch-40",
+    "range": "upvc",
+    "system": "",
+    "kind": "pipes",
+    "group": "pipes",
+    "slug": "upvc-pipe-sch-40",
+    "name": "uPVC Pipe SCH-40",
+    "printedName": "UPVC PIPE SCH-40",
+    "sourcePage": 3,
+    "sourceTable": 0,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-upvc-pipe-sch-40.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "PKG. BAG",
+      "3 MTR / piece",
+      "6 MTR / piece"
+    ],
+    "rows": [
+      [
+        "1/2\"",
+        "15",
+        "50",
+        "131.70",
+        "263.50"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "35",
+        "167.00",
+        "333.90"
+      ],
+      [
+        "1\"",
+        "25",
+        "25",
+        "246.00",
+        "491.80"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "15",
+        "351.30",
+        "702.70"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "15",
+        "412.90",
+        "825.70"
+      ],
+      [
+        "2\"",
+        "50",
+        "10",
+        "527.00",
+        "1054.00"
+      ],
+      [
+        "2 1/2\"",
+        "65",
+        "5",
+        "1253.50",
+        "2507.00"
+      ],
+      [
+        "3\"",
+        "80",
+        "3",
+        "1629.50",
+        "3259.00"
+      ],
+      [
+        "4\"",
+        "100",
+        "2",
+        "2256.30",
+        "4512.50"
+      ]
+    ],
+    "href": "/products/upvc/upvc-pipe-sch-40/",
+    "note": "Includes the larger-size ASTM F-441 rows shown with this schedule in the catalogue."
+  },
+  {
+    "id": "upvc/upvc-pipe-sch-80",
+    "range": "upvc",
+    "system": "",
+    "kind": "pipes",
+    "group": "pipes",
+    "slug": "upvc-pipe-sch-80",
+    "name": "uPVC Pipe SCH-80",
+    "printedName": "UPVC PIPE SCH-80",
+    "sourcePage": 3,
+    "sourceTable": 1,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-upvc-pipe-sch-80.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "PKG. BAG",
+      "3 MTR / piece",
+      "6 MTR / piece"
+    ],
+    "rows": [
+      [
+        "1/2\"",
+        "15",
+        "30",
+        "158.20",
+        "316.30"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "25",
+        "219.60",
+        "439.20"
+      ],
+      [
+        "1\"",
+        "25",
+        "15",
+        "307.50",
+        "614.90"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "10",
+        "439.20",
+        "878.40"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "10",
+        "527.00",
+        "1054.00"
+      ],
+      [
+        "2\"",
+        "50",
+        "8",
+        "702.80",
+        "1405.50"
+      ],
+      [
+        "2 1/2\"",
+        "65",
+        "5",
+        "1604.50",
+        "3209.00"
+      ],
+      [
+        "3\"",
+        "80",
+        "3",
+        "2131.00",
+        "4261.90"
+      ],
+      [
+        "4\"",
+        "100",
+        "2",
+        "3133.70",
+        "6267.50"
+      ]
+    ],
+    "href": "/products/upvc/upvc-pipe-sch-80/",
+    "note": "Includes the larger-size ASTM F-441 rows shown with this schedule in the catalogue."
+  },
+  {
+    "id": "upvc/elbow",
+    "range": "upvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "elbow",
+    "name": "Elbow",
+    "printedName": "ELBOW",
+    "sourcePage": 3,
+    "sourceTable": 2,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-elbow.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "1/2\"",
+        "15",
+        "8.10",
+        "100 X 6",
+        "600"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "15.10",
+        "50 X 7",
+        "350"
+      ],
+      [
+        "1\"",
+        "25",
+        "19.80",
+        "40 X 5",
+        "200"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "33.70",
+        "20 X 6",
+        "220"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "55.80",
+        "20 X 4",
+        "80"
+      ],
+      [
+        "2\"",
+        "50",
+        "86.00",
+        "10 X 5",
+        "50"
+      ],
+      [
+        "2 1/2\"",
+        "65",
+        "159.90",
+        "3 X 8",
+        "24"
+      ],
+      [
+        "3\"",
+        "80",
+        "302.30",
+        "2 X 5",
+        "10"
+      ],
+      [
+        "4\"",
+        "100",
+        "416.30",
+        "2 X 5",
+        "10"
+      ]
+    ],
+    "href": "/products/upvc/elbow/"
+  },
+  {
+    "id": "upvc/tee",
+    "range": "upvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "tee",
+    "name": "Tee",
+    "printedName": "TEE",
+    "sourcePage": 3,
+    "sourceTable": 3,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-tee.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "1/2\"",
+        "15",
+        "13.40",
+        "50 X 8",
+        "400"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "19.50",
+        "25 X 10",
+        "250"
+      ],
+      [
+        "1\"",
+        "25",
+        "31.40",
+        "25 X 5",
+        "125"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "43.00",
+        "10 X 8",
+        "80"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "54.70",
+        "10 X 6",
+        "60"
+      ],
+      [
+        "2\"",
+        "50",
+        "90.70",
+        "6 X 5",
+        "30"
+      ],
+      [
+        "2 1/2\"",
+        "65",
+        "297.70",
+        "2 X 7",
+        "14"
+      ],
+      [
+        "3\"",
+        "80",
+        "411.60",
+        "1 X 10",
+        "10"
+      ],
+      [
+        "4\"",
+        "100",
+        "597.70",
+        "1 X 5",
+        "5"
+      ]
+    ],
+    "href": "/products/upvc/tee/"
+  },
+  {
+    "id": "upvc/coupler",
+    "range": "upvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "coupler",
+    "name": "Coupler",
+    "printedName": "COUPLER",
+    "sourcePage": 3,
+    "sourceTable": 4,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-coupler.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "1/2\"",
+        "15",
+        "6.70",
+        "100 X 8",
+        "800"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "10.50",
+        "100 X 5",
+        "500"
+      ],
+      [
+        "1\"",
+        "25",
+        "14.00",
+        "50 X 6",
+        "300"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "22.00",
+        "25 X 6",
+        "150"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "25.60",
+        "25 X 5",
+        "125"
+      ],
+      [
+        "2\"",
+        "50",
+        "46.50",
+        "15 X 5",
+        "75"
+      ],
+      [
+        "2 1/2\"",
+        "65",
+        "133.70",
+        "6 X 7",
+        "42"
+      ],
+      [
+        "3\"",
+        "80",
+        "181.40",
+        "4 X 6",
+        "24"
+      ],
+      [
+        "4\"",
+        "100",
+        "377.90",
+        "2 X 6",
+        "12"
+      ]
+    ],
+    "href": "/products/upvc/coupler/"
+  },
+  {
+    "id": "upvc/mta",
+    "range": "upvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "mta",
+    "name": "MTA",
+    "printedName": "MTA",
+    "sourcePage": 3,
+    "sourceTable": 5,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-mta.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "1/2\"",
+        "15",
+        "5.80",
+        "100 X 10",
+        "1000"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "8.70",
+        "50 X 10",
+        "500"
+      ],
+      [
+        "1\"",
+        "25",
+        "14.00",
+        "50 X 7",
+        "350"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "21.00",
+        "25 X 7",
+        "175"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "26.80",
+        "25 X 6",
+        "150"
+      ],
+      [
+        "2\"",
+        "50",
+        "41.90",
+        "20 X 5",
+        "100"
+      ]
+    ],
+    "href": "/products/upvc/mta/"
+  },
+  {
+    "id": "upvc/reducing-elbow",
+    "range": "upvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "reducing-elbow",
+    "name": "Reducing Elbow",
+    "printedName": "REDUCING ELBOW",
+    "sourcePage": 4,
+    "sourceTable": 0,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-reducing-elbow.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "1\" X 1/2\"",
+        "25 X 15",
+        "25.60",
+        "25 X 10",
+        "250"
+      ],
+      [
+        "1\" X 3/4\"",
+        "25 X 20",
+        "23.30",
+        "25 X 10",
+        "250"
+      ],
+      [
+        "3/4\" X 1/2\"",
+        "20 X 15",
+        "14.50",
+        "50 X 7",
+        "350"
+      ]
+    ],
+    "href": "/products/upvc/reducing-elbow/"
+  },
+  {
+    "id": "upvc/fta",
+    "range": "upvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "fta",
+    "name": "FTA",
+    "printedName": "FTA",
+    "sourcePage": 4,
+    "sourceTable": 1,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-fta.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "1/2\"",
+        "15",
+        "6.40",
+        "100 X 8",
+        "800"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "10.70",
+        "50 X 10",
+        "500"
+      ],
+      [
+        "1\"",
+        "25",
+        "16.30",
+        "50 X 6",
+        "300"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "24.40",
+        "25 X 7",
+        "175"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "29.70",
+        "25 X 5",
+        "125"
+      ],
+      [
+        "2\"",
+        "50",
+        "43.00",
+        "15 X 6",
+        "90"
+      ]
+    ],
+    "href": "/products/upvc/fta/"
+  },
+  {
+    "id": "upvc/reducing-tee",
+    "range": "upvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "reducing-tee",
+    "name": "Reducing Tee",
+    "printedName": "REDUCING TEE",
+    "sourcePage": 4,
+    "sourceTable": 2,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-reducing-tee.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "1\" X 3/4\"",
+        "25 X 20",
+        "31.20",
+        "25 X 6",
+        "150"
+      ],
+      [
+        "1\" X 1/2\"",
+        "25 X 15",
+        "32.60",
+        "25 X 6",
+        "150"
+      ],
+      [
+        "3/4\" X 1/2\"",
+        "20 X 15",
+        "17.80",
+        "25 X 10",
+        "250"
+      ],
+      [
+        "1 1/4\" X 3/4\"",
+        "32 X 20",
+        "41.90",
+        "10 X 6",
+        "60"
+      ],
+      [
+        "1 1/4\" X 1\"",
+        "32 X 25",
+        "43.00",
+        "10 X 8",
+        "80"
+      ],
+      [
+        "1 1/2\" X 1/2\"",
+        "40 X 15",
+        "46.50",
+        "10 X 7",
+        "70"
+      ],
+      [
+        "1 1/2\" X 3/4\"",
+        "40 X 20",
+        "48.80",
+        "10 X 7",
+        "70"
+      ],
+      [
+        "1 1/2\" X 1\"",
+        "40 X 25",
+        "50.00",
+        "10 X 6",
+        "60"
+      ],
+      [
+        "1 1/2\" X 1 1/4\"",
+        "40 X 32",
+        "51.20",
+        "10 X 6",
+        "60"
+      ],
+      [
+        "2\" X 1/2\"",
+        "50 X 15",
+        "101.20",
+        "6 X 5",
+        "30"
+      ],
+      [
+        "2\" X 3/4\"",
+        "50 X 20",
+        "102.10",
+        "6 X 5",
+        "30"
+      ],
+      [
+        "2\" X 1\"",
+        "50 X 25",
+        "106.40",
+        "6 X 5",
+        "30"
+      ],
+      [
+        "2\" X 1 1/4\"",
+        "50 X 32",
+        "109.10",
+        "6 X 5",
+        "30"
+      ],
+      [
+        "2\" X 1 1/2\"",
+        "50 X 40",
+        "111.20",
+        "6 X 5",
+        "30"
+      ],
+      [
+        "2 1/2\" X 1\"",
+        "65 X 25",
+        "251.20",
+        "",
+        ""
+      ],
+      [
+        "2 1/2\" X 1 1/2\"",
+        "65 X 40",
+        "266.30",
+        "",
+        ""
+      ],
+      [
+        "2 1/2\" X 2\"",
+        "65 X 50",
+        "275.60",
+        "4 X 5",
+        "20"
+      ],
+      [
+        "3\" X 2\"",
+        "80 X 50",
+        "380.20",
+        "2 X 5",
+        "10"
+      ],
+      [
+        "4\" X 2\"",
+        "100 X 50",
+        "559.30",
+        "1 X 5",
+        "5"
+      ],
+      [
+        "4\" X 3\"",
+        "100 X 80",
+        "581.40",
+        "1 X 5",
+        "5"
+      ]
+    ],
+    "href": "/products/upvc/reducing-tee/"
+  },
+  {
+    "id": "upvc/reducer-coupler",
+    "range": "upvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "reducer-coupler",
+    "name": "Reducer Coupler",
+    "printedName": "REDUCER COUPLER",
+    "sourcePage": 4,
+    "sourceTable": 3,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-reducer-coupler.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "1\" X 1/2\"",
+        "25 X 15",
+        "14.00",
+        "50 X 7",
+        "350"
+      ],
+      [
+        "1\" X 3/4\"",
+        "25 X 20",
+        "16.30",
+        "50 X 7",
+        "350"
+      ],
+      [
+        "3/4\" X 1/2\"",
+        "20 X 15",
+        "10.20",
+        "50 X 10",
+        "500"
+      ],
+      [
+        "2\" X 1\"",
+        "50 X 25",
+        "34.10",
+        "20 X 5",
+        "100"
+      ],
+      [
+        "2\"X 1 1/2\"",
+        "50 X 40",
+        "39.30",
+        "15 X 5",
+        "75"
+      ],
+      [
+        "2\" X 3/4\"",
+        "50 X 20",
+        "35.40",
+        "20 X 5",
+        "100"
+      ],
+      [
+        "2\" X 1/2\"",
+        "50 X 15",
+        "36.60",
+        "20 X 5",
+        "100"
+      ],
+      [
+        "1 1/4\" X 1/2\"",
+        "32 X 15",
+        "18.60",
+        "32 X 8",
+        "256"
+      ],
+      [
+        "1 1/4\" X 3/4\"",
+        "32 X 20",
+        "22.10",
+        "32 X 8",
+        "256"
+      ],
+      [
+        "1 1/4\" X 1\"",
+        "32 X 25",
+        "23.30",
+        "25 X 6",
+        "150"
+      ],
+      [
+        "1 1/2\" X 1/2\"",
+        "40 X 15",
+        "24.40",
+        "30 X 7",
+        "210"
+      ],
+      [
+        "1 1/2\" X 3/4\"",
+        "40 X 20",
+        "25.60",
+        "30 X 7",
+        "210"
+      ],
+      [
+        "1 1/2\" X 1\"",
+        "40 X 25",
+        "27.90",
+        "25 X 5",
+        "125"
+      ],
+      [
+        "1 1/2\" X 1 1/4\"",
+        "40 X 32",
+        "29.10",
+        "25 X 7",
+        "175"
+      ],
+      [
+        "3\" x 2\"",
+        "80 x 50",
+        "162.80",
+        "6 X 6",
+        "36"
+      ],
+      [
+        "3\" x 2 1/2\"",
+        "80 x 65",
+        "176.70",
+        "8 X 5",
+        "40"
+      ]
+    ],
+    "href": "/products/upvc/reducer-coupler/"
+  },
+  {
+    "id": "upvc/end-cap",
+    "range": "upvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "end-cap",
+    "name": "End Cap",
+    "printedName": "ENDCAP",
+    "sourcePage": 4,
+    "sourceTable": 4,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-end-cap.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "1/2\"",
+        "15",
+        "4.70",
+        "100 X 12",
+        "1200"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "8.10",
+        "50 X 14",
+        "700"
+      ],
+      [
+        "1\"",
+        "25",
+        "9.90",
+        "50 X 10",
+        "500"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "19.80",
+        "40 X 7",
+        "280"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "24.40",
+        "25 X 8",
+        "200"
+      ],
+      [
+        "2\"",
+        "50",
+        "33.70",
+        "20 X 7",
+        "140"
+      ],
+      [
+        "2 1/2\"",
+        "65",
+        "125.60",
+        "10 X 5",
+        "50"
+      ],
+      [
+        "3\"",
+        "80",
+        "145.40",
+        "8 X 5",
+        "40"
+      ],
+      [
+        "4\"",
+        "100",
+        "304.70",
+        "3 X 7",
+        "21"
+      ]
+    ],
+    "href": "/products/upvc/end-cap/"
+  },
+  {
+    "id": "upvc/cross-tee",
+    "range": "upvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "cross-tee",
+    "name": "Cross Tee",
+    "printedName": "CROSS TEE",
+    "sourcePage": 4,
+    "sourceTable": 5,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-cross-tee.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "1/2\"",
+        "15",
+        "18.60",
+        "25 X 10",
+        "250"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "23.30",
+        "25 X 6",
+        "150"
+      ],
+      [
+        "1\"",
+        "25",
+        "44.20",
+        "25 X 4",
+        "100"
+      ]
+    ],
+    "href": "/products/upvc/cross-tee/"
+  },
+  {
+    "id": "upvc/45-elbow",
+    "range": "upvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "45-elbow",
+    "name": "45° Elbow",
+    "printedName": "45\" ELBOW",
+    "sourcePage": 4,
+    "sourceTable": 6,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-45-elbow.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "1/2\"",
+        "15",
+        "8.10",
+        "100 X 6",
+        "600"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "15.10",
+        "50 X 8",
+        "400"
+      ],
+      [
+        "1\"",
+        "25",
+        "19.80",
+        "40 X 6",
+        "240"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "31.40",
+        "25 X 6",
+        "150"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "41.90",
+        "20 X 5",
+        "100"
+      ],
+      [
+        "2\"",
+        "50",
+        "67.40",
+        "10 X 6",
+        "60"
+      ],
+      [
+        "2 1/2\"",
+        "65",
+        "174.40",
+        "5 X 5",
+        "25"
+      ],
+      [
+        "3\"",
+        "80",
+        "246.50",
+        "4 X 5",
+        "20"
+      ],
+      [
+        "4\"",
+        "100",
+        "423.20",
+        "2 X 5",
+        "10"
+      ]
+    ],
+    "href": "/products/upvc/45-elbow/"
+  },
+  {
+    "id": "upvc/reducer-bush",
+    "range": "upvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "reducer-bush",
+    "name": "Reducer Bush",
+    "printedName": "REDUCER BUSH",
+    "sourcePage": 4,
+    "sourceTable": 7,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-reducer-bush.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "3/4\" X 1/2\"",
+        "20 X 15",
+        "3.50",
+        "150 X 7",
+        "1050"
+      ],
+      [
+        "1\" X 1/2\"",
+        "25 X 15",
+        "7.90",
+        "100 X 7",
+        "700"
+      ],
+      [
+        "1\" X 3/4\"",
+        "25 X 20",
+        "5.80",
+        "100 X 7",
+        "700"
+      ],
+      [
+        "1 1/4\" X 3/4\"",
+        "32 X 20",
+        "17.40",
+        "50 X 7",
+        "350"
+      ],
+      [
+        "1 1/4\" X 1\"",
+        "32 X 25",
+        "11.70",
+        "50 X 7",
+        "350"
+      ],
+      [
+        "1 1/2\" X 3/4\"",
+        "40 X 20",
+        "21.40",
+        "40 X 6",
+        "240"
+      ],
+      [
+        "1 1/2\" X 1\"",
+        "40 X 25",
+        "22.20",
+        "40 X 7",
+        "280"
+      ]
+    ],
+    "href": "/products/upvc/reducer-bush/"
+  },
+  {
+    "id": "upvc/thread-elbow",
+    "range": "upvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "thread-elbow",
+    "name": "Thread Elbow",
+    "printedName": "THREAD ELBOW",
+    "sourcePage": 5,
+    "sourceTable": 0,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-thread-elbow.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "1/2\"",
+        "15",
+        "11.50",
+        "100 X 6",
+        "600"
+      ]
+    ],
+    "href": "/products/upvc/thread-elbow/"
+  },
+  {
+    "id": "upvc/union-n-r-v-thread",
+    "range": "upvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "union-n-r-v-thread",
+    "name": "Union + [N.R.V.] Thread",
+    "printedName": "UNION + [N.R.V.] THREAD",
+    "sourcePage": 5,
+    "sourceTable": 1,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-union-n-r-v-thread.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "1/2\"",
+        "15",
+        "200.40",
+        "10 X 5",
+        "50"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "205.40",
+        "10 X 5",
+        "50"
+      ],
+      [
+        "1\"",
+        "25",
+        "212.80",
+        "10 X 5",
+        "50"
+      ]
+    ],
+    "href": "/products/upvc/union-n-r-v-thread/"
+  },
+  {
+    "id": "upvc/union-n-r-v-plain",
+    "range": "upvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "union-n-r-v-plain",
+    "name": "Union + [N.R.V.] Plain",
+    "printedName": "UNION + [N.R.V.] PLAIN",
+    "sourcePage": 5,
+    "sourceTable": 2,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-union-n-r-v-plain.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "1/2\"",
+        "15",
+        "185.60",
+        "10 X 5",
+        "50"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "190.50",
+        "10 X 5",
+        "50"
+      ],
+      [
+        "1\"",
+        "25",
+        "197.90",
+        "10 X 5",
+        "50"
+      ]
+    ],
+    "href": "/products/upvc/union-n-r-v-plain/"
+  },
+  {
+    "id": "upvc/tank-nipple-pipe",
+    "range": "upvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "tank-nipple-pipe",
+    "name": "Tank Nipple Pipe",
+    "printedName": "TANK NIPPLE PIPE",
+    "sourcePage": 5,
+    "sourceTable": 3,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-tank-nipple-pipe.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "1/2\"",
+        "15",
+        "20.40",
+        "50 X 5",
+        "250"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "27.90",
+        "25 X 9",
+        "225"
+      ],
+      [
+        "1\"",
+        "25",
+        "40.70",
+        "25 X 5",
+        "125"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "62.80",
+        "15 X 5",
+        "75"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "68.60",
+        "10 X 6",
+        "60"
+      ],
+      [
+        "2\"",
+        "50",
+        "89.50",
+        "10 X 5",
+        "50"
+      ]
+    ],
+    "href": "/products/upvc/tank-nipple-pipe/"
+  },
+  {
+    "id": "upvc/union",
+    "range": "upvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "union",
+    "name": "Union",
+    "printedName": "UNION",
+    "sourcePage": 5,
+    "sourceTable": 4,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-union.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "1/2\"",
+        "15",
+        "19.20",
+        "50 X 7",
+        "350"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "27.90",
+        "25 X 10",
+        "250"
+      ],
+      [
+        "1\"",
+        "25",
+        "38.40",
+        "25 X 6",
+        "150"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "51.20",
+        "20 X 5",
+        "100"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "69.80",
+        "10 X 7",
+        "70"
+      ],
+      [
+        "2\"",
+        "50",
+        "114.00",
+        "7 X 6",
+        "42"
+      ],
+      [
+        "2 1/2\"",
+        "65",
+        "277.90",
+        "4 X 5",
+        "20"
+      ],
+      [
+        "3\"",
+        "80",
+        "391.90",
+        "2 X 8",
+        "16"
+      ],
+      [
+        "4\"",
+        "100",
+        "523.30",
+        "",
+        ""
+      ]
+    ],
+    "href": "/products/upvc/union/"
+  },
+  {
+    "id": "upvc/tank-nipple-thread",
+    "range": "upvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "tank-nipple-thread",
+    "name": "Tank Nipple Thread",
+    "printedName": "TANK NIPPLE THREAD",
+    "sourcePage": 5,
+    "sourceTable": 5,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-tank-nipple-thread.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "1/2\"",
+        "15",
+        "16.90",
+        "50 X 8",
+        "400"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "22.10",
+        "50 X 6",
+        "300"
+      ],
+      [
+        "1\"",
+        "25",
+        "34.90",
+        "25 X 7",
+        "175"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "51.20",
+        "20 X 6",
+        "120"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "58.10",
+        "20 X 5",
+        "100"
+      ]
+    ],
+    "href": "/products/upvc/tank-nipple-thread/"
+  },
+  {
+    "id": "upvc/ball-valve",
+    "range": "upvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "ball-valve",
+    "name": "Ball Valve",
+    "printedName": "BALLVALVE",
+    "sourcePage": 5,
+    "sourceTable": 6,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-ball-valve.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Master Packing"
+    ],
+    "rows": [
+      [
+        "1/2\"",
+        "15",
+        "69.80",
+        "360"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "87.70",
+        "280"
+      ],
+      [
+        "1\"",
+        "25",
+        "126.40",
+        "168"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "188.40",
+        "112"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "273.30",
+        "63"
+      ],
+      [
+        "2\"",
+        "50",
+        "411.60",
+        "48"
+      ],
+      [
+        "2 1/2\"",
+        "65",
+        "1889.50",
+        "24"
+      ],
+      [
+        "3\"",
+        "80",
+        "2907.00",
+        "20"
+      ],
+      [
+        "4\"",
+        "100",
+        "5208.10",
+        "12"
+      ]
+    ],
+    "href": "/products/upvc/ball-valve/"
+  },
+  {
+    "id": "upvc/tank-nipple-socket",
+    "range": "upvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "tank-nipple-socket",
+    "name": "Tank Nipple Socket",
+    "printedName": "TANK NIPPLE SOKET",
+    "sourcePage": 5,
+    "sourceTable": 7,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-tank-nipple-socket.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "1/2\"",
+        "15",
+        "15.40",
+        "50 X 8",
+        "400"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "19.50",
+        "50 X 7",
+        "350"
+      ],
+      [
+        "1\"",
+        "25",
+        "30.80",
+        "25 X 7",
+        "175"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "46.50",
+        "20 X 6",
+        "120"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "55.80",
+        "20 X 5",
+        "100"
+      ]
+    ],
+    "href": "/products/upvc/tank-nipple-socket/"
+  },
+  {
+    "id": "upvc/step-over-bend-moulded",
+    "range": "upvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "step-over-bend-moulded",
+    "name": "Step Over Bend Moulded",
+    "printedName": "STEP OVER BEND MOULDED",
+    "sourcePage": 5,
+    "sourceTable": 8,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-step-over-bend-moulded.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "1/2\"",
+        "15",
+        "37.60",
+        "20 X 9",
+        "180"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "44.00",
+        "15 X 9",
+        "135"
+      ]
+    ],
+    "href": "/products/upvc/step-over-bend-moulded/"
+  },
+  {
+    "id": "upvc/long-handle-ball-valve",
+    "range": "upvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "long-handle-ball-valve",
+    "name": "Long Handle Ball Valve",
+    "printedName": "LONG HANDLE BALLVALVE",
+    "sourcePage": 5,
+    "sourceTable": 9,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-long-handle-ball-valve.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Master Packing"
+    ],
+    "rows": [
+      [
+        "1/2\"",
+        "15",
+        "71.70",
+        "390"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "91.60",
+        "260"
+      ],
+      [
+        "1\"",
+        "25",
+        "132.10",
+        "156"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "195.40",
+        "112"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "282.60",
+        "54"
+      ],
+      [
+        "2\"",
+        "50",
+        "418.60",
+        "40"
+      ]
+    ],
+    "href": "/products/upvc/long-handle-ball-valve/"
+  },
+  {
+    "id": "upvc/end-plug",
+    "range": "upvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "end-plug",
+    "name": "End Plug",
+    "printedName": "ENDPLUG",
+    "sourcePage": 5,
+    "sourceTable": 10,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-end-plug.webp",
+    "imageType": "product",
+    "headers": [
+      "COLOUR",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Master Packing"
+    ],
+    "rows": [
+      [
+        "BLACK",
+        "2.30",
+        "100 X 20",
+        "2000"
+      ],
+      [
+        "WHITE",
+        "4.40",
+        "100 X 20",
+        "2000"
+      ]
+    ],
+    "href": "/products/upvc/end-plug/"
+  },
+  {
+    "id": "upvc/brass-elbow",
+    "range": "upvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "brass-elbow",
+    "name": "Brass Elbow",
+    "printedName": "BRASS ELBOW",
+    "sourcePage": 6,
+    "sourceTable": 0,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-brass-elbow.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "1/2\"",
+        "15",
+        "55.80",
+        "50 X 5",
+        "250"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "102.10",
+        "50 X 3",
+        "150"
+      ],
+      [
+        "1\"",
+        "25",
+        "151.30",
+        "25 X 4",
+        "100"
+      ],
+      [
+        "1\" X 1/2\"",
+        "25 X 15",
+        "67.80",
+        "25 X 5",
+        "125"
+      ],
+      [
+        "1\" X 3/4\"",
+        "25 X 20",
+        "120.80",
+        "25 X 4",
+        "100"
+      ],
+      [
+        "3/4\" X 1/2\"",
+        "20 X15",
+        "64.90",
+        "50 X 3",
+        "150"
+      ]
+    ],
+    "href": "/products/upvc/brass-elbow/"
+  },
+  {
+    "id": "upvc/brass-tee",
+    "range": "upvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "brass-tee",
+    "name": "Brass Tee",
+    "printedName": "BRASS TEE",
+    "sourcePage": 6,
+    "sourceTable": 1,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-brass-tee.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "1/2\"",
+        "15",
+        "58.10",
+        "50 X 4",
+        "200"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "105.80",
+        "25 X 5",
+        "125"
+      ],
+      [
+        "1\"",
+        "25",
+        "158.00",
+        "25 X 3",
+        "75"
+      ],
+      [
+        "1\" X 1/2\"",
+        "25 X 15",
+        "76.30",
+        "20 X 4",
+        "80"
+      ],
+      [
+        "1\" X 3/4\"",
+        "25 X 20",
+        "128.10",
+        "20 X 3",
+        "60"
+      ],
+      [
+        "3/4\" X 1/2\"",
+        "20 X15",
+        "68.60",
+        "25 X 5",
+        "125"
+      ]
+    ],
+    "href": "/products/upvc/brass-tee/"
+  },
+  {
+    "id": "upvc/brass-mta",
+    "range": "upvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "brass-mta",
+    "name": "Brass MTA",
+    "printedName": "BRASS MTA",
+    "sourcePage": 6,
+    "sourceTable": 2,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-brass-mta.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "“1/2\"",
+        "15",
+        "79.10",
+        "50 X 5",
+        "250"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "119.50",
+        "42 X 4",
+        "168"
+      ],
+      [
+        "1\"",
+        "25",
+        "151.20",
+        "30 X 4",
+        "120"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "322.10",
+        "25 X 3",
+        "75"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "439.10",
+        "16 X 3",
+        "48"
+      ],
+      [
+        "2\"",
+        "50",
+        "666.30",
+        "10 X 3",
+        "30"
+      ],
+      [
+        "2 1/2\"",
+        "65",
+        "1550.40",
+        "4 X 4",
+        "16"
+      ],
+      [
+        "3\"",
+        "80",
+        "2034.90",
+        "2 X 5",
+        "10"
+      ],
+      [
+        "4\"",
+        "100",
+        "0.00",
+        "",
+        ""
+      ],
+      [
+        "1\" X 1/2\"",
+        "25 X 15",
+        "88.00",
+        "50 X 3",
+        "150"
+      ],
+      [
+        "1\" X 3/4\"",
+        "25 X 20",
+        "124.30",
+        "25 X 6",
+        "150"
+      ],
+      [
+        "3/4\" X 1/2\"",
+        "20 X 15",
+        "83.40",
+        "50 X 5",
+        "250"
+      ]
+    ],
+    "href": "/products/upvc/brass-mta/"
+  },
+  {
+    "id": "upvc/brass-fta",
+    "range": "upvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "brass-fta",
+    "name": "Brass FTA",
+    "printedName": "BRASS FTA",
+    "sourcePage": 6,
+    "sourceTable": 3,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-brass-fta.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "“1/2\"",
+        "15",
+        "51.20",
+        "50 X 7",
+        "350"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "96.20",
+        "50 X 5",
+        "250"
+      ],
+      [
+        "1\"",
+        "25",
+        "138.00",
+        "50 X 3",
+        "150"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "202.90",
+        "25 X 3",
+        "75"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "310.00",
+        "16 X 3",
+        "48"
+      ],
+      [
+        "2\"",
+        "50",
+        "358.50",
+        "10 X 4",
+        "40"
+      ],
+      [
+        "2 1/2\"",
+        "65",
+        "1259.70",
+        "4 X 5",
+        "20"
+      ],
+      [
+        "3\"",
+        "80",
+        "1574.70",
+        "4 X 3",
+        "12"
+      ],
+      [
+        "4\"",
+        "100",
+        "0.00",
+        "",
+        ""
+      ],
+      [
+        "1\" X 1/2\"",
+        "25 X 15",
+        "57.20",
+        "50 X 4",
+        "200"
+      ],
+      [
+        "1\" X 3/4\"",
+        "25 X 20",
+        "99.50",
+        "25 X 6",
+        "150"
+      ],
+      [
+        "3/4\" X 1/2\"",
+        "20 X 15",
+        "52.70",
+        "50 X 5",
+        "250"
+      ]
+    ],
+    "href": "/products/upvc/brass-fta/"
+  },
+  {
+    "id": "upvc/upvc-solvent",
+    "range": "upvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "upvc-solvent",
+    "name": "uPVC Solvent",
+    "printedName": "UPVC SOLVENT",
+    "sourcePage": 6,
+    "sourceTable": 4,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-upvc-solvent.webp",
+    "imageType": "product",
+    "headers": [
+      "Qty.",
+      "Packing",
+      "Master Packing",
+      "Rate Per Tin."
+    ],
+    "rows": [
+      [
+        "50 ML",
+        "30 X 16",
+        "480",
+        "59.00"
+      ],
+      [
+        "118 ML",
+        "24 X 10",
+        "240",
+        "95.10"
+      ],
+      [
+        "237 ML",
+        "15 X 10",
+        "150",
+        "162.90"
+      ],
+      [
+        "500 ML",
+        "12 X 4",
+        "48",
+        "300.60"
+      ],
+      [
+        "1 LTR",
+        "6 X 4",
+        "24",
+        "579.30"
+      ]
+    ],
+    "href": "/products/upvc/upvc-solvent/"
+  },
+  {
+    "id": "upvc/step-over-bend",
+    "range": "upvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "step-over-bend",
+    "name": "Step Over Bend",
+    "printedName": "STEP OVER BEND",
+    "sourcePage": 6,
+    "sourceTable": 5,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/upvc-step-over-bend.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Master Packing"
+    ],
+    "rows": [
+      [
+        "1/2\"",
+        "15",
+        "32.30",
+        "400"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "38.70",
+        "300"
+      ],
+      [
+        "1\"",
+        "25",
+        "58.80",
+        "100"
+      ]
+    ],
+    "href": "/products/upvc/step-over-bend/"
+  },
+  {
+    "id": "cpvc/cpvc-isi-pipe-sdr-11-astm-2846",
+    "range": "cpvc",
+    "system": "",
+    "kind": "pipes",
+    "group": "pipes",
+    "slug": "cpvc-isi-pipe-sdr-11-astm-2846",
+    "name": "cPVC ISI Pipe SDR 11 - ASTM 2846",
+    "printedName": "CPVC ISI PIPE SDR 11 - ASTM 2846",
+    "sourcePage": 7,
+    "sourceTable": 0,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-cpvc-isi-pipe-sdr-11-astm-2846.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "PKG. BAG",
+      "3 MTR / piece",
+      "5 MTR / piece"
+    ],
+    "rows": [
+      [
+        "1/2\"",
+        "15",
+        "75",
+        "118.10",
+        "196.70"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "50",
+        "183.60",
+        "305.00"
+      ],
+      [
+        "1\"",
+        "25",
+        "30",
+        "295.10",
+        "492.00"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "20",
+        "442.70",
+        "738.00"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "15",
+        "642.70",
+        "1071.20"
+      ],
+      [
+        "2\"",
+        "50",
+        "10",
+        "1141.10",
+        "1902.00"
+      ]
+    ],
+    "href": "/products/cpvc/cpvc-isi-pipe-sdr-11-astm-2846/"
+  },
+  {
+    "id": "cpvc/cpvc-isi-pipe-sdr-13-5-astm-2846",
+    "range": "cpvc",
+    "system": "",
+    "kind": "pipes",
+    "group": "pipes",
+    "slug": "cpvc-isi-pipe-sdr-13-5-astm-2846",
+    "name": "cPVC ISI Pipe SDR 13.5 - ASTM 2846",
+    "printedName": "CPVC ISI PIPE SDR 13.5 - ASTM 2846",
+    "sourcePage": 7,
+    "sourceTable": 1,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-cpvc-isi-pipe-sdr-13-5-astm-2846.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "PKG. BAG",
+      "3 MTR / piece",
+      "5 MTR / piece"
+    ],
+    "rows": [
+      [
+        "1/2\"",
+        "15",
+        "50",
+        "94.40",
+        "157.40"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "40",
+        "156.30",
+        "245.90"
+      ],
+      [
+        "1\"",
+        "25",
+        "25",
+        "256.90",
+        "428.50"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "15",
+        "378.20",
+        "628.50"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "10",
+        "520.30",
+        "865.70"
+      ],
+      [
+        "2\"",
+        "50",
+        "8",
+        "951.00",
+        "1584.90"
+      ]
+    ],
+    "href": "/products/cpvc/cpvc-isi-pipe-sdr-13-5-astm-2846/"
+  },
+  {
+    "id": "cpvc/cpvc-pipe-sdr-11-astm-2846",
+    "range": "cpvc",
+    "system": "",
+    "kind": "pipes",
+    "group": "pipes",
+    "slug": "cpvc-pipe-sdr-11-astm-2846",
+    "name": "cPVC Pipe SDR 11 - ASTM 2846",
+    "printedName": "CPVC PIPE SDR 11 - ASTM 2846",
+    "sourcePage": 7,
+    "sourceTable": 2,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-cpvc-pipe-sdr-11-astm-2846.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "PKG. BAG",
+      "3 MTR / piece",
+      "5 MTR / piece"
+    ],
+    "rows": [
+      [
+        "1/2\"",
+        "15",
+        "75",
+        "109.30",
+        "182.20"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "50",
+        "169.40",
+        "282.00"
+      ],
+      [
+        "1\"",
+        "25",
+        "30",
+        "273.30",
+        "454.70"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "20",
+        "409.90",
+        "683.10"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "15",
+        "596.80",
+        "994.70"
+      ],
+      [
+        "2\"",
+        "50",
+        "10",
+        "1062.40",
+        "1770.70"
+      ]
+    ],
+    "href": "/products/cpvc/cpvc-pipe-sdr-11-astm-2846/"
+  },
+  {
+    "id": "cpvc/cpvc-pipe-sch-40-astm-2846",
+    "range": "cpvc",
+    "system": "",
+    "kind": "pipes",
+    "group": "pipes",
+    "slug": "cpvc-pipe-sch-40-astm-2846",
+    "name": "cPVC Pipe SCH - 40 ASTM 2846",
+    "printedName": "CPVC PIPE SCH - 40 ASMT 2846",
+    "sourcePage": 7,
+    "sourceTable": 2,
+    "sourcePart": 1,
+    "image": "/images/catalogue-october/cpvc-cpvc-pipe-sch-40-astm-2846.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "PKG. BAG",
+      "3 MTR / piece",
+      "5 MTR / piece"
+    ],
+    "rows": [
+      [
+        "2 1/2\"",
+        "65",
+        "5",
+        "2049.40",
+        "3415.70"
+      ],
+      [
+        "3\"",
+        "80",
+        "3",
+        "2663.70",
+        "4441.00"
+      ],
+      [
+        "4\"",
+        "100",
+        "2",
+        "3689.00",
+        "6148.30"
+      ]
+    ],
+    "href": "/products/cpvc/cpvc-pipe-sch-40-astm-2846/"
+  },
+  {
+    "id": "cpvc/cpvc-pipe-sdr-13-5-astm-2846",
+    "range": "cpvc",
+    "system": "",
+    "kind": "pipes",
+    "group": "pipes",
+    "slug": "cpvc-pipe-sdr-13-5-astm-2846",
+    "name": "cPVC Pipe SDR 13.5 - ASTM 2846",
+    "printedName": "CPVC PIPE SDR 13.5 - ASTM 2846",
+    "sourcePage": 7,
+    "sourceTable": 3,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-cpvc-pipe-sdr-13-5-astm-2846.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "PKG. BAG",
+      "3 MTR / piece",
+      "5 MTR / piece"
+    ],
+    "rows": [
+      [
+        "1/2\"",
+        "15",
+        "50",
+        "87.40",
+        "145.70"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "40",
+        "144.30",
+        "241.30"
+      ],
+      [
+        "1\"",
+        "25",
+        "25",
+        "238.30",
+        "395.70"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "15",
+        "349.80",
+        "582.60"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "10",
+        "483.00",
+        "804.50"
+      ],
+      [
+        "2\"",
+        "50",
+        "8",
+        "885.40",
+        "1475.60"
+      ]
+    ],
+    "href": "/products/cpvc/cpvc-pipe-sdr-13-5-astm-2846/"
+  },
+  {
+    "id": "cpvc/cpvc-pipe-sch-80-astm-2846",
+    "range": "cpvc",
+    "system": "",
+    "kind": "pipes",
+    "group": "pipes",
+    "slug": "cpvc-pipe-sch-80-astm-2846",
+    "name": "cPVC Pipe SCH - 80 ASTM 2846",
+    "printedName": "CPVC PIPE SCH - 80 ASMT 2846",
+    "sourcePage": 7,
+    "sourceTable": 3,
+    "sourcePart": 1,
+    "image": "/images/catalogue-october/cpvc-cpvc-pipe-sch-80-astm-2846.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "PKG. BAG",
+      "3 MTR / piece",
+      "5 MTR / piece"
+    ],
+    "rows": [
+      [
+        "2 1/2\"",
+        "65",
+        "5",
+        "2623.30",
+        "4372.10"
+      ],
+      [
+        "3\"",
+        "80",
+        "3",
+        "3484.60",
+        "5808.30"
+      ],
+      [
+        "4\"",
+        "100",
+        "2",
+        "5124.10",
+        "8540.90"
+      ]
+    ],
+    "href": "/products/cpvc/cpvc-pipe-sch-80-astm-2846/"
+  },
+  {
+    "id": "cpvc/elbow",
+    "range": "cpvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "elbow",
+    "name": "Elbow",
+    "printedName": "ELBOW",
+    "sourcePage": 7,
+    "sourceTable": 4,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-elbow.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "3/4\"",
+        "20",
+        "8.70",
+        "40 X 9",
+        "360"
+      ],
+      [
+        "1\"",
+        "25",
+        "18.80",
+        "24 X 8",
+        "192"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "30.40",
+        "15 X 8",
+        "120"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "44.00",
+        "8 X 9",
+        "72"
+      ],
+      [
+        "2\"",
+        "50",
+        "94.20",
+        "5 X 8",
+        "40"
+      ],
+      [
+        "2 1/2\"",
+        "65",
+        "216.60",
+        "2 X 7",
+        "14"
+      ],
+      [
+        "3\"",
+        "80",
+        "467.80",
+        "1 X 9",
+        "9"
+      ],
+      [
+        "4\"",
+        "100",
+        "675.00",
+        "1 X 6",
+        "6"
+      ]
+    ],
+    "href": "/products/cpvc/elbow/"
+  },
+  {
+    "id": "cpvc/tee",
+    "range": "cpvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "tee",
+    "name": "Tee",
+    "printedName": "TEE",
+    "sourcePage": 7,
+    "sourceTable": 5,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-tee.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "3/4\"",
+        "20",
+        "11.30",
+        "30 X 10",
+        "300"
+      ],
+      [
+        "1\"",
+        "25",
+        "20.90",
+        "20 X 7",
+        "140"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "41.90",
+        "10 X 8",
+        "80"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "58.60",
+        "5 X 10",
+        "50"
+      ],
+      [
+        "2\"",
+        "50",
+        "134.30",
+        "3 X 8",
+        "24"
+      ],
+      [
+        "2 1/2\"",
+        "65",
+        "441.60",
+        "1 X 8",
+        "8"
+      ],
+      [
+        "3\"",
+        "80",
+        "609.10",
+        "1 X 5",
+        "5"
+      ],
+      [
+        "4\"",
+        "100",
+        "884.30",
+        "1 X 3",
+        "3"
+      ]
+    ],
+    "href": "/products/cpvc/tee/"
+  },
+  {
+    "id": "cpvc/coupler",
+    "range": "cpvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "coupler",
+    "name": "Coupler",
+    "printedName": "COUPLER",
+    "sourcePage": 8,
+    "sourceTable": 0,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-coupler.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "3/4\"",
+        "20",
+        "5.80",
+        "60 X 10",
+        "600"
+      ],
+      [
+        "1\"",
+        "25",
+        "11.00",
+        "30 X 10",
+        "300"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "18.80",
+        "20 X 9",
+        "180"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "27.20",
+        "10 X 11",
+        "110"
+      ],
+      [
+        "2\"",
+        "50",
+        "63.60",
+        "5 X 10",
+        "50"
+      ],
+      [
+        "2 1/2\"",
+        "65",
+        "197.80",
+        "5 X 6",
+        "30"
+      ],
+      [
+        "3\"",
+        "80",
+        "264.80",
+        "2 X 10",
+        "20"
+      ],
+      [
+        "4\"",
+        "100",
+        "557.80",
+        "1 X 6",
+        "6"
+      ]
+    ],
+    "href": "/products/cpvc/coupler/"
+  },
+  {
+    "id": "cpvc/reducing-tee",
+    "range": "cpvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "reducing-tee",
+    "name": "Reducing Tee",
+    "printedName": "REDUCING TEE",
+    "sourcePage": 8,
+    "sourceTable": 1,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-reducing-tee.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "1\" X 3/4\"",
+        "25 X 20",
+        "24.10",
+        "15 X 10",
+        "150"
+      ],
+      [
+        "1 1/4\"X3/4\"",
+        "32 X 20",
+        "35.60",
+        "10 X 8",
+        "80"
+      ],
+      [
+        "1 1/4\" X 1\"",
+        "32 X 25",
+        "37.70",
+        "10 X 8",
+        "80"
+      ],
+      [
+        "1 1/2\" X 1\"",
+        "40 X 25",
+        "50.20",
+        "5 X 10",
+        "50"
+      ],
+      [
+        "1 1/2\" X 1 1/4\"",
+        "40 X 32",
+        "54.40",
+        "5 X 10",
+        "50"
+      ],
+      [
+        "1 1/2\" X 3/4\"",
+        "40 X 20",
+        "49.20",
+        "5 X 10",
+        "50"
+      ],
+      [
+        "2\" X 3/4\"",
+        "50 X 20",
+        "115.30",
+        "4 X 8",
+        "32"
+      ],
+      [
+        "2\" X 1\"",
+        "50 X 25",
+        "116.60",
+        "4 X 8",
+        "32"
+      ],
+      [
+        "2\" X 1 1/4\"",
+        "50 X 32",
+        "120.10",
+        "4 X 8",
+        "32"
+      ],
+      [
+        "2\" X 1 1/2\"",
+        "50 X 40",
+        "124.90",
+        "4 X 7",
+        "28"
+      ],
+      [
+        "2 1/2\" X 1\"",
+        "65 X 25",
+        "374.70",
+        "",
+        ""
+      ],
+      [
+        "2 1/2\" X 1 1/2\"",
+        "65 X 40",
+        "395.60",
+        "",
+        ""
+      ],
+      [
+        "2 1/2\" X 2\"",
+        "65 X 50",
+        "407.10",
+        "3 X 4",
+        "12"
+      ],
+      [
+        "3\" X 2\"",
+        "80 X 50",
+        "563.00",
+        "1 X 6",
+        "6"
+      ],
+      [
+        "4\" X 2\"",
+        "100 X 50",
+        "827.80",
+        "1 X 4",
+        "4"
+      ],
+      [
+        "4\" X 3\"",
+        "100 X 80",
+        "860.20",
+        "1 X 3",
+        "3"
+      ]
+    ],
+    "href": "/products/cpvc/reducing-tee/"
+  },
+  {
+    "id": "cpvc/mta",
+    "range": "cpvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "mta",
+    "name": "MTA",
+    "printedName": "MTA",
+    "sourcePage": 8,
+    "sourceTable": 2,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-mta.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "3/4\"",
+        "20",
+        "11.40",
+        "50 X 10",
+        "500"
+      ],
+      [
+        "1\"",
+        "25",
+        "21.60",
+        "25 X 12",
+        "300"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "36.50",
+        "25 X 8",
+        "200"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "61.20",
+        "15 X 9",
+        "135"
+      ],
+      [
+        "2\"",
+        "50",
+        "82.50",
+        "8 X 8",
+        "64"
+      ],
+      [
+        "3/4\"X1/2\"",
+        "20 X 15",
+        "11.30",
+        "50 X 10",
+        "500"
+      ]
+    ],
+    "href": "/products/cpvc/mta/"
+  },
+  {
+    "id": "cpvc/union",
+    "range": "cpvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "union",
+    "name": "Union",
+    "printedName": "UNION",
+    "sourcePage": 8,
+    "sourceTable": 3,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-union.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "3/4\"",
+        "20",
+        "22.00",
+        "25 X 10",
+        "250"
+      ],
+      [
+        "1\"",
+        "25",
+        "40.80",
+        "15 X 9",
+        "135"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "57.60",
+        "10 X 7",
+        "70"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "91.90",
+        "8 X 8",
+        "64"
+      ],
+      [
+        "2\"",
+        "50",
+        "186.10",
+        "4 X 8",
+        "32"
+      ],
+      [
+        "2 1/2\"",
+        "65",
+        "409.20",
+        "2 X 8",
+        "16"
+      ],
+      [
+        "3\"",
+        "80",
+        "581.90",
+        "1 X 10",
+        "10"
+      ],
+      [
+        "4\"",
+        "100",
+        "772.30",
+        "",
+        ""
+      ]
+    ],
+    "href": "/products/cpvc/union/"
+  },
+  {
+    "id": "cpvc/fta",
+    "range": "cpvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "fta",
+    "name": "FTA",
+    "printedName": "FTA",
+    "sourcePage": 8,
+    "sourceTable": 4,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-fta.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "3/4\"",
+        "20",
+        "9.20",
+        "50 X 10",
+        "500"
+      ],
+      [
+        "1\"",
+        "25",
+        "14.80",
+        "25 X 10",
+        "250"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "27.10",
+        "18 X 9",
+        "162"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "37.70",
+        "10 X 9",
+        "90"
+      ],
+      [
+        "2\"",
+        "50",
+        "77.80",
+        "6 X 8",
+        "48"
+      ],
+      [
+        "3/4\"X1/2\"",
+        "20 X 15",
+        "9.50",
+        "50 X 10",
+        "500"
+      ]
+    ],
+    "href": "/products/cpvc/fta/"
+  },
+  {
+    "id": "cpvc/reducer",
+    "range": "cpvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "reducer",
+    "name": "Reducer",
+    "printedName": "REDUCER",
+    "sourcePage": 8,
+    "sourceTable": 5,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-reducer.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "1\" X 3/4\"",
+        "25 X 20",
+        "9.90",
+        "30 X 12",
+        "360"
+      ],
+      [
+        "1 1/4\" X 3/4\"",
+        "32 X 25",
+        "14.70",
+        "25 X 10",
+        "250"
+      ],
+      [
+        "1 1/4\" X 1\"",
+        "32 X 25",
+        "16.70",
+        "20 X 10",
+        "200"
+      ],
+      [
+        "1 1/2\" X 1 1/4\"",
+        "40 X 32",
+        "25.10",
+        "15 X 9",
+        "135"
+      ],
+      [
+        "1 1/2\" X 1\"",
+        "40 X 25",
+        "23.00",
+        "15 X 10",
+        "150"
+      ],
+      [
+        "1 1/2\" X 3/4\"",
+        "40 X 20",
+        "23.00",
+        "15 X 10",
+        "150"
+      ],
+      [
+        "3\" X 2\"",
+        "80 X 50",
+        "241.70",
+        "6 X 4",
+        "24"
+      ],
+      [
+        "3\" X 2 1/2\"",
+        "80 X 65",
+        "260.60",
+        "4 X 6",
+        "24"
+      ]
+    ],
+    "href": "/products/cpvc/reducer/"
+  },
+  {
+    "id": "cpvc/cross-tee",
+    "range": "cpvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "cross-tee",
+    "name": "Cross Tee",
+    "printedName": "CROSS TEE",
+    "sourcePage": 8,
+    "sourceTable": 6,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-cross-tee.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "3/4\"",
+        "20",
+        "19.40",
+        "25 X 8",
+        "200"
+      ],
+      [
+        "1\"",
+        "25",
+        "23.90",
+        "15 X 8",
+        "120"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "44.50",
+        "10 X 8",
+        "80"
+      ]
+    ],
+    "href": "/products/cpvc/cross-tee/"
+  },
+  {
+    "id": "cpvc/reducing-elbow",
+    "range": "cpvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "reducing-elbow",
+    "name": "Reducing Elbow",
+    "printedName": "REDUCING ELBOW",
+    "sourcePage": 8,
+    "sourceTable": 7,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-reducing-elbow.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "1\" X 3/4\"",
+        "25 X 20",
+        "16.70",
+        "30 X 9",
+        "270"
+      ],
+      [
+        "1 1/4\"X3/4\"",
+        "32 X 20",
+        "24.70",
+        "15 X 10",
+        "150"
+      ],
+      [
+        "1 1/4\"X1\"",
+        "32 X 25",
+        "26.20",
+        "15 X 9",
+        "135"
+      ],
+      [
+        "1 1/2\"X3/4\"",
+        "40 X 20",
+        "41.90",
+        "10 X 10",
+        "100"
+      ],
+      [
+        "1 1/2\"X1",
+        "40 X 25",
+        "36.60",
+        "10 X 9",
+        "90"
+      ],
+      [
+        "1 1/2\"X1 1/4\"",
+        "40 X 32",
+        "41.90",
+        "8 X 10",
+        "80"
+      ]
+    ],
+    "href": "/products/cpvc/reducing-elbow/"
+  },
+  {
+    "id": "cpvc/45-elbow",
+    "range": "cpvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "45-elbow",
+    "name": "45° Elbow",
+    "printedName": "45\" ELBOW",
+    "sourcePage": 8,
+    "sourceTable": 8,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-45-elbow.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "3/4\"",
+        "20",
+        "8.40",
+        "40 X 9",
+        "360"
+      ],
+      [
+        "1\"",
+        "25",
+        "14.70",
+        "20 X8",
+        "160"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "20.90",
+        "16 X 10",
+        "160"
+      ],
+      [
+        "2 1/2\"",
+        "65",
+        "277.30",
+        "3 X 6",
+        "18"
+      ],
+      [
+        "3\"",
+        "80",
+        "372.60",
+        "2 X 6",
+        "12"
+      ],
+      [
+        "4\"",
+        "100",
+        "586.10",
+        "1 X 6",
+        "6"
+      ]
+    ],
+    "href": "/products/cpvc/45-elbow/"
+  },
+  {
+    "id": "cpvc/end-cap",
+    "range": "cpvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "end-cap",
+    "name": "End Cap",
+    "printedName": "ENDCAP",
+    "sourcePage": 9,
+    "sourceTable": 0,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-end-cap.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "3/4\"",
+        "20",
+        "4.50",
+        "100 X 10",
+        "1000"
+      ],
+      [
+        "1\"",
+        "25",
+        "8.90",
+        "50 X 10",
+        "500"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "14.70",
+        "30 X 10",
+        "300"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "25.10",
+        "25 X 8",
+        "200"
+      ],
+      [
+        "2\"",
+        "50",
+        "45.00",
+        "12 X 8",
+        "96"
+      ],
+      [
+        "2 1/2\"",
+        "65",
+        "186.30",
+        "6 X 6",
+        "36"
+      ],
+      [
+        "3\"",
+        "80",
+        "216.60",
+        "4 X 6",
+        "24"
+      ],
+      [
+        "4\"",
+        "100",
+        "453.10",
+        "1 X 15",
+        "15"
+      ]
+    ],
+    "href": "/products/cpvc/end-cap/"
+  },
+  {
+    "id": "cpvc/ball-valve",
+    "range": "cpvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "ball-valve",
+    "name": "Ball Valve",
+    "printedName": "BALLVALVE",
+    "sourcePage": 9,
+    "sourceTable": 1,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-ball-valve.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Master Packing"
+    ],
+    "rows": [
+      [
+        "3/4\"",
+        "20",
+        "130.80",
+        "210"
+      ],
+      [
+        "1\"",
+        "25",
+        "183.10",
+        "144"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "324.40",
+        "84"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "460.50",
+        "57"
+      ],
+      [
+        "2\"",
+        "50",
+        "733.20",
+        "30"
+      ],
+      [
+        "2 1/2\"",
+        "65",
+        "3023.40",
+        "24"
+      ],
+      [
+        "3\"",
+        "80",
+        "6162.90",
+        "20"
+      ],
+      [
+        "4\"",
+        "100",
+        "10232.80",
+        "12"
+      ]
+    ],
+    "href": "/products/cpvc/ball-valve/"
+  },
+  {
+    "id": "cpvc/tank-nipple-socket",
+    "range": "cpvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "tank-nipple-socket",
+    "name": "Tank Nipple Socket",
+    "printedName": "TANK NIPPLE SOCKET",
+    "sourcePage": 9,
+    "sourceTable": 2,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-tank-nipple-socket.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "3/4\"",
+        "20",
+        "28.30",
+        "20 X 10",
+        "200"
+      ],
+      [
+        "1\"",
+        "25",
+        "42.90",
+        "15 X 8",
+        "120"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "57.60",
+        "10 X 8",
+        "80"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "83.70",
+        "7 X 6",
+        "42"
+      ],
+      [
+        "2\"",
+        "50",
+        "141.30",
+        "4 X 10",
+        "40"
+      ]
+    ],
+    "href": "/products/cpvc/tank-nipple-socket/"
+  },
+  {
+    "id": "cpvc/tank-nipple-thread",
+    "range": "cpvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "tank-nipple-thread",
+    "name": "Tank Nipple Thread",
+    "printedName": "TANK NIPPLE THREAD",
+    "sourcePage": 9,
+    "sourceTable": 3,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-tank-nipple-thread.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "3/4\"",
+        "20",
+        "30.90",
+        "20 X 10",
+        "200"
+      ],
+      [
+        "1\"",
+        "25",
+        "44.50",
+        "15 X 8",
+        "120"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "71.30",
+        "10 X 8",
+        "80"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "101.80",
+        "7X6",
+        "42"
+      ]
+    ],
+    "href": "/products/cpvc/tank-nipple-thread/"
+  },
+  {
+    "id": "cpvc/brass-elbow",
+    "range": "cpvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "brass-elbow",
+    "name": "Brass Elbow",
+    "printedName": "BRASS ELBOW",
+    "sourcePage": 9,
+    "sourceTable": 4,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-brass-elbow.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "3/4\" X 1/2\"",
+        "20 X 15",
+        "53.50",
+        "30 X 8",
+        "240"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "94.20",
+        "25 X 8",
+        "200"
+      ],
+      [
+        "1\"",
+        "25",
+        "167.40",
+        "15 X 7",
+        "105"
+      ],
+      [
+        "1\" X 1/2\"",
+        "25 X 15",
+        "66.10",
+        "25 X 6",
+        "150"
+      ],
+      [
+        "1\" X 3/4\"",
+        "25 X 20",
+        "108.60",
+        "20 X 6",
+        "120"
+      ]
+    ],
+    "href": "/products/cpvc/brass-elbow/"
+  },
+  {
+    "id": "cpvc/brass-tee",
+    "range": "cpvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "brass-tee",
+    "name": "Brass Tee",
+    "printedName": "BRASS TEE",
+    "sourcePage": 9,
+    "sourceTable": 5,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-brass-tee.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "3/4\" X 1/2\"",
+        "20 X 15",
+        "58.10",
+        "20 X 9",
+        "180"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "94.20",
+        "20 X 8",
+        "160"
+      ],
+      [
+        "1\"",
+        "25",
+        "168.70",
+        "10 X 8",
+        "80"
+      ],
+      [
+        "1\" X 1/2\"",
+        "25 X 15",
+        "70.70",
+        "15 X 8",
+        "120"
+      ],
+      [
+        "1\" X 3/4\"",
+        "25 X 20",
+        "129.50",
+        "15 X 6",
+        "90"
+      ]
+    ],
+    "href": "/products/cpvc/brass-tee/"
+  },
+  {
+    "id": "cpvc/brass-mta",
+    "range": "cpvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "brass-mta",
+    "name": "Brass MTA",
+    "printedName": "BRASS MTA",
+    "sourcePage": 9,
+    "sourceTable": 6,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-brass-mta.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "3/4\" X 1/2\"",
+        "20 X 15",
+        "82.60",
+        "40 X 7",
+        "280"
+      ],
+      [
+        "1\"",
+        "25",
+        "158.10",
+        "15 X 8",
+        "120"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "339.50",
+        "10 X 6",
+        "60"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "465.10",
+        "7 X 6",
+        "42"
+      ],
+      [
+        "2\"",
+        "50",
+        "666.30",
+        "5 X 5",
+        "25"
+      ],
+      [
+        "2 1/2\"",
+        "65",
+        "1550.00",
+        "4 X 4",
+        "16"
+      ],
+      [
+        "3\"",
+        "80",
+        "2034.90",
+        "2 X 5",
+        "10"
+      ],
+      [
+        "4\"",
+        "100",
+        "0.00",
+        "",
+        ""
+      ],
+      [
+        "1\" X 1/2\"",
+        "25 X 15",
+        "87.20",
+        "30 X 7",
+        "210"
+      ],
+      [
+        "1\" X 3/4\"",
+        "25 X 20",
+        "123.30",
+        "15 X 8",
+        "120"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "120.40",
+        "25 X 8",
+        "200"
+      ]
+    ],
+    "href": "/products/cpvc/brass-mta/"
+  },
+  {
+    "id": "cpvc/brass-fta",
+    "range": "cpvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "brass-fta",
+    "name": "Brass FTA",
+    "printedName": "BRASS FTA",
+    "sourcePage": 9,
+    "sourceTable": 7,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-brass-fta.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "3/4\" X 1/2\"",
+        "20 X 15",
+        "52.30",
+        "40 X 8",
+        "320"
+      ],
+      [
+        "1\"",
+        "25",
+        "137.20",
+        "20 X 7",
+        "140"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "237.40",
+        "10 X 8",
+        "80"
+      ],
+      [
+        "1 1/2\"",
+        "40",
+        "344.20",
+        "8 X 6",
+        "48"
+      ],
+      [
+        "2\"",
+        "50",
+        "358.10",
+        "5 X 5",
+        "25"
+      ],
+      [
+        "2 1/2\"",
+        "65",
+        "1259.30",
+        "4 X 5",
+        "20"
+      ],
+      [
+        "3\"",
+        "80",
+        "1574.40",
+        "4 X 3",
+        "12"
+      ],
+      [
+        "4\"",
+        "100",
+        "0.00",
+        "",
+        ""
+      ],
+      [
+        "1\" X 1/2\"",
+        "25 X 15",
+        "57.60",
+        "30 X 8",
+        "240"
+      ],
+      [
+        "1\" X 3/4\"",
+        "25 X 20",
+        "97.70",
+        "25 X 9",
+        "225"
+      ],
+      [
+        "3/4\"",
+        "20",
+        "95.40",
+        "30 X 9",
+        "270"
+      ]
+    ],
+    "href": "/products/cpvc/brass-fta/"
+  },
+  {
+    "id": "cpvc/cpvc-solvent",
+    "range": "cpvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "cpvc-solvent",
+    "name": "cPVC Solvent",
+    "printedName": "CPVC SOLVENT",
+    "sourcePage": 10,
+    "sourceTable": 0,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-cpvc-solvent.webp",
+    "imageType": "product",
+    "headers": [
+      "Qty.",
+      "Packing",
+      "Master Packing",
+      "Rate Per Tin."
+    ],
+    "rows": [
+      [
+        "50 ML",
+        "30 X 16",
+        "480",
+        "66.70"
+      ],
+      [
+        "118 ML",
+        "24 X 10",
+        "240",
+        "103.80"
+      ],
+      [
+        "236 ML",
+        "15 X 10",
+        "150",
+        "174.90"
+      ],
+      [
+        "475 ML",
+        "12 X 4",
+        "7",
+        "317.00"
+      ],
+      [
+        "1 LTR",
+        "6 X 4",
+        "24",
+        "612.10"
+      ]
+    ],
+    "href": "/products/cpvc/cpvc-solvent/"
+  },
+  {
+    "id": "cpvc/connector-bush",
+    "range": "cpvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "connector-bush",
+    "name": "Connector Bush",
+    "printedName": "CONNECTOR BUSH",
+    "sourcePage": 10,
+    "sourceTable": 1,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-connector-bush.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "3/4\"X3/4\"",
+        "20 X 20",
+        "4.70",
+        "100 X 6",
+        "600"
+      ],
+      [
+        "1\"X1\"",
+        "25 X 25",
+        "6.80",
+        "50 X 8",
+        "400"
+      ]
+    ],
+    "href": "/products/cpvc/connector-bush/"
+  },
+  {
+    "id": "cpvc/union-n-r-v-thread",
+    "range": "cpvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "union-n-r-v-thread",
+    "name": "Union + [N.R.V.] Thread",
+    "printedName": "UNION + [N.R.V.] THREAD",
+    "sourcePage": 10,
+    "sourceTable": 2,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-union-n-r-v-thread.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "3/4\"",
+        "20",
+        "244.20",
+        "5 X 10",
+        "50"
+      ],
+      [
+        "1\"",
+        "25",
+        "248.90",
+        "5 X 10",
+        "50"
+      ]
+    ],
+    "href": "/products/cpvc/union-n-r-v-thread/"
+  },
+  {
+    "id": "cpvc/union-n-r-v-plain",
+    "range": "cpvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "union-n-r-v-plain",
+    "name": "Union + [N.R.V.] Plain",
+    "printedName": "UNION + [N.R.V.] PLAIN",
+    "sourcePage": 10,
+    "sourceTable": 3,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-union-n-r-v-plain.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "3/4\"",
+        "20",
+        "230.20",
+        "5 X 10",
+        "50"
+      ],
+      [
+        "1\"",
+        "25",
+        "237.20",
+        "5 X 10",
+        "50"
+      ]
+    ],
+    "href": "/products/cpvc/union-n-r-v-plain/"
+  },
+  {
+    "id": "cpvc/wall-mixer",
+    "range": "cpvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "wall-mixer",
+    "name": "Wall Mixer",
+    "printedName": "WALL MIXER",
+    "sourcePage": 10,
+    "sourceTable": 4,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-wall-mixer.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Box"
+    ],
+    "rows": [
+      [
+        "3/4\"X 1/2\"",
+        "20 X 15",
+        "276.70",
+        "120"
+      ]
+    ],
+    "href": "/products/cpvc/wall-mixer/"
+  },
+  {
+    "id": "cpvc/concealed-valve",
+    "range": "cpvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "concealed-valve",
+    "name": "Concealed Valve",
+    "printedName": "CONCEALED VALVE",
+    "sourcePage": 10,
+    "sourceTable": 5,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-concealed-valve.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "3/4\"",
+        "20",
+        "669.80",
+        "96"
+      ],
+      [
+        "1\"",
+        "25",
+        "802.70",
+        "96"
+      ]
+    ],
+    "href": "/products/cpvc/concealed-valve/"
+  },
+  {
+    "id": "cpvc/reducer-bush",
+    "range": "cpvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "reducer-bush",
+    "name": "Reducer Bush",
+    "printedName": "REDUCER BUSH",
+    "sourcePage": 10,
+    "sourceTable": 6,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-reducer-bush.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "1\"x3/4\"",
+        "25 X 20",
+        "0.00",
+        "100 X 6",
+        "600"
+      ]
+    ],
+    "href": "/products/cpvc/reducer-bush/"
+  },
+  {
+    "id": "cpvc/step-over-bend",
+    "range": "cpvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "step-over-bend",
+    "name": "Step Over Bend",
+    "printedName": "STEP OVER BEND",
+    "sourcePage": 10,
+    "sourceTable": 7,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-step-over-bend.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate per piece",
+      "Packing"
+    ],
+    "rows": [
+      [
+        "3/4\"",
+        "20",
+        "41.20",
+        "400"
+      ],
+      [
+        "1\"",
+        "25",
+        "62.40",
+        "300"
+      ],
+      [
+        "1 1/4\"",
+        "32",
+        "111.90",
+        "100"
+      ]
+    ],
+    "href": "/products/cpvc/step-over-bend/"
+  },
+  {
+    "id": "cpvc/step-over-bend-moulded",
+    "range": "cpvc",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "step-over-bend-moulded",
+    "name": "Step Over Bend Moulded",
+    "printedName": "STEP OVER BEND MOULDED",
+    "sourcePage": 10,
+    "sourceTable": 8,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/cpvc-step-over-bend-moulded.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc.",
+      "Packing In Bag",
+      "Inner Packing"
+    ],
+    "rows": [
+      [
+        "3/4\"",
+        "20",
+        "65.30",
+        "15 X 9",
+        "135"
+      ],
+      [
+        "1\"",
+        "25",
+        "71.30",
+        "10 X 9",
+        "90"
+      ]
+    ],
+    "href": "/products/cpvc/step-over-bend-moulded/"
+  },
+  {
+    "id": "swr/ring-fit-swr-pipe-type-a-6-mtr-20-feet",
+    "range": "swr",
+    "system": "ring-fit",
+    "kind": "pipes",
+    "group": "ring-fit pipes",
+    "slug": "ring-fit-swr-pipe-type-a-6-mtr-20-feet",
+    "name": "SWR Pipe Type -A 6 Mtr (20 Feet)",
+    "printedName": "SWR PIPE TYPE -A 6 MTR (20 FEET)",
+    "sourcePage": 11,
+    "sourceTable": 0,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-ring-fit-swr-pipe-type-a-6-mtr-20-feet.webp",
+    "imageType": "catalogue-table",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "SINGLE SOCKET / piece",
+      "DOUBLE SOCKET / piece"
+    ],
+    "rows": [
+      [
+        "2.1/2\"",
+        "75",
+        "690.90",
+        "702.10"
+      ],
+      [
+        "4",
+        "110",
+        "1267.90",
+        "1283.50"
+      ]
+    ],
+    "href": "/products/swr/ring-fit-swr-pipe-type-a-6-mtr-20-feet/"
+  },
+  {
+    "id": "swr/ring-fit-swr-pipe-type-a-3-mtr-10-feet",
+    "range": "swr",
+    "system": "ring-fit",
+    "kind": "pipes",
+    "group": "ring-fit pipes",
+    "slug": "ring-fit-swr-pipe-type-a-3-mtr-10-feet",
+    "name": "SWR Pipe Type -A 3 Mtr (10 Feet)",
+    "printedName": "SWR PIPE TYPE -A 3 MTR (10 FEET)",
+    "sourcePage": 11,
+    "sourceTable": 1,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-ring-fit-swr-pipe-type-a-3-mtr-10-feet.webp",
+    "imageType": "catalogue-table",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "SINGLE SOCKET / piece",
+      "DOUBLE SOCKET / piece"
+    ],
+    "rows": [
+      [
+        "2.1/2\"",
+        "75",
+        "351.10",
+        "362.20"
+      ],
+      [
+        "4",
+        "110",
+        "641.70",
+        "657.40"
+      ]
+    ],
+    "href": "/products/swr/ring-fit-swr-pipe-type-a-3-mtr-10-feet/"
+  },
+  {
+    "id": "swr/ring-fit-swr-pipe-type-a-1-8-mtr-6-feet",
+    "range": "swr",
+    "system": "ring-fit",
+    "kind": "pipes",
+    "group": "ring-fit pipes",
+    "slug": "ring-fit-swr-pipe-type-a-1-8-mtr-6-feet",
+    "name": "SWR Pipe Type -A 1.8 Mtr (6 Feet)",
+    "printedName": "SWR PIPE TYPE -A 1.8 MTR (6 FEET)",
+    "sourcePage": 11,
+    "sourceTable": 2,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-ring-fit-swr-pipe-type-a-1-8-mtr-6-feet.webp",
+    "imageType": "catalogue-table",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "SINGLE SOCKET / piece",
+      "DOUBLE SOCKET / piece"
+    ],
+    "rows": [
+      [
+        "2.1/2\"",
+        "75",
+        "214.70",
+        "225.80"
+      ],
+      [
+        "4",
+        "110",
+        "391.30",
+        "407.00"
+      ]
+    ],
+    "href": "/products/swr/ring-fit-swr-pipe-type-a-1-8-mtr-6-feet/"
+  },
+  {
+    "id": "swr/ring-fit-swr-pipe-type-a-1-2-mtr-4-feet",
+    "range": "swr",
+    "system": "ring-fit",
+    "kind": "pipes",
+    "group": "ring-fit pipes",
+    "slug": "ring-fit-swr-pipe-type-a-1-2-mtr-4-feet",
+    "name": "SWR Pipe Type -A 1.2 Mtr (4 Feet)",
+    "printedName": "SWR PIPE TYPE -A 1.2 MTR (4 FEET)",
+    "sourcePage": 11,
+    "sourceTable": 3,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-ring-fit-swr-pipe-type-a-1-2-mtr-4-feet.webp",
+    "imageType": "catalogue-table",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "SINGLE SOCKET / piece",
+      "DOUBLE SOCKET / piece"
+    ],
+    "rows": [
+      [
+        "2.1/2\"",
+        "75",
+        "147.60",
+        "158.70"
+      ],
+      [
+        "4",
+        "110",
+        "266.20",
+        "281.80"
+      ]
+    ],
+    "href": "/products/swr/ring-fit-swr-pipe-type-a-1-2-mtr-4-feet/"
+  },
+  {
+    "id": "swr/ring-fit-swr-pipe-type-a-0-9-mtr-3-feet",
+    "range": "swr",
+    "system": "ring-fit",
+    "kind": "pipes",
+    "group": "ring-fit pipes",
+    "slug": "ring-fit-swr-pipe-type-a-0-9-mtr-3-feet",
+    "name": "SWR Pipe Type -A 0.9 Mtr (3 Feet)",
+    "printedName": "SWR PIPE TYPE -A 0.9 MTR (3 FEET)",
+    "sourcePage": 11,
+    "sourceTable": 4,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-ring-fit-swr-pipe-type-a-0-9-mtr-3-feet.webp",
+    "imageType": "catalogue-table",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "SINGLE SOCKET / piece",
+      "DOUBLE SOCKET / piece"
+    ],
+    "rows": [
+      [
+        "2.1/2\"",
+        "75",
+        "114.10",
+        "125.20"
+      ],
+      [
+        "4",
+        "110",
+        "203.50",
+        "219.20"
+      ]
+    ],
+    "href": "/products/swr/ring-fit-swr-pipe-type-a-0-9-mtr-3-feet/"
+  },
+  {
+    "id": "swr/ring-fit-swr-pipe-type-a-0-6-mtr-2-feet",
+    "range": "swr",
+    "system": "ring-fit",
+    "kind": "pipes",
+    "group": "ring-fit pipes",
+    "slug": "ring-fit-swr-pipe-type-a-0-6-mtr-2-feet",
+    "name": "SWR Pipe Type -A 0.6 Mtr (2 Feet)",
+    "printedName": "SWR PIPE TYPE -A 0.6 MTR (2 FEET)",
+    "sourcePage": 11,
+    "sourceTable": 5,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-ring-fit-swr-pipe-type-a-0-6-mtr-2-feet.webp",
+    "imageType": "catalogue-table",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "SINGLE SOCKET / piece",
+      "DOUBLE SOCKET / piece"
+    ],
+    "rows": [
+      [
+        "2.1/2\"",
+        "75",
+        "80.50",
+        "91.90"
+      ],
+      [
+        "4",
+        "110",
+        "140.80",
+        "156.50"
+      ]
+    ],
+    "href": "/products/swr/ring-fit-swr-pipe-type-a-0-6-mtr-2-feet/"
+  },
+  {
+    "id": "swr/ring-fit-bend-87-5",
+    "range": "swr",
+    "system": "ring-fit",
+    "kind": "fittings",
+    "group": "ring-fit fittings",
+    "slug": "ring-fit-bend-87-5",
+    "name": "Bend 87.5°",
+    "printedName": "BEND 87.5O",
+    "sourcePage": 11,
+    "sourceTable": 6,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-ring-fit-bend-87-5.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "2 1/2\"",
+        "75",
+        "96",
+        "48.10"
+      ],
+      [
+        "4",
+        "110",
+        "36",
+        "94.90"
+      ]
+    ],
+    "href": "/products/swr/ring-fit-bend-87-5/"
+  },
+  {
+    "id": "swr/ring-fit-door-bend-87-5",
+    "range": "swr",
+    "system": "ring-fit",
+    "kind": "fittings",
+    "group": "ring-fit fittings",
+    "slug": "ring-fit-door-bend-87-5",
+    "name": "Door Bend 87.5°",
+    "printedName": "DOOR BEND 87.5O",
+    "sourcePage": 11,
+    "sourceTable": 7,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-ring-fit-door-bend-87-5.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "2 1/2\"",
+        "75",
+        "80",
+        "61.80"
+      ],
+      [
+        "4",
+        "110",
+        "30",
+        "122.30"
+      ]
+    ],
+    "href": "/products/swr/ring-fit-door-bend-87-5/"
+  },
+  {
+    "id": "swr/ring-fit-single-tee",
+    "range": "swr",
+    "system": "ring-fit",
+    "kind": "fittings",
+    "group": "ring-fit fittings",
+    "slug": "ring-fit-single-tee",
+    "name": "Single Tee",
+    "printedName": "SINGLE TEE",
+    "sourcePage": 11,
+    "sourceTable": 8,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-ring-fit-single-tee.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "2 1/2\"",
+        "75",
+        "65",
+        "65.30"
+      ],
+      [
+        "4",
+        "110",
+        "26",
+        "123.40"
+      ]
+    ],
+    "href": "/products/swr/ring-fit-single-tee/"
+  },
+  {
+    "id": "swr/ring-fit-door-tee",
+    "range": "swr",
+    "system": "ring-fit",
+    "kind": "fittings",
+    "group": "ring-fit fittings",
+    "slug": "ring-fit-door-tee",
+    "name": "Door Tee",
+    "printedName": "DOOR TEE",
+    "sourcePage": 11,
+    "sourceTable": 9,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-ring-fit-door-tee.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "2 1/2\"",
+        "75",
+        "52",
+        "80.70"
+      ],
+      [
+        "4",
+        "110",
+        "20",
+        "154.30"
+      ]
+    ],
+    "href": "/products/swr/ring-fit-door-tee/"
+  },
+  {
+    "id": "swr/ring-fit-coupler",
+    "range": "swr",
+    "system": "ring-fit",
+    "kind": "fittings",
+    "group": "ring-fit fittings",
+    "slug": "ring-fit-coupler",
+    "name": "Coupler",
+    "printedName": "COUPLER",
+    "sourcePage": 11,
+    "sourceTable": 10,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-ring-fit-coupler.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "2 1/2\"",
+        "75",
+        "175",
+        "34.40"
+      ],
+      [
+        "4",
+        "110",
+        "72",
+        "64.20"
+      ]
+    ],
+    "href": "/products/swr/ring-fit-coupler/"
+  },
+  {
+    "id": "swr/ring-fit-shoe-bend-45",
+    "range": "swr",
+    "system": "ring-fit",
+    "kind": "fittings",
+    "group": "ring-fit fittings",
+    "slug": "ring-fit-shoe-bend-45",
+    "name": "Shoe Bend 45°",
+    "printedName": "SHOE BEND 45O",
+    "sourcePage": 11,
+    "sourceTable": 11,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-ring-fit-shoe-bend-45.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "2 1/2\"",
+        "75",
+        "125",
+        "41.80"
+      ],
+      [
+        "4",
+        "110",
+        "48",
+        "76.60"
+      ]
+    ],
+    "href": "/products/swr/ring-fit-shoe-bend-45/"
+  },
+  {
+    "id": "swr/ring-fit-double-tee",
+    "range": "swr",
+    "system": "ring-fit",
+    "kind": "fittings",
+    "group": "ring-fit fittings",
+    "slug": "ring-fit-double-tee",
+    "name": "Double Tee",
+    "printedName": "DOUBLE TEE",
+    "sourcePage": 11,
+    "sourceTable": 12,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-ring-fit-double-tee.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "2 1/2\"",
+        "75",
+        "44",
+        "78.40"
+      ],
+      [
+        "4",
+        "110",
+        "16",
+        "147.20"
+      ]
+    ],
+    "href": "/products/swr/ring-fit-double-tee/"
+  },
+  {
+    "id": "swr/ring-fit-reducer-tee",
+    "range": "swr",
+    "system": "ring-fit",
+    "kind": "fittings",
+    "group": "ring-fit fittings",
+    "slug": "ring-fit-reducer-tee",
+    "name": "Reducer Tee",
+    "printedName": "REDUCER TEE",
+    "sourcePage": 11,
+    "sourceTable": 13,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-ring-fit-reducer-tee.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "4\" X 2 1/2\"",
+        "110 X 75",
+        "26",
+        "114.00"
+      ]
+    ],
+    "href": "/products/swr/ring-fit-reducer-tee/"
+  },
+  {
+    "id": "swr/ring-fit-reducer-tee-door",
+    "range": "swr",
+    "system": "ring-fit",
+    "kind": "fittings",
+    "group": "ring-fit fittings",
+    "slug": "ring-fit-reducer-tee-door",
+    "name": "Reducer Tee Door",
+    "printedName": "REDUCER TEE DOOR",
+    "sourcePage": 11,
+    "sourceTable": 14,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-ring-fit-reducer-tee-door.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "PACKING IN BOX",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "4\" X 2 1/2\"",
+        "110 X 75",
+        "20",
+        "134.10"
+      ]
+    ],
+    "href": "/products/swr/ring-fit-reducer-tee-door/"
+  },
+  {
+    "id": "swr/ring-fit-offset-reducer",
+    "range": "swr",
+    "system": "ring-fit",
+    "kind": "fittings",
+    "group": "ring-fit fittings",
+    "slug": "ring-fit-offset-reducer",
+    "name": "Offset Reducer",
+    "printedName": "OFFCET REDUCER",
+    "sourcePage": 11,
+    "sourceTable": 15,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-ring-fit-offset-reducer.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "PACKING IN BOX",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "4\" X 2 1/2\"",
+        "110 X 75",
+        "112",
+        "60.50"
+      ]
+    ],
+    "href": "/products/swr/ring-fit-offset-reducer/"
+  },
+  {
+    "id": "swr/ring-fit-cleansing-pipe",
+    "range": "swr",
+    "system": "ring-fit",
+    "kind": "fittings",
+    "group": "ring-fit fittings",
+    "slug": "ring-fit-cleansing-pipe",
+    "name": "Cleansing Pipe",
+    "printedName": "CLEANSING PIPE",
+    "sourcePage": 12,
+    "sourceTable": 0,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-ring-fit-cleansing-pipe.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "2 1/2\"",
+        "75",
+        "96",
+        "67.70"
+      ],
+      [
+        "4",
+        "110",
+        "30",
+        "130.60"
+      ]
+    ],
+    "href": "/products/swr/ring-fit-cleansing-pipe/"
+  },
+  {
+    "id": "swr/ring-fit-rubber-ring",
+    "range": "swr",
+    "system": "ring-fit",
+    "kind": "fittings",
+    "group": "ring-fit fittings",
+    "slug": "ring-fit-rubber-ring",
+    "name": "Rubber Ring",
+    "printedName": "RUBBER RING",
+    "sourcePage": 12,
+    "sourceTable": 1,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-ring-fit-rubber-ring.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "2 1/2\"",
+        "75",
+        "10",
+        "9.10"
+      ],
+      [
+        "4\"",
+        "110",
+        "10",
+        "12.50"
+      ]
+    ],
+    "href": "/products/swr/ring-fit-rubber-ring/"
+  },
+  {
+    "id": "swr/ring-fit-y-tee",
+    "range": "swr",
+    "system": "ring-fit",
+    "kind": "fittings",
+    "group": "ring-fit fittings",
+    "slug": "ring-fit-y-tee",
+    "name": "Y Tee",
+    "printedName": "Y TEE",
+    "sourcePage": 12,
+    "sourceTable": 2,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-ring-fit-y-tee.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "2 1/2\"",
+        "75",
+        "",
+        ""
+      ],
+      [
+        "4",
+        "110",
+        "15",
+        "169.80"
+      ]
+    ],
+    "href": "/products/swr/ring-fit-y-tee/"
+  },
+  {
+    "id": "swr/self-fit-single-socket-type-a-6-mtr-20-feet",
+    "range": "swr",
+    "system": "self-fit",
+    "kind": "pipes",
+    "group": "self-fit pipes",
+    "slug": "self-fit-single-socket-type-a-6-mtr-20-feet",
+    "name": "Single Socket Type - A 6 Mtr - 20 Feet",
+    "printedName": "SINGLE SOCKET TYPE - A 6 MTR - 20 FEET",
+    "sourcePage": 12,
+    "sourceTable": 3,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-self-fit-single-socket-type-a-6-mtr-20-feet.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "2 1/2\"",
+        "75",
+        "686.60"
+      ],
+      [
+        "4\"",
+        "110",
+        "1259.00"
+      ]
+    ],
+    "href": "/products/swr/self-fit-single-socket-type-a-6-mtr-20-feet/"
+  },
+  {
+    "id": "swr/self-fit-single-socket-type-a-3-mtr-10-feet",
+    "range": "swr",
+    "system": "self-fit",
+    "kind": "pipes",
+    "group": "self-fit pipes",
+    "slug": "self-fit-single-socket-type-a-3-mtr-10-feet",
+    "name": "Single Socket Type - A 3 Mtr - 10 Feet",
+    "printedName": "SINGLE SOCKET TYPE - A 3 MTR - 10 FEET",
+    "sourcePage": 12,
+    "sourceTable": 4,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-self-fit-single-socket-type-a-3-mtr-10-feet.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "2 1/2\"",
+        "75",
+        "346.50"
+      ],
+      [
+        "4\"",
+        "110",
+        "632.60"
+      ]
+    ],
+    "href": "/products/swr/self-fit-single-socket-type-a-3-mtr-10-feet/"
+  },
+  {
+    "id": "swr/self-fit-bend-87-5",
+    "range": "swr",
+    "system": "self-fit",
+    "kind": "fittings",
+    "group": "self-fit fittings",
+    "slug": "self-fit-bend-87-5",
+    "name": "Bend 87.5°",
+    "printedName": "BEND 87.5O",
+    "sourcePage": 12,
+    "sourceTable": 5,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-self-fit-bend-87-5.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "2 1/2\"",
+        "75",
+        "120",
+        "38.60"
+      ],
+      [
+        "4",
+        "110",
+        "40",
+        "83.10"
+      ]
+    ],
+    "href": "/products/swr/self-fit-bend-87-5/"
+  },
+  {
+    "id": "swr/self-fit-door-bend-87-5",
+    "range": "swr",
+    "system": "self-fit",
+    "kind": "fittings",
+    "group": "self-fit fittings",
+    "slug": "self-fit-door-bend-87-5",
+    "name": "Door Bend 87.5°",
+    "printedName": "DOOR BEND 87.5O",
+    "sourcePage": 12,
+    "sourceTable": 6,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-self-fit-door-bend-87-5.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "2 1/2\"",
+        "75",
+        "112",
+        "52.20"
+      ],
+      [
+        "4",
+        "110",
+        "34",
+        "110.40"
+      ]
+    ],
+    "href": "/products/swr/self-fit-door-bend-87-5/"
+  },
+  {
+    "id": "swr/self-fit-single-tee",
+    "range": "swr",
+    "system": "self-fit",
+    "kind": "fittings",
+    "group": "self-fit fittings",
+    "slug": "self-fit-single-tee",
+    "name": "Single Tee",
+    "printedName": "SINGLE TEE",
+    "sourcePage": 12,
+    "sourceTable": 7,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-self-fit-single-tee.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "2 1/2\"",
+        "75",
+        "72",
+        "55.80"
+      ],
+      [
+        "4",
+        "110",
+        "26",
+        "111.60"
+      ]
+    ],
+    "href": "/products/swr/self-fit-single-tee/"
+  },
+  {
+    "id": "swr/self-fit-door-tee",
+    "range": "swr",
+    "system": "self-fit",
+    "kind": "fittings",
+    "group": "self-fit fittings",
+    "slug": "self-fit-door-tee",
+    "name": "Door Tee",
+    "printedName": "DOOR TEE",
+    "sourcePage": 12,
+    "sourceTable": 8,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-self-fit-door-tee.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "2 1/2\"",
+        "75",
+        "63",
+        "71.20"
+      ],
+      [
+        "4",
+        "110",
+        "20",
+        "142.40"
+      ]
+    ],
+    "href": "/products/swr/self-fit-door-tee/"
+  },
+  {
+    "id": "swr/self-fit-coupler",
+    "range": "swr",
+    "system": "self-fit",
+    "kind": "fittings",
+    "group": "self-fit fittings",
+    "slug": "self-fit-coupler",
+    "name": "Coupler",
+    "printedName": "COUPLER",
+    "sourcePage": 12,
+    "sourceTable": 9,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-self-fit-coupler.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "2 1/2\"",
+        "75",
+        "208",
+        "25.00"
+      ],
+      [
+        "4",
+        "110",
+        "72",
+        "52.20"
+      ]
+    ],
+    "href": "/products/swr/self-fit-coupler/"
+  },
+  {
+    "id": "swr/self-fit-shoe-bend-45",
+    "range": "swr",
+    "system": "self-fit",
+    "kind": "fittings",
+    "group": "self-fit fittings",
+    "slug": "self-fit-shoe-bend-45",
+    "name": "Shoe Bend 45°",
+    "printedName": "SHOE BEND 45O",
+    "sourcePage": 12,
+    "sourceTable": 10,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-self-fit-shoe-bend-45.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "2 1/2\"",
+        "75",
+        "132",
+        "32.30"
+      ],
+      [
+        "4",
+        "110",
+        "50",
+        "64.70"
+      ]
+    ],
+    "href": "/products/swr/self-fit-shoe-bend-45/"
+  },
+  {
+    "id": "swr/self-fit-double-tee",
+    "range": "swr",
+    "system": "self-fit",
+    "kind": "fittings",
+    "group": "self-fit fittings",
+    "slug": "self-fit-double-tee",
+    "name": "Double Tee",
+    "printedName": "DOUBLE TEE",
+    "sourcePage": 13,
+    "sourceTable": 0,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-self-fit-double-tee.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "2 1/2\"",
+        "75",
+        "51",
+        "68.80"
+      ],
+      [
+        "4",
+        "110",
+        "20",
+        "135.40"
+      ]
+    ],
+    "href": "/products/swr/self-fit-double-tee/"
+  },
+  {
+    "id": "swr/self-fit-nahani-trap",
+    "range": "swr",
+    "system": "self-fit",
+    "kind": "fittings",
+    "group": "self-fit fittings",
+    "slug": "self-fit-nahani-trap",
+    "name": "Nahani Trap",
+    "printedName": "NAHANI TRAP",
+    "sourcePage": 13,
+    "sourceTable": 1,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-self-fit-nahani-trap.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "4\" X 2 1/2\"",
+        "110 X 75",
+        "60",
+        "91.20"
+      ],
+      [
+        "4\" X 3\"",
+        "110 X 90",
+        "50",
+        "102.60"
+      ],
+      [
+        "4\" X 4\"",
+        "110 X 110",
+        "48",
+        "108.30"
+      ]
+    ],
+    "href": "/products/swr/self-fit-nahani-trap/"
+  },
+  {
+    "id": "swr/self-fit-reducer-door-tee",
+    "range": "swr",
+    "system": "self-fit",
+    "kind": "fittings",
+    "group": "self-fit fittings",
+    "slug": "self-fit-reducer-door-tee",
+    "name": "Reducer Door Tee",
+    "printedName": "REDUCER DOOR TEE",
+    "sourcePage": 13,
+    "sourceTable": 2,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-self-fit-reducer-door-tee.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "4\" X 2 1/2\"",
+        "110 X 75",
+        "20",
+        "122.30"
+      ]
+    ],
+    "href": "/products/swr/self-fit-reducer-door-tee/"
+  },
+  {
+    "id": "swr/self-fit-reducer-tee",
+    "range": "swr",
+    "system": "self-fit",
+    "kind": "fittings",
+    "group": "self-fit fittings",
+    "slug": "self-fit-reducer-tee",
+    "name": "Reducer Tee",
+    "printedName": "REDUCER TEE",
+    "sourcePage": 13,
+    "sourceTable": 3,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-self-fit-reducer-tee.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "4\" X 2 1/2\"",
+        "110 X 75",
+        "26",
+        "102.10"
+      ]
+    ],
+    "href": "/products/swr/self-fit-reducer-tee/"
+  },
+  {
+    "id": "swr/self-fit-y-tee",
+    "range": "swr",
+    "system": "self-fit",
+    "kind": "fittings",
+    "group": "self-fit fittings",
+    "slug": "self-fit-y-tee",
+    "name": "Y Tee",
+    "printedName": "Y TEE",
+    "sourcePage": 13,
+    "sourceTable": 4,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-self-fit-y-tee.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "2 1/2\"",
+        "75",
+        "",
+        ""
+      ],
+      [
+        "4",
+        "110",
+        "20",
+        "160.50"
+      ]
+    ],
+    "href": "/products/swr/self-fit-y-tee/"
+  },
+  {
+    "id": "swr/self-fit-offset-reducer",
+    "range": "swr",
+    "system": "self-fit",
+    "kind": "fittings",
+    "group": "self-fit fittings",
+    "slug": "self-fit-offset-reducer",
+    "name": "Offset Reducer",
+    "printedName": "OFFCET REDUCER",
+    "sourcePage": 13,
+    "sourceTable": 5,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-self-fit-offset-reducer.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "4\" X 2 1/2\"",
+        "110 X 75",
+        "100",
+        "48.70"
+      ]
+    ],
+    "href": "/products/swr/self-fit-offset-reducer/"
+  },
+  {
+    "id": "swr/self-fit-door-cap",
+    "range": "swr",
+    "system": "self-fit",
+    "kind": "fittings",
+    "group": "self-fit fittings",
+    "slug": "self-fit-door-cap",
+    "name": "Door Cap",
+    "printedName": "DOOR CAP",
+    "sourcePage": 13,
+    "sourceTable": 6,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-self-fit-door-cap.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "2 1/2\"",
+        "75",
+        "400",
+        "17.10"
+      ],
+      [
+        "4\"",
+        "110",
+        "300",
+        "28.50"
+      ]
+    ],
+    "href": "/products/swr/self-fit-door-cap/"
+  },
+  {
+    "id": "swr/self-fit-cleansing-pipe",
+    "range": "swr",
+    "system": "self-fit",
+    "kind": "fittings",
+    "group": "self-fit fittings",
+    "slug": "self-fit-cleansing-pipe",
+    "name": "Cleansing Pipe",
+    "printedName": "CLEANSING PIPE",
+    "sourcePage": 13,
+    "sourceTable": 7,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-self-fit-cleansing-pipe.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "2 1/2\"",
+        "75",
+        "84",
+        "58.10"
+      ],
+      [
+        "4",
+        "110",
+        "32",
+        "118.70"
+      ]
+    ],
+    "href": "/products/swr/self-fit-cleansing-pipe/"
+  },
+  {
+    "id": "swr/self-fit-q-trap",
+    "range": "swr",
+    "system": "self-fit",
+    "kind": "fittings",
+    "group": "self-fit fittings",
+    "slug": "self-fit-q-trap",
+    "name": "Q-Trap",
+    "printedName": "Q-TRAP",
+    "sourcePage": 13,
+    "sourceTable": 8,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-self-fit-q-trap.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "4\" X 4“",
+        "110 X 110",
+        "17",
+        "219.90"
+      ]
+    ],
+    "href": "/products/swr/self-fit-q-trap/"
+  },
+  {
+    "id": "swr/self-fit-vent-cowl",
+    "range": "swr",
+    "system": "self-fit",
+    "kind": "fittings",
+    "group": "self-fit fittings",
+    "slug": "self-fit-vent-cowl",
+    "name": "Vent Cowl",
+    "printedName": "VENT COWL",
+    "sourcePage": 13,
+    "sourceTable": 9,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-self-fit-vent-cowl.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "2 1/2\"",
+        "75",
+        "",
+        ""
+      ],
+      [
+        "3\"",
+        "90",
+        "",
+        ""
+      ],
+      [
+        "4\"",
+        "110",
+        "",
+        ""
+      ]
+    ],
+    "href": "/products/swr/self-fit-vent-cowl/"
+  },
+  {
+    "id": "swr/self-fit-p-trap",
+    "range": "swr",
+    "system": "self-fit",
+    "kind": "fittings",
+    "group": "self-fit fittings",
+    "slug": "self-fit-p-trap",
+    "name": "P-Trap",
+    "printedName": "P-TRAP",
+    "sourcePage": 13,
+    "sourceTable": 10,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-self-fit-p-trap.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "4\" X 4“",
+        "110 X 110",
+        "20",
+        "205.10"
+      ]
+    ],
+    "href": "/products/swr/self-fit-p-trap/"
+  },
+  {
+    "id": "swr/self-fit-pvc-solvent",
+    "range": "swr",
+    "system": "self-fit",
+    "kind": "fittings",
+    "group": "self-fit fittings",
+    "slug": "self-fit-pvc-solvent",
+    "name": "PVC Solvent",
+    "printedName": "PVC SOLVENT",
+    "sourcePage": 13,
+    "sourceTable": 11,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/swr-self-fit-pvc-solvent.webp",
+    "imageType": "product",
+    "headers": [
+      "Qty.",
+      "Packing",
+      "Master Packing",
+      "Rate Per Tin."
+    ],
+    "rows": [
+      [
+        "50 ML",
+        "30 X 16",
+        "480",
+        "52.50"
+      ],
+      [
+        "118 ML",
+        "24 X 10",
+        "240",
+        "82.00"
+      ],
+      [
+        "237 ML",
+        "15 X 10",
+        "150",
+        "142.10"
+      ],
+      [
+        "500 ML",
+        "12 X 4",
+        "48",
+        "260.10"
+      ],
+      [
+        "1 LTR",
+        "6 X 4",
+        "24",
+        "472.20"
+      ]
+    ],
+    "href": "/products/swr/self-fit-pvc-solvent/"
+  },
+  {
+    "id": "agriculture/agriculture-pipes-isi-6-mtr",
+    "range": "agriculture",
+    "system": "",
+    "kind": "pipes",
+    "group": "pipes",
+    "slug": "agriculture-pipes-isi-6-mtr",
+    "name": "Agriculture Pipes ISI - 6 Mtr",
+    "printedName": "AGRICULTURE PIPES ISI - 6 MTR",
+    "sourcePage": 14,
+    "sourceTable": 0,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/agriculture-agriculture-pipes-isi-6-mtr.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "CLASS-2 4 KG/CM2 RATE PER PC",
+      "CLASS-3 6 KG/CM2 RATE PER PC"
+    ],
+    "rows": [
+      [
+        "1 1/4\"",
+        "40",
+        "",
+        "455.80"
+      ],
+      [
+        "1 1/2\"",
+        "50",
+        "",
+        "583.80"
+      ],
+      [
+        "2\"",
+        "63",
+        "683.10",
+        "932.70"
+      ],
+      [
+        "2 1/2\"",
+        "75",
+        "956.90",
+        "1320.30"
+      ],
+      [
+        "3\"",
+        "90",
+        "1332.40",
+        "1889.50"
+      ],
+      [
+        "4\"",
+        "110",
+        "1938.00",
+        "2737.40"
+      ]
+    ],
+    "href": "/products/agriculture/agriculture-pipes-isi-6-mtr/"
+  },
+  {
+    "id": "agriculture/agriculture-pipes-isi-3-mtr",
+    "range": "agriculture",
+    "system": "",
+    "kind": "pipes",
+    "group": "pipes",
+    "slug": "agriculture-pipes-isi-3-mtr",
+    "name": "Agriculture Pipes ISI - 3 Mtr",
+    "printedName": "AGRICULTURE PIPES ISI - 3 MTR",
+    "sourcePage": 14,
+    "sourceTable": 1,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/agriculture-agriculture-pipes-isi-3-mtr.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "CLASS-2 4 KG/CM2 RATE PER PC",
+      "CLASS-3 6 KG/CM2 RATE PER PC"
+    ],
+    "rows": [
+      [
+        "1 1/4\"",
+        "40",
+        "",
+        "197.40"
+      ],
+      [
+        "1 1/2\"",
+        "50",
+        "",
+        "291.90"
+      ],
+      [
+        "2\"",
+        "63",
+        "341.60",
+        "466.30"
+      ],
+      [
+        "2 1/2\"",
+        "75",
+        "478.50",
+        "660.10"
+      ],
+      [
+        "3\"",
+        "90",
+        "666.20",
+        "944.80"
+      ],
+      [
+        "4\"",
+        "110",
+        "969.00",
+        "1368.60"
+      ]
+    ],
+    "href": "/products/agriculture/agriculture-pipes-isi-3-mtr/"
+  },
+  {
+    "id": "agriculture/agriculture-pipes-6-mtr",
+    "range": "agriculture",
+    "system": "",
+    "kind": "pipes",
+    "group": "pipes",
+    "slug": "agriculture-pipes-6-mtr",
+    "name": "Agriculture Pipes - 6 Mtr",
+    "printedName": "AGRICULTURE PIPES - 6 MTR",
+    "sourcePage": 14,
+    "sourceTable": 2,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/agriculture-agriculture-pipes-6-mtr.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "6 KG/CM2 RATE PER PC",
+      "10 KG/CM2 RATE PER PC"
+    ],
+    "rows": [
+      [
+        "1\"",
+        "32",
+        "",
+        "387.60"
+      ],
+      [
+        "1 1/4\"",
+        "40",
+        "",
+        "472.70"
+      ],
+      [
+        "1 1/2\"",
+        "50",
+        "397.30",
+        "605.60"
+      ],
+      [
+        "2\"",
+        "63",
+        "576.50",
+        "775.20"
+      ],
+      [
+        "2 1/2\"",
+        "75",
+        "803.10",
+        "1077.00"
+      ],
+      [
+        "3\"",
+        "90",
+        "1058.60",
+        "1540.70"
+      ],
+      [
+        "4\"",
+        "110",
+        "1228.20",
+        "1700.60"
+      ]
+    ],
+    "href": "/products/agriculture/agriculture-pipes-6-mtr/"
+  },
+  {
+    "id": "agriculture/agriculture-pipes-3-mtr",
+    "range": "agriculture",
+    "system": "",
+    "kind": "pipes",
+    "group": "pipes",
+    "slug": "agriculture-pipes-3-mtr",
+    "name": "Agriculture Pipes - 3 Mtr",
+    "printedName": "AGRICULTURE PIPES - 3 MTR",
+    "sourcePage": 14,
+    "sourceTable": 3,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/agriculture-agriculture-pipes-3-mtr.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "6 KG/CM2 RATE PER PC",
+      "10 KG/CM2 RATE PER PC"
+    ],
+    "rows": [
+      [
+        "1\"",
+        "32",
+        "",
+        "193.80"
+      ],
+      [
+        "1 1/4\"",
+        "40",
+        "",
+        "330.70"
+      ],
+      [
+        "1 1/2\"",
+        "50",
+        "198.60",
+        "302.80"
+      ],
+      [
+        "2\"",
+        "63",
+        "288.30",
+        "387.60"
+      ],
+      [
+        "2 1/2\"",
+        "75",
+        "401.50",
+        "538.50"
+      ],
+      [
+        "3\"",
+        "90",
+        "529.30",
+        "770.40"
+      ],
+      [
+        "4\"",
+        "110",
+        "614.10",
+        "850.30"
+      ]
+    ],
+    "href": "/products/agriculture/agriculture-pipes-3-mtr/"
+  },
+  {
+    "id": "agriculture/elbow",
+    "range": "agriculture",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "elbow",
+    "name": "Elbow",
+    "printedName": "ELBOW",
+    "sourcePage": 14,
+    "sourceTable": 4,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/agriculture-elbow.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "2 1/2\"",
+        "75",
+        "150",
+        "28.50"
+      ],
+      [
+        "3\"",
+        "90",
+        "88",
+        "41.00"
+      ],
+      [
+        "4\"",
+        "110",
+        "45",
+        "68.40"
+      ]
+    ],
+    "href": "/products/agriculture/elbow/"
+  },
+  {
+    "id": "agriculture/tee",
+    "range": "agriculture",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "tee",
+    "name": "Tee",
+    "printedName": "TEE",
+    "sourcePage": 14,
+    "sourceTable": 5,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/agriculture-tee.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "2 1/2\"",
+        "75",
+        "102",
+        "39.20"
+      ],
+      [
+        "3\"",
+        "90",
+        "66",
+        "58.10"
+      ],
+      [
+        "4\"",
+        "110",
+        "32",
+        "103.20"
+      ]
+    ],
+    "href": "/products/agriculture/tee/"
+  },
+  {
+    "id": "agriculture/coupler",
+    "range": "agriculture",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "coupler",
+    "name": "Coupler",
+    "printedName": "COUPLER",
+    "sourcePage": 14,
+    "sourceTable": 6,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/agriculture-coupler.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "2 1/2\"",
+        "75",
+        "208",
+        "25.10"
+      ],
+      [
+        "3\"",
+        "90",
+        "150",
+        "30.80"
+      ],
+      [
+        "4\"",
+        "110",
+        "72",
+        "52.40"
+      ]
+    ],
+    "href": "/products/agriculture/coupler/"
+  },
+  {
+    "id": "agriculture/elbow-45",
+    "range": "agriculture",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "elbow-45",
+    "name": "Elbow 45°",
+    "printedName": "ELBOW 45O",
+    "sourcePage": 14,
+    "sourceTable": 7,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/agriculture-elbow-45.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "2 1/2\"",
+        "75",
+        "170",
+        "27.40"
+      ],
+      [
+        "3\"",
+        "90",
+        "110",
+        "36.80"
+      ],
+      [
+        "4\"",
+        "110",
+        "52",
+        "59.30"
+      ]
+    ],
+    "href": "/products/agriculture/elbow-45/"
+  },
+  {
+    "id": "agriculture/back-flow",
+    "range": "agriculture",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "back-flow",
+    "name": "Back Flow",
+    "printedName": "BACK FLOW",
+    "sourcePage": 14,
+    "sourceTable": 8,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/agriculture-back-flow.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "2",
+        "63",
+        "369",
+        "37.60"
+      ],
+      [
+        "2 1/2\"",
+        "75",
+        "378",
+        "43.30"
+      ],
+      [
+        "3\"",
+        "90",
+        "240",
+        "54.70"
+      ],
+      [
+        "4\"",
+        "110",
+        "140",
+        "62.70"
+      ],
+      [
+        "5\"",
+        "140",
+        "84",
+        "104.80"
+      ],
+      [
+        "6\"",
+        "160",
+        "60",
+        "148.10"
+      ]
+    ],
+    "href": "/products/agriculture/back-flow/"
+  },
+  {
+    "id": "agriculture/rrc-coupler-4-kg",
+    "range": "agriculture",
+    "system": "",
+    "kind": "fittings",
+    "group": "fittings",
+    "slug": "rrc-coupler-4-kg",
+    "name": "RRC Coupler - 4 Kg",
+    "printedName": "RRC COUPLER - 4 KG",
+    "sourcePage": 14,
+    "sourceTable": 9,
+    "sourcePart": 0,
+    "image": "/images/catalogue-october/agriculture-rrc-coupler-4-kg.webp",
+    "imageType": "product",
+    "headers": [
+      "Size (inch)",
+      "Size (mm)",
+      "Packing In Box",
+      "Rate Per Pc."
+    ],
+    "rows": [
+      [
+        "2",
+        "63",
+        "140",
+        "115.40"
+      ],
+      [
+        "2 1/2\"",
+        "75",
+        "95",
+        "161.50"
+      ],
+      [
+        "3\"",
+        "90",
+        "60",
+        "232.70"
+      ],
+      [
+        "4\"",
+        "110",
+        "35",
+        "353.70"
+      ],
+      [
+        "5\"",
+        "140",
+        "20",
+        "610.10"
+      ],
+      [
+        "6\"",
+        "160",
+        "15",
+        "864.10"
+      ]
+    ],
+    "href": "/products/agriculture/rrc-coupler-4-kg/"
+  }
+]

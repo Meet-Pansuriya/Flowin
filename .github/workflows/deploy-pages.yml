@@ -22,12 +22,16 @@ jobs:
       - uses: actions/configure-pages@v5
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 24
           cache: npm
           cache-dependency-path: site/package-lock.json
       - run: npm ci
         working-directory: site
       - run: npm run build
+        working-directory: site
+        env:
+          GITHUB_ACTIONS: 'true'
+      - run: npm run check:site && npm run check:seo && npm run check:catalogue
         working-directory: site
         env:
           GITHUB_ACTIONS: 'true'

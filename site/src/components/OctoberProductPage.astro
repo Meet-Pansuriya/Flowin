@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SiteHeader from './SiteHeader.astro';
+import SiteFooter from './SiteFooter.astro';
+import { catalogueProducts, rangeNames, publicProductDetails, productOptions } from '../data/octoberCatalogue';
+import ProductTextVisual from './ProductTextVisual.astro';
+const { product } = Astro.props;
+const rangeName = rangeNames[product.range];
+const systemName = product.system === 'ring-fit' ? 'Ring-fit' : product.system === 'self-fit' ? 'Self-fit' : '';
+const productLabel = product.id === 'swr/ring-fit-pipes' ? product.name : `${systemName} ${product.name}`.trim();
+const pageName = product.id === 'swr/ring-fit-pipes' ? product.name : `${rangeName} ${productLabel}`;
+const related = catalogueProducts.filter(p => p.range === product.range && p.system === product.system && p.id !== product.id && (product.id === 'swr/ring-fit-pipes' || p.kind === product.kind)).slice(0, 4);
+const pdf = `/catalogue/flowin-price-list-october-2026.pdf#page=${product.sourcePage}`;
+const details = publicProductDetails(product);
+const options = productOptions(product);
+---
+<BaseLayout title={`${pageName} | Flowin`} description={`Explore Flowin ${pageName}. Check available sizes, packing details, then prepare your order list.`}>
+  <SiteHeader />
+  <main id="main-content" tabindex="-1">
+    <nav class="wrap product-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/products/">Products</a><span>/</span><a href={`/products/${product.range}/`}>{rangeName}</a><span>/</span><span aria-current="page">{productLabel}</span></nav>
+    <section class="wrap product-hero">
+      <div><p class="kicker">{rangeName} {systemName} / {product.kind}</p><h1>{product.name}</h1><p class="product-lead">{product.id === 'swr/ring-fit-pipes' ? 'Choose SWR Ring-fit Type A pipes in six lengths, from 0.6 to 6 metres. Compare 75 and 110 mm sizes, then specify single or double socket in your order list.' : <>Choose the {product.name.toLowerCase()} size for your next {systemName ? `${systemName.toLowerCase()} ` : ''}{rangeName} order. Check the available options below and add your quantity to an order list.</>}</p><div class="product-actions"><a class="solid-btn" href="#sizes">View sizes &amp; packing ↓</a><a class="text-link" href={`/enquiry/?range=${product.range}&family=${encodeURIComponent(productLabel)}`}>Build your order list</a><a class="text-link" href={pdf} target="_blank" rel="noopener">Open catalogue ↗</a></div></div>
+      {product.imageType === 'catalogue-table' ? <ProductTextVisual product={product} /> : <figure class="product-visual catalogue-product-visual"><img src={product.image} alt={`Flowin ${product.name} from the product catalogue`} width="960" height="720" fetchpriority="high" /></figure>}
+    </section>
+    <section class="product-data" id="sizes"><div class="wrap"><div class="product-data-intro"><p class="kicker">Sizes &amp; packing</p><h2>Choose your requirement.</h2><p>Compare the available sizes and plan your order quantity.</p></div>{options.length > 0 && <ul class="product-option-list" aria-label="Available options">{options.map(option => <li>{option}</li>)}</ul>}<div class="table-scroll" role="region" aria-label={`${product.name} sizes and packing`} tabindex="0"><table class="october-rate-table" data-catalogue-product={product.id}><caption class="sr-only">{pageName}, October 2026</caption><thead><tr>{details.headers.map(label => <th scope="col">{label}</th>)}</tr></thead><tbody>{details.rows.map(row => <tr>{row.map((value, i) => i === 0 ? <th scope="row">{value}</th> : <td>{value}</td>)}</tr>)}</tbody></table></div>{product.note && <p class="catalogue-product-note">{product.note}</p>}<a class="footer-catalogue" href={pdf} target="_blank" rel="noopener">Open catalogue section ↗</a></div></section>
+    <section class="wrap directory-section related-products"><div class="section-heading"><h2>Complete your order.</h2><a class="text-link" href={`/products/${product.range}/`}>Explore {rangeName} products ↗</a></div><div class="directory-grid">{related.map(p => <a class="directory-card" href={p.href}>{p.imageType === 'catalogue-table' ? <ProductTextVisual product={p} compact /> : <figure><img src={p.image} alt={`Flowin ${p.name}`} width="400" height="300" loading="lazy" /></figure>}<div><span class="directory-range">{rangeName} {systemName}</span><h3>{p.name}</h3><span class="directory-link">View sizes &amp; packing ↗</span></div></a>)}</div></section>
+  </main><SiteFooter />
+</BaseLayout>

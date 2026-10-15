@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SiteHeader from './SiteHeader.astro';
+import SiteFooter from './SiteFooter.astro';
+import FamilyDirectory from './FamilyDirectory.astro';
+import { rangeNames } from '../data/octoberCatalogue';
+const { range, family } = Astro.props;
+const name = family.replaceAll('-', ' ');
+const system = family.startsWith('ring-fit') ? 'ring-fit' : family.startsWith('self-fit') ? 'self-fit' : undefined;
+---
+<BaseLayout title={`${rangeNames[range]} ${name} | Flowin`} description={`Explore individual ${rangeNames[range]} ${name} products, sizes and packing details.`}><SiteHeader /><main id="main-content" tabindex="-1"><nav class="wrap product-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href={`/products/${range}/`}>{rangeNames[range]}</a><span>/</span><span aria-current="page">{name}</span></nav><section class="wrap simple-hero"><p class="kicker">Flowin {rangeNames[range]}</p><h1>{name.charAt(0).toUpperCase() + name.slice(1)}</h1><p>Choose the individual product for your order. Open its page to compare sizes and packing details.</p></section><section class="wrap directory-section"><FamilyDirectory range={range} system={system} collection={family} /></section></main><SiteFooter /></BaseLayout>

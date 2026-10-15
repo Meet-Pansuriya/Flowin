@@ -1,14 +1,14 @@
 # Sources of truth and anti-guessing rules
 
-Last updated: 2026-09-25
+Last updated: 2026-10-15
 
 | Need to verify | Check first | Important limitation |
 | --- | --- | --- |
 | Site purpose and non-goals | The user's decisions summarized in [the project plan](PROJECT_PLAN.md) | Ask if a new feature changes this scope. |
-| Current ranges, names, sizes, packing, prices | [The copied 2026 price list](../design/assets/flowin-price-list-2026.pdf); original: `E:\Downloads\Flowin Price list 2026.pdf` | The PDF is the current supplied commercial source. Transcription needs checking; do not invent missing specifications. |
+| Current ranges, names, sizes, packing, prices | [The October 2026 price list](../design/assets/flowin-price-list-october-2026.pdf); original: `E:\Downloads\Flowin -NEW PRICELIST OCT.pdf` | The October PDF supersedes all earlier rate data. Active product pages use `site/src/data/octoberCatalogue.json`; historical TypeScript price modules are no longer used by product pages. Transcription needs checking; do not invent missing specifications. |
 | Visual direction and layout | [Approved HTML demo](../design/flowin-demo.html), [design guide](DESIGN_GUIDE.md), [Stitch brief](../design/stitch-brief.md), [reference screenshot](../design/reference-editorial-site.png) | Demo copy and concept imagery are not verified company facts. |
 | Flowin logo and previously published claims | `Old/images/logo.png` and `Old/`, now explicitly approved by the user for reuse | Legacy content may be dated; never override the 2026 PDF's product tables with it or strengthen a claim beyond its wording. |
-| Contact details and imagery | Direct user/Flowin approval; existing old-site assets and generated illustrative assets are allowed | Email and phone are still pending. Generated scenes must not be passed off as documentary photos. |
+| Contact details and imagery | October PDF for product photographs; direct user/Flowin approval for other imagery | Email and phone are still pending. Generated scenes must not be passed off as documentary photos. |
 | Build and framework behavior | Astro's official documentation and actual local build/test results | Verify version-sensitive behavior against installed dependencies. |
 
 The [2026 catalogue inventory](CATALOGUE_INVENTORY.md) is a finding aid and records known ambiguities; it does not replace the PDF for exact product values.

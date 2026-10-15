@@ -1,0 +1,12 @@
+---
+const { product, compact = false } = Astro.props;
+const length = product.id === 'swr/ring-fit-pipes' ? '0.6–6' : product.printedName.match(/(\d+(?:\.\d+)?)\s*MTR/i)?.[1];
+const mmIndex = product.headers.findIndex(header => /mm/i.test(header));
+const sizes = mmIndex >= 0 ? [...new Set(product.rows.map(row => row[mmIndex]).filter(Boolean))].join(' / ') : '';
+---
+<div class:list={['product-text-visual', { 'product-text-visual-compact': compact }]}>
+  <span class="text-product-system">SWR / Ring-fit</span>
+  <div class="text-product-length"><strong>{length}</strong><span>metres</span></div>
+  <div class="text-product-specs"><span>Type A pipes</span>{sizes && <span>{sizes} mm</span>}</div>
+  <div class="text-product-sockets"><span>Single socket</span><span>Double socket</span></div>
+</div>

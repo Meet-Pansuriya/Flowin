@@ -1,0 +1,10 @@
+---
+import OctoberProductPage from '../../../components/OctoberProductPage.astro';
+import { catalogueProducts, ringFitPipeLengths } from '../../../data/octoberCatalogue';
+export function getStaticPaths() {
+  return [...catalogueProducts.filter(p => p.id !== 'swr/ring-fit-pipes'), ...ringFitPipeLengths].map(product => ({ params: { range: product.range, product: product.slug }, props: { product } }));
+}
+const { product } = Astro.props;
+if (ringFitPipeLengths.some(p => p.id === product.id)) return Astro.redirect(`${import.meta.env.BASE_URL.replace(/\/$/, '')}/products/swr/ring-fit-pipes/`, 301);
+---
+<OctoberProductPage product={product} />

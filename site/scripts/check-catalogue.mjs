@@ -1,0 +1,40 @@
+import { readFileSync, existsSync } from 'node:fs';
+import { resolve, join } from 'node:path';
+import { createHash } from 'node:crypto';
+import assert from 'node:assert/strict';
+
+const products = JSON.parse(readFileSync('src/data/octoberCatalogue.json', 'utf8'));
+const source = JSON.parse(readFileSync('../design/assets/flowin-october-extracted-tables.json', 'utf8'));
+const clean = value => String(value ?? '').replaceAll('\n', ' ').replaceAll('4\uFFFD', '4"').replaceAll('\uFFFD', '').replace(/\s+/g, ' ').trim().replace(/(?<=\d)=(?=\d)/g, '.');
+const decode = value => value.replace(/&quot;|&#34;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(+n));
+assert.equal(products.length, 114);
+assert.equal(new Set(products.map(p => p.id)).size, 114);
+let rows = 0;
+for (const product of products) {
+  const page = source.find(p => p.page === product.sourcePage);
+  const raw = page.tables[product.sourceTable];
+  let table = raw.map(row => raw[0][0] === '' ? row.slice(1) : row);
+  const sectionStarts = [0, ...table.flatMap((row, i) => i && row.filter(Boolean).length === 1 && String(row.find(Boolean)).startsWith('CPVC PIPE SCH') ? [i] : []), table.length];
+  table = table.slice(sectionStarts[product.sourcePart], sectionStarts[product.sourcePart + 1]);
+  const start = clean(table[1][0]) === 'SIZE' ? 3 : 2;
+  const expected = table.slice(start).filter(row => !['SIZE', 'INCH'].includes(clean(row[0]))).map(row => product.sourcePage === 10 && product.sourceTable === 7 ? row.filter(v => v !== null).map(clean) : row.map(clean)).filter(row => row.some(Boolean));
+  assert.deepEqual(product.rows, expected, `${product.id}: source cells differ`);
+  if (product.imageType === 'product') assert.ok(existsSync(resolve('public', product.image.slice(1))), `${product.id}: image missing`);
+  const merged = product.range === 'swr' && product.system === 'ring-fit' && product.imageType === 'catalogue-table';
+  const html = readFileSync(join('dist/products', product.range, merged ? 'ring-fit-pipes' : product.slug, 'index.html'), 'utf8');
+  const body = html.match(/<table\b[^>]*data-catalogue-product="[^"]+"[^>]*>[\s\S]*?<tbody>([\s\S]*?)<\/tbody>/)?.[1];
+  assert.ok(body, `${product.id}: rendered table missing`);
+  const rendered = [...body.matchAll(/<tr\b[^>]*>([\s\S]*?)<\/tr>/g)].map(match => [...match[1].matchAll(/<(?:td|th)\b[^>]*>([\s\S]*?)<\/(?:td|th)>/g)].map(cell => decode(cell[1])));
+  const visible = product.headers.flatMap((header, i) => /rate|price|per piece|\/\s*piece/i.test(header) ? [] : [i]);
+  const expectedVisible = merged ? products.filter(p => p.range === 'swr' && p.system === 'ring-fit' && p.imageType === 'catalogue-table').flatMap(p => p.rows.map(row => [p.printedName.match(/(\d+(?:\.\d+)?)\s*MTR/i)?.[1] ?? '', p.printedName.match(/\(([\d.]+)\s*FEET/i)?.[1] ?? '', ...row.slice(0, 2)])) : product.rows.map(row => visible.map(i => row[i]));
+  assert.deepEqual(rendered, expectedVisible, `${product.id}: visible specification cells differ`);
+  const tableHtml = html.match(/<table\b[^>]*data-catalogue-product="[^"]+"[^>]*>[\s\S]*?<\/table>/)?.[0];
+  const tableText = decode(tableHtml.replace(/<[^>]+>/g, ' '));
+  assert.ok(!/rate|price|per piece/i.test(tableText), `${product.id}: pricing column leaked`);
+  if (product.imageType === 'catalogue-table') assert.ok(!html.includes(product.image), `${product.id}: table image leaked`);
+  rows += product.rows.length;
+}
+assert.equal(rows, 534);
+const pdf = readFileSync('../design/assets/flowin-price-list-october-2026.pdf');
+assert.equal(createHash('sha256').update(pdf).digest('hex'), createHash('sha256').update(readFileSync('public/catalogue/flowin-price-list-october-2026.pdf')).digest('hex'));
+console.log(`Verified ${products.length} product tables and ${rows} rows against the October PDF extraction; rendered tables show specification columns only, with no table-preview images.`);

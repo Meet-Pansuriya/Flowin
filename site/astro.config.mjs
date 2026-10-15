@@ -45,7 +45,7 @@ const githubPagesLinkRewrite = {
           else if (entry.name === 'index.html') {
             const source = await readFile(entryPath, 'utf8');
             const canonical = source.match(/<link rel="canonical" href="([^"]+)"/);
-            if (canonical && !source.includes('content="noindex, follow"')) urls.push(canonical[1]);
+            if (canonical && !/<meta http-equiv="refresh"/i.test(source) && !source.includes('content="noindex, follow"')) urls.push(canonical[1]);
           }
         }
       }

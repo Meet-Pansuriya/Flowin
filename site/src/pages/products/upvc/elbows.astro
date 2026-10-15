@@ -1,17 +1,4 @@
 ---
-import ProductFamilyPage from '../../../components/ProductFamilyPage.astro';
-import { upvcElbows } from '../../../data/productFamilies';
+import OctoberCollectionPage from '../../../components/OctoberCollectionPage.astro';
 ---
-
-<ProductFamilyPage
-  rangeName="uPVC"
-  rangeSlug="upvc"
-  catalogueSection="ASTM D-2467 SCH-80"
-  familyName="Elbows"
-  lead="Choose the elbow style your uPVC plumbing order calls for. Explore Flowin elbow variants, then find the size and packing for your quantity."
-  description="Explore Flowin uPVC plumbing elbow sizes, bag packing, inner packing and 2026 catalogue rates."
-  imageSrc="/images/upvc-elbow-legacy.jpg"
-  imageAlt="Flowin product image of a white uPVC elbow fitting"
-  variants={upvcElbows}
-  sourcePage={3}
-/>
+<OctoberCollectionPage range="upvc" family="elbows" />

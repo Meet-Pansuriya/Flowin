@@ -1,17 +1,4 @@
 ---
-import ProductFamilyPage from '../../../components/ProductFamilyPage.astro';
-import { upvcReducingTees } from '../../../data/productFamilies';
+import OctoberCollectionPage from '../../../components/OctoberCollectionPage.astro';
 ---
-
-<ProductFamilyPage
-  rangeName="uPVC"
-  rangeSlug="upvc"
-  catalogueSection="ASTM D-2467 SCH-80"
-  familyName="Reducing tees"
-  lead="Find the reducing tee size pairing specified for your uPVC system. Compare Flowin options and bring the required quantities into your fitting order."
-  description="Explore Flowin uPVC reducing tee size combinations, packing and 2026 catalogue rates."
-  imageSrc="/images/upvc-reducing-tee-legacy.jpg"
-  imageAlt="Flowin product image of a white uPVC reducing tee fitting"
-  variants={upvcReducingTees}
-  sourcePage={4}
-/>
+<OctoberCollectionPage range="upvc" family="reducing-tees" />

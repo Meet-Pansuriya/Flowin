@@ -18,7 +18,7 @@ const problems = [];
 let linksChecked = 0;
 const homeHtml = readFileSync(join(dist, 'index.html'), 'utf8');
 const rangeCards = [...homeHtml.matchAll(/<a\b[^>]*class="[^"]*\bphoto-range\b[^"]*"[^>]*>[\s\S]*?<\/a>/g)];
-if (rangeCards.length !== 4) problems.push(`index.html: expected four fully linked range cards, found ${rangeCards.length}`);
+if (rangeCards.length !== 5) problems.push(`index.html: expected five fully linked range cards, found ${rangeCards.length}`);
 for (const [index, card] of rangeCards.entries()) {
   if (!card[0].includes('<img')) problems.push(`index.html: range card ${index + 1} missing its photograph`);
   if (!card[0].includes('Explore range')) problems.push(`index.html: range card ${index + 1} missing call to action`);
@@ -30,9 +30,9 @@ for (const page of pages) {
   const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map((match) => match[1]);
   const idSet = new Set(ids);
   if (ids.length !== idSet.size) problems.push(`${name}: duplicate ID`);
-  if ((html.match(/<h1\b/g) ?? []).length !== 1) problems.push(`${name}: expected exactly one H1`);
+  if (!/<meta http-equiv="refresh"/i.test(html) && (html.match(/<h1\b/g) ?? []).length !== 1) problems.push(`${name}: expected exactly one H1`);
   if (!/<title>[^<]+<\/title>/.test(html)) problems.push(`${name}: missing title`);
-  if (!/<meta name="description" content="[^"]+"/.test(html)) problems.push(`${name}: missing description`);
+  if (!/<meta http-equiv="refresh"/i.test(html) && !/<meta name="description" content="[^"]+"/.test(html)) problems.push(`${name}: missing description`);
   for (const match of html.matchAll(/<(?:a|link|script|img)\b[^>]*?\b(?:href|src)="([^"]+)"/g)) {
     const url = match[1];
     if (!url.startsWith('/') && !url.startsWith('#')) continue;

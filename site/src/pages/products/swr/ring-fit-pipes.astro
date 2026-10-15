@@ -1,20 +1,5 @@
 ---
-import BaseLayout from '../../../layouts/BaseLayout.astro';
-import SiteHeader from '../../../components/SiteHeader.astro';
-import SiteFooter from '../../../components/SiteFooter.astro';
-import SwrPipeRateTable from '../../../components/SwrPipeRateTable.astro';
-import { swrRingFitPipes } from '../../../data/swrRingFitPipes';
-const catalogueUrl = '/catalogue/flowin-price-list-2026.pdf#page=11';
+import OctoberProductPage from '../../../components/OctoberProductPage.astro';
+import { ringFitPipes } from '../../../data/octoberCatalogue';
 ---
-
-<BaseLayout title="SWR ring-fit pipes | Flowin Pipes & Fittings" description="See Flowin SWR ring-fit pipe sizes and single- and double-socket rates across six lengths from the 2026 catalogue.">
-  <SiteHeader />
-  <main id="main-content" tabindex="-1">
-    <div class="wrap product-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/products/swr/">SWR drainage</a><span aria-hidden="true">/</span><span aria-current="page">Ring-fit pipes</span></div>
-    <section class="wrap product-hero" aria-labelledby="family-title"><div class="product-hero-copy"><span class="eyebrow">SWR drainage / ring fit</span><h1 id="family-title">Ring-fit<br />pipes.</h1><p class="product-lead">Choose Flowin ring-fit SWR pipes by length, diameter and socket option. Compare single- and double-socket pipes in 75 mm and 110 mm sizes for your next order.</p><p class="product-standard">Product system: <strong>SWR PIPE (RING FIT)</strong></p><div class="product-actions"><a class="request-link" href="/enquiry/?range=swr&amp;family=Ring-fit%20pipes">Build your order list</a><a class="solid-btn" href="#sizes">View sizes &amp; rates <span aria-hidden="true">↓</span></a><a class="text-link" href={catalogueUrl} target="_blank" rel="noopener">Open catalogue <span aria-hidden="true">↗</span></a></div></div>
-      <figure class="product-visual"><img src="/images/plumbing-sergei-starostin.jpg" alt="Generic application photo; catalogue tables identify the products." width="900" height="600" /></figure>
-    </section>
-    <section class="product-data" id="sizes" aria-labelledby="sizes-title"><div class="wrap"><div class="product-data-intro"><span class="eyebrow">Catalogue details</span><h2 id="sizes-title">Lengths, sizes<br />and sockets.</h2><p>Find the length and size specified for your project, then plan your quantity.</p></div><div class="variant-grid">{swrRingFitPipes.map((group, index) => <SwrPipeRateTable group={group} number={String(index + 1).padStart(2, '0')} />)}</div><div class="source-band"><a href={catalogueUrl} target="_blank" rel="noopener">Open catalogue ↗</a></div></div></section>
-    <section class="wrap family-outro" aria-labelledby="family-outro-title"><div><span class="eyebrow">Another joint system</span><h2 id="family-outro-title">Need self-fit<br />instead?</h2></div><div><p>Explore Flowin self-fit Type A pipes, core fittings and accessories for your SWR order.</p><a class="solid-btn" href="/catalogue/flowin-price-list-2026.pdf#page=12" target="_blank" rel="noopener">View self-fit catalogue <span aria-hidden="true">↗</span></a></div></section>
-  </main><SiteFooter />
-</BaseLayout>
+<OctoberProductPage product={ringFitPipes} />

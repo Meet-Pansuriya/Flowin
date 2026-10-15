@@ -5,34 +5,49 @@ import SiteFooter from '../components/SiteFooter.astro';
 import '../styles/photo-themes.css';
 import { Image } from 'astro:assets';
 import hero from '../../public/images/flowin-showroom-hero.png';
+import selection from '../../public/images/dealer-plumber-selection.png';
+const upvcPhoto = '/images/catalogue-october/upvc-elbow.webp';
+const cpvcPhoto = '/images/catalogue-october/cpvc-elbow.webp';
+const ringFitPhoto = '/images/catalogue-october/swr-ring-fit-bend-87-5.webp';
+const selfFitPhoto = '/images/catalogue-october/swr-self-fit-bend-87-5.webp';
+const agriPhoto = '/images/catalogue-october/agriculture-agriculture-pipes-isi-6-mtr.webp';
 
 
-const catalogue = '/catalogue/flowin-price-list-2026.pdf';
+const catalogue = '/catalogue/flowin-price-list-october-2026.pdf';
 const ranges = [
-  {name:'uPVC plumbing',note:'Schedules, sizes and fittings',href:'/products/upvc/',photo:'/images/upvc-elbow-legacy.jpg',caption:'Flowin product photo',body:'Pipes, elbows, tees and couplers for the uPVC plumbing items on your order.'},
-  {name:'cPVC plumbing',note:'SDR and schedule variants',href:'/products/cpvc/',photo:'/images/cpvc-elbow-legacy.jpg',caption:'Flowin product photo',body:'Bring cPVC pipe options and fitting families into one product list for your next project.'},
-  {name:'SWR drainage',note:'Ring-fit and self-fit ranges',href:'/products/swr/',photo:'/images/plumbing-sergei-starostin.jpg',caption:'Generic plumbing application',body:'Choose your SWR joint system, then bring its pipes, bends, tees and accessories together.'},
-  {name:'Agriculture',note:'Pipes and fitting families',href:'/products/agriculture/',photo:'/images/irrigation-daniel-kawed.jpg',caption:'Generic agricultural application',body:'Find agricultural pipe lengths, pressure groups and fittings for the requirement you need to fulfil.'},
+  {name:'uPVC plumbing',note:'Schedules, sizes and fittings',href:'/products/upvc/',photo:upvcPhoto,caption:'White uPVC elbow, from the Flowin October catalogue',body:'Pipes, elbows, tees and couplers for the uPVC plumbing items on your order.'},
+  {name:'cPVC plumbing',note:'SDR and schedule variants',href:'/products/cpvc/',photo:cpvcPhoto,caption:'Cream cPVC elbow, from the Flowin October catalogue',body:'Bring cPVC pipe options and fitting families into one product list for your next project.'},
+  {name:'SWR Ring-fit',note:'Ring-fit drainage system',href:'/products/swr/#ring-fit',photo:ringFitPhoto,caption:'SWR ring-fit bend with visible sealing ring, from the Flowin October catalogue',body:'Find ring-fit pipes, bends, tees, couplers and accessories for your drainage order.'},
+  {name:'SWR Self-fit',note:'Self-fit drainage system',href:'/products/swr/#self-fit',photo:selfFitPhoto,caption:'SWR self-fit bend with plain socket, from the Flowin October catalogue',body:'Bring self-fit pipes, fittings and accessories together for your drainage requirement.'},
+  {name:'Agriculture',note:'Pipes and fitting families',href:'/products/agriculture/',photo:agriPhoto,caption:'Agricultural pipes with Flowin branding, from the Flowin October catalogue',body:'Find agricultural pipe lengths, pressure groups and fittings for the requirement you need to fulfil.'},
 ];
 ---
-<BaseLayout title="Flowin Pipes & Fittings | uPVC, cPVC, SWR & Agriculture" description="Explore Flowin uPVC, cPVC, SWR and agricultural pipes and fittings. Compare sizes, packing and catalogue rates, and prepare product requirements for dealers and plumbers in India.">
+<BaseLayout title="Flowin Pipes & Fittings | uPVC, cPVC, SWR & Agriculture" description="Explore Flowin uPVC, cPVC, SWR and agricultural pipes and fittings. Compare sizes and packing details, and prepare product requirements for dealers and plumbers in India.">
   <div class="photo-theme site-theme">
 
-    <SiteHeader />
+    <SiteHeader showLogo={false} />
     <main id="main-content" tabindex="-1">
       <section class="site-hero" aria-labelledby="page-title">
         <Image class="site-hero-image" src={hero} alt="Model in a white Flowin polo with pipes and fittings in a light-blue showroom" widths={[640, 960, 1440, 1774]} sizes="100vw" format="webp" width={1774} height={887} fetchpriority="high" loading="eager" />
-        <div class="site-hero-content theme-wrap"><p class="audience-line">For dealers and plumbers across India</p><h1 id="page-title">One brand for plumbing, drainage and agriculture.</h1><p>Bring more of your piping needs together with Flowin. Explore uPVC, cPVC, SWR and agriculture pipes and fittings, manufactured by Flowin Pipe Pvt. Ltd. since 2013.</p><div class="hero-actions"><a class="theme-button" href="#products">Explore Flowin products</a><a class="theme-button secondary" href={catalogue} target="_blank" rel="noopener">Open the catalogue</a></div></div>
+        <div class="site-hero-content theme-wrap"><div class="hero-brand"><img src="/images/flowin-logo.svg" alt="Flowin Pipes &amp; Fittings" width="260" height="61" /></div><p class="audience-line">For dealers and plumbers across India</p><h1 id="page-title">Complete piping solutions for every need.</h1><p>Bring more of your piping needs together with Flowin. Explore uPVC, cPVC, SWR and agriculture pipes and fittings, manufactured by Flowin Pipe Pvt. Ltd. since 2013.</p><div class="hero-actions"><a class="theme-button" href="#products">Explore Flowin products</a><a class="theme-button secondary" href={catalogue} target="_blank" rel="noopener">Open the catalogue</a></div></div>
       </section>
 
-      {<nav class="application-pills theme-wrap" aria-label="Browse by application"><a href="/products/upvc/">uPVC plumbing</a><a href="/products/cpvc/">cPVC plumbing</a><a href="/products/swr/">SWR drainage</a><a href="/products/agriculture/">Agriculture</a></nav>}
+      {<nav class="application-pills theme-wrap" aria-label="Browse by application"><a href="/products/upvc/">uPVC plumbing</a><a href="/products/cpvc/">cPVC plumbing</a><a href="/products/swr/#ring-fit">SWR Ring-fit</a><a href="/products/swr/#self-fit">SWR Self-fit</a><a href="/products/agriculture/">Agriculture</a></nav>}
 
       <section class="theme-ranges theme-wrap" id="products" aria-labelledby="ranges-title">
         <div class="theme-section-head"><div><p class="section-note">The Flowin range</p><h2 id="ranges-title">A Flowin range for the work you do.</h2></div><p>From plumbing supplies to drainage and agricultural piping, find the products for your next customer enquiry or project.</p></div>
-        <div class="photo-range-grid">{ranges.map(range => <a class="photo-range" href={range.href}><figure><img src={range.photo} alt={range.caption === 'Flowin product photo' ? `${range.name} fitting from the Flowin range` : range.caption} width="600" height="400" loading="lazy" /></figure><div class="photo-range-copy"><h3>{range.name}</h3><p class="range-summary">{range.body}</p><span class="range-action">Explore range <span aria-hidden="true">↗</span></span></div></a>)}</div>
+        <div class="photo-range-grid">{ranges.map(range => <a class="photo-range" href={range.href}><figure><img src={range.photo} alt={range.caption} width="960" height="720" loading="lazy" /></figure><div class="photo-range-copy"><h3>{range.name}</h3><p class="range-summary">{range.body}</p><span class="range-action">Explore range <span aria-hidden="true">↗</span></span></div></a>)}</div>
       </section>
 
-      <section class="selection-section" aria-labelledby="selection-title"><div class="theme-wrap selection-inner"><figure><img src="/images/plumbing-sergei-starostin.jpg" alt="A plumber working on a pipe connection" width="1400" height="933" loading="lazy" /></figure><div><p class="section-note">From selection to your next order</p><h2 id="selection-title">Bring the right details<br />to the next order.</h2><ol><li><strong>Choose the range</strong><p>Choose uPVC, cPVC, SWR or agriculture for the system specified for the job.</p></li><li><strong>Check the family and size</strong><p>Find the pipe length or fitting variant you need, then check the size.</p></li><li><strong>Build your order list</strong><p>Put products, sizes and quantities together so your dealer knows what you need.</p></li></ol><a class="quiet-link" href="/applications/">Browse by application</a></div></div></section>
+      <section class="home-standards" aria-labelledby="standards-title"><div class="theme-wrap standards-layout">
+        <div class="standards-copy"><h2 id="standards-title">Know the standard.<br />Choose with clarity.</h2><p>For your next customer enquiry or site requirement, check more than the size. Match the pipe’s Indian Standard and licence number to the product you need.</p><a class="quiet-link" href="/catalogue/">Explore the Flowin catalog ↗</a></div>
+        <div class="standards-marks">
+          <article class="standard-mark"><img src="/images/standards/is-15778.webp" alt="ISI mark: IS 15778, CM/L 7600240611" width="900" height="600" loading="lazy" /><h3>cPVC pipes</h3><p>IS 15778 <span>CM/L 7600240611</span></p><a href="/products/cpvc/">Explore cPVC <span aria-hidden="true">↗</span></a></article>
+          <article class="standard-mark"><img src="/images/standards/is-4985.webp" alt="ISI mark: IS 4985, CM/L 7600240712" width="900" height="600" loading="lazy" /><h3>PVC water-supply pipes</h3><p>IS 4985 <span>CM/L 7600240712</span></p><a href="/products/agriculture/pipes/">Explore agricultural pipes <span aria-hidden="true">↗</span></a></article>
+        </div>
+      </div></section>
+
+      <section class="selection-section" aria-labelledby="selection-title"><div class="theme-wrap selection-inner"><figure><Image src={selection} alt="Illustrative scene of a dealer and plumber comparing plastic pipe fittings beside an order list" widths={[480, 720, 1080]} sizes="(max-width: 650px) 100vw, 50vw" format="webp" loading="lazy" /></figure><div><p class="section-note">From selection to your next order</p><h2 id="selection-title">Bring the right details<br />to the next order.</h2><ol><li><strong>Choose the range</strong><p>Choose uPVC, cPVC, SWR or agriculture for the system specified for the job.</p></li><li><strong>Check the family and size</strong><p>Find the pipe length or fitting variant you need, then check the size.</p></li><li><strong>Build your order list</strong><p>Put products, sizes and quantities together so your dealer knows what you need.</p></li></ol><a class="quiet-link" href="/applications/">Browse by application</a></div></div></section>
 
       <section class="theme-about theme-wrap" aria-labelledby="about-title"><div><p class="section-note">About Flowin</p><h2 id="about-title">Manufactured by Flowin.<br />Since 2013.</h2></div><div><p>Modern manufacturing practices and stringent quality control support our commitment to quality, durability and consistent performance. Get to know the company behind the Flowin range.</p><a class="quiet-link" href="/about/">Read about Flowin</a></div></section>
 

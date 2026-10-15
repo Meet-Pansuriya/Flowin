@@ -15,6 +15,10 @@ visit('dist');
 const urls = new Set();
 for (const file of pages) {
   const html = readFileSync(file, 'utf8');
+  if (/<meta http-equiv="refresh"/i.test(html)) {
+    if (!html.includes('/products/swr/ring-fit-pipes/')) throw new Error(`${file}: unexpected redirect`);
+    continue;
+  }
   const robots = html.match(/<meta name="robots" content="([^"]+)"/)?.[1];
   if (file.endsWith('404.html') || preview) {
     if (!robots?.includes('noindex')) throw new Error(`${file}: must be noindex`);
